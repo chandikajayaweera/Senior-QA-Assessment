@@ -1,0 +1,79 @@
+{
+  "facts": {
+    "httpStatus": 200,
+    "finalUrl": "https://automationexercise.com/product_details/37",
+    "productRegionPresent": true,
+    "name": "Grunt Blue Slim Fit Jeans",
+    "price": "Rs. 1400",
+    "title": "Automation Exercise - Product Details",
+    "heading": {
+      "tag": "h2",
+      "text": "Grunt Blue Slim Fit Jeans"
+    },
+    "image": {
+      "present": true,
+      "url": "https://automationexercise.com/get_product_picture/37",
+      "altPresent": true,
+      "altText": "ecommerce website products",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "decoded": true,
+      "width": 1080,
+      "height": 1440
+    }
+  },
+  "navigationAttempts": [
+    {
+      "attempt": 1,
+      "checkedAt": "2026-10-09T15:05:54.746Z",
+      "httpStatus": 200,
+      "finalUrl": "https://automationexercise.com/product_details/37"
+    }
+  ],
+  "checks": {
+    "sourceAgreement": {
+      "status": "pass",
+      "detail": "Present in both inventories with unambiguous values."
+    },
+    "detailAvailability": {
+      "status": "pass",
+      "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/37"
+    },
+    "productContent": {
+      "status": "pass",
+      "detail": "Expected product content region rendered."
+    },
+    "nameAgreement": {
+      "status": "pass",
+      "detail": "API / catalogue / detail: \"Grunt Blue Slim Fit Jeans\" / \"Grunt Blue Slim Fit Jeans\" / \"Grunt Blue Slim Fit Jeans\""
+    },
+    "priceAgreement": {
+      "status": "pass",
+      "detail": "API / catalogue / detail: \"Rs. 1400\" / \"Rs. 1400\" / \"Rs. 1400\""
+    },
+    "titlePresent": {
+      "status": "pass",
+      "detail": "\"Automation Exercise - Product Details\""
+    },
+    "primaryHeadingPresent": {
+      "status": "pass",
+      "detail": "h2: \"Grunt Blue Slim Fit Jeans\""
+    },
+    "imageAvailability": {
+      "status": "pass",
+      "detail": "Main image HTTP 200 (image/jpeg)."
+    },
+    "imageDecoded": {
+      "status": "pass",
+      "detail": "Decoded with intrinsic dimensions 1080 x 1440."
+    },
+    "alternativeTextPresent": {
+      "status": "pass",
+      "detail": "alt attribute exists."
+    },
+    "alternativeTextNonEmpty": {
+      "status": "pass",
+      "detail": "\"ecommerce website products\""
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "config": {
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.exe",
+      "C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "api.spec.ts",
+      "--project=api"
+    ],
+    "configFile": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\playwright.config.ts",
+    "rootDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-33-24-715Z-3848/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "api",
+        "name": "api",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/api\\.spec\\.ts/"],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-33-24-715Z-3848/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/(journey|demo)\\.spec\\.ts/"],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-33-24-715Z-3848/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/(journey|demo)\\.spec\\.ts/"],
+        "timeout": 240000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-33-24-715Z-3848\\results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "api",
+        "testDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "snapshotDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "https://automationexercise.com",
+          "browserName": "chromium",
+          "locale": "en-GB",
+          "timezoneId": "Asia/Colombo",
+          "actionTimeout": 10000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "api"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      ["line", null],
+      [
+        "html",
+        {
+          "outputFolder": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-33-24-715Z-3848\\playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-33-24-715Z-3848\\results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api.spec.ts",
+      "file": "api.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC-API-01 search top",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "api",
+              "projectName": "api",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 998,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:33:25.373Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "API request and conclusion",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-33-24-715Z-3848\\results\\api-TC-API-01-search-top-api\\attachments\\API-request-and-conclusion-4fa8975fd79a8a6d88d20e628e2dc28c09a145b1.json"
+                    },
+                    {
+                      "name": "Full response body",
+                      "contentType": "text/plain",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-33-24-715Z-3848\\results\\api-TC-API-01-search-top-api\\attachments\\Full-response-body-2e380eb6067ffbf239e662d747a9f29bae786f4f.txt"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1ea1b1599cbc08f16936-fb30fc2422009712c767",
+          "file": "api.spec.ts",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "TC-API-02 search unmatched sentinel",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "api",
+              "projectName": "api",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 940,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:33:27.568Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "API request and conclusion",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-33-24-715Z-3848\\results\\api-TC-API-02-search-unmatched-sentinel-api\\attachments\\API-request-and-conclusion-9ba788461ed4e428204e57da861fc31a99b8e542.json"
+                    },
+                    {
+                      "name": "Full response body",
+                      "contentType": "text/plain",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-33-24-715Z-3848\\results\\api-TC-API-02-search-unmatched-sentinel-api\\attachments\\Full-response-body-bb79ccaad54cffb58cdcbf1df7c59363215cd47d.txt"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1ea1b1599cbc08f16936-0bfe6100f192279c76b9",
+          "file": "api.spec.ts",
+          "line": 31,
+          "column": 3
+        },
+        {
+          "title": "TC-API-03 omit required search_product",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "api",
+              "projectName": "api",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 980,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:33:28.518Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "API request and conclusion",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-33-24-715Z-3848\\results\\api-TC-API-03-omit-required-search-product-api\\attachments\\API-request-and-conclusion-7adbefe199f25447faa5a2d292b8c66040098fe3.json"
+                    },
+                    {
+                      "name": "Full response body",
+                      "contentType": "text/plain",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-33-24-715Z-3848\\results\\api-TC-API-03-omit-required-search-product-api\\attachments\\Full-response-body-a7f8a3383a975ad7dd6257311a622e39be6919be.txt"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1ea1b1599cbc08f16936-caaff6c24ecb2c128838",
+          "file": "api.spec.ts",
+          "line": 31,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-09T14:33:24.720Z",
+    "duration": 4812.0650000000005,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

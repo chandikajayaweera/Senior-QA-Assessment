@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-09T15:05:25.563Z",
+  "method": "GET",
+  "url": "https://automationexercise.com/api/productsList",
+  "finalUrl": "https://automationexercise.com/api/productsList",
+  "httpStatus": 200,
+  "contentType": "text/html; charset=utf-8",
+  "retryAfter": null
+}

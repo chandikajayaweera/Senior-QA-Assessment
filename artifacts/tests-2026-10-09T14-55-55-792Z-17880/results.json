@@ -1,0 +1,312 @@
+{
+  "config": {
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.exe",
+      "C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "demo.spec.ts",
+      "--project=desktop",
+      "--project=mobile"
+    ],
+    "configFile": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\playwright.config.ts",
+    "rootDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-55-55-792Z-17880/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "api",
+        "name": "api",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/api\\.spec\\.ts/"],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-55-55-792Z-17880/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/(journey|boundaries|checkout|demo)\\.spec\\.ts/"],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-55-55-792Z-17880/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/(journey|boundaries|checkout|demo)\\.spec\\.ts/"],
+        "timeout": 240000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop",
+        "testDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "snapshotDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "https://automationexercise.com",
+          "browserName": "chromium",
+          "locale": "en-GB",
+          "timezoneId": "Asia/Colombo",
+          "actionTimeout": 10000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off",
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "mobile",
+        "testDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "snapshotDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "https://automationexercise.com",
+          "browserName": "chromium",
+          "locale": "en-GB",
+          "timezoneId": "Asia/Colombo",
+          "actionTimeout": 10000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "isMobile": true,
+          "hasTouch": true,
+          "deviceScaleFactor": 1,
+          "userAgent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      ["line", null],
+      [
+        "html",
+        {
+          "outputFolder": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "demo.spec.ts",
+      "file": "demo.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "quantity label association before and after @demo",
+          "ok": true,
+          "tags": ["demo"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8932,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:55:56.254Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "quantity-label-baseline",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results\\demo-quantity-label-association-before-and-after-demo-desktop\\attachments\\quantity-label-baseline-f86b5b625a789a74cbe6ddf1be9aab16295e2990.png"
+                    },
+                    {
+                      "name": "quantity-label-baseline-cart",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results\\demo-quantity-label-association-before-and-after-demo-desktop\\attachments\\quantity-label-baseline-cart-e7f3c37d474600ab3603ada5be317126be296b31.png"
+                    },
+                    {
+                      "name": "quantity-label-patched",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results\\demo-quantity-label-association-before-and-after-demo-desktop\\attachments\\quantity-label-patched-17999db15abb5de16c2f49944269831125e4888d.png"
+                    },
+                    {
+                      "name": "quantity-label-patched-cart",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results\\demo-quantity-label-association-before-and-after-demo-desktop\\attachments\\quantity-label-patched-cart-ea2f35b70db8223310e3fde4074d450cef6ed7c0.png"
+                    },
+                    {
+                      "name": "quantity-label-demo",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results\\demo-quantity-label-association-before-and-after-demo-desktop\\attachments\\quantity-label-demo-2593448a08695fdb93d5ddca9be0e7eec7124f4a.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "05384557491ebd602dd7-ffd0febc0aae06dd7cf4",
+          "file": "demo.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "quantity label association before and after @demo",
+          "ok": true,
+          "tags": ["demo"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7971,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:56:05.747Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "quantity-label-baseline",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results\\demo-quantity-label-association-before-and-after-demo-mobile\\attachments\\quantity-label-baseline-7172953cdfe7d32b17807dc44deb08910b2eab06.png"
+                    },
+                    {
+                      "name": "quantity-label-baseline-cart",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results\\demo-quantity-label-association-before-and-after-demo-mobile\\attachments\\quantity-label-baseline-cart-1aec3a81383658045ee712faed7725c28352153f.png"
+                    },
+                    {
+                      "name": "quantity-label-patched",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results\\demo-quantity-label-association-before-and-after-demo-mobile\\attachments\\quantity-label-patched-0fcc46de67d47bc59ba2d25810b39271f41a8a00.png"
+                    },
+                    {
+                      "name": "quantity-label-patched-cart",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results\\demo-quantity-label-association-before-and-after-demo-mobile\\attachments\\quantity-label-patched-cart-47fb16d513e1cf758b03dcf6030ffab3e9c4b9ca.png"
+                    },
+                    {
+                      "name": "quantity-label-demo",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results\\demo-quantity-label-association-before-and-after-demo-mobile\\attachments\\quantity-label-demo-c6736a10bb60b147799256ad179f45113a8c23b9.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "05384557491ebd602dd7-93cbf9cdd488d5de5fc5",
+          "file": "demo.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-09T14:55:55.795Z",
+    "duration": 18084.479000000003,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

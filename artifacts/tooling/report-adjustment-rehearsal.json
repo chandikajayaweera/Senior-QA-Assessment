@@ -1,0 +1,37 @@
+{
+  "rehearsalId": "report-adjustment-source-presence",
+  "scope": "Offline report adjustment; no live requests or collector changes.",
+  "startedAt": "2026-10-09T14:43:07Z",
+  "finishedAt": "2026-10-09T14:45:44Z",
+  "elapsedMs": 157000,
+  "targetMs": 900000,
+  "change": "Add api_present and catalogue_present CSV columns; values true (observed), false (confirmed absent from successfully collected source), unknown (source failure/incomplete discovery).",
+  "filesChanged": [
+    "src/catalogue-report.ts",
+    "tests/tooling.test.ts"
+  ],
+  "compatibility": "CSV columns are inserted after detail_url; read columns by header names. Existing quoting, embedded newlines, formula protection, JSON schema and collection behavior remain unchanged.",
+  "checks": [
+    {
+      "command": "npm.cmd run test:tooling",
+      "status": "pass",
+      "exitCode": 0,
+      "stdoutFile": "report-adjustment-rehearsal-stdout.txt"
+    },
+    {
+      "command": "npm.cmd run typecheck",
+      "status": "pass",
+      "exitCode": 0,
+      "stdoutFile": "report-adjustment-rehearsal-stdout.txt"
+    }
+  ],
+  "regressionScenarios": [
+    "Both inventories contain product",
+    "API-only and catalogue-only union products",
+    "Source outage yields unknown presence and blocked comparison, without false confirmed inventory defect",
+    "Header and row column alignment",
+    "Comma, quote and newline escaping",
+    "Spreadsheet formula protection"
+  ],
+  "withinTarget": true
+}

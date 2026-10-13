@@ -1,0 +1,79 @@
+{
+  "facts": {
+    "httpStatus": 200,
+    "finalUrl": "https://automationexercise.com/product_details/16",
+    "productRegionPresent": true,
+    "name": "Sleeves Top and Short - Blue & Pink",
+    "price": "Rs. 478",
+    "title": "Automation Exercise - Product Details",
+    "heading": {
+      "tag": "h2",
+      "text": "Sleeves Top and Short - Blue & Pink"
+    },
+    "image": {
+      "present": true,
+      "url": "https://automationexercise.com/get_product_picture/16",
+      "altPresent": true,
+      "altText": "ecommerce website products",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "decoded": true,
+      "width": 438,
+      "height": 531
+    }
+  },
+  "navigationAttempts": [
+    {
+      "attempt": 1,
+      "checkedAt": "2026-10-09T15:05:40.679Z",
+      "httpStatus": 200,
+      "finalUrl": "https://automationexercise.com/product_details/16"
+    }
+  ],
+  "checks": {
+    "sourceAgreement": {
+      "status": "pass",
+      "detail": "Present in both inventories with unambiguous values."
+    },
+    "detailAvailability": {
+      "status": "pass",
+      "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/16"
+    },
+    "productContent": {
+      "status": "pass",
+      "detail": "Expected product content region rendered."
+    },
+    "nameAgreement": {
+      "status": "pass",
+      "detail": "API / catalogue / detail: \"Sleeves Top and Short - Blue & Pink\" / \"Sleeves Top and Short - Blue & Pink\" / \"Sleeves Top and Short - Blue & Pink\""
+    },
+    "priceAgreement": {
+      "status": "pass",
+      "detail": "API / catalogue / detail: \"Rs. 478\" / \"Rs. 478\" / \"Rs. 478\""
+    },
+    "titlePresent": {
+      "status": "pass",
+      "detail": "\"Automation Exercise - Product Details\""
+    },
+    "primaryHeadingPresent": {
+      "status": "pass",
+      "detail": "h2: \"Sleeves Top and Short - Blue & Pink\""
+    },
+    "imageAvailability": {
+      "status": "pass",
+      "detail": "Main image HTTP 200 (image/jpeg)."
+    },
+    "imageDecoded": {
+      "status": "pass",
+      "detail": "Decoded with intrinsic dimensions 438 x 531."
+    },
+    "alternativeTextPresent": {
+      "status": "pass",
+      "detail": "alt attribute exists."
+    },
+    "alternativeTextNonEmpty": {
+      "status": "pass",
+      "detail": "\"ecommerce website products\""
+    }
+  }
+}

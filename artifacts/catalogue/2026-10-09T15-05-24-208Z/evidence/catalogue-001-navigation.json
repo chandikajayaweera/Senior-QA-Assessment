@@ -1,0 +1,11 @@
+{
+  "httpStatus": 200,
+  "attempts": [
+    {
+      "attempt": 1,
+      "checkedAt": "2026-10-09T15:05:26.941Z",
+      "httpStatus": 200,
+      "finalUrl": "https://automationexercise.com/products"
+    }
+  ]
+}

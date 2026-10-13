@@ -1,0 +1,162 @@
+{
+  "runId": "mobile-touch-2026-10-09T15-10-51-203Z-8332",
+  "startedAt": "2026-10-09T15:10:51.203Z",
+  "finishedAt": "2026-10-09T15:11:00.388Z",
+  "browser": "156.0.8078.4",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "hasTouch": true,
+  "physicalDevice": false,
+  "checks": [
+    {
+      "id": "TOUCH-SEARCH",
+      "checkedAt": "2026-10-09T15:10:55.843Z",
+      "input": "390 x 844 touch-enabled Chromium emulation",
+      "expected": "Tapping search opens current matching results",
+      "basis": "Assessment mobile usability; emulated touch events, not a physical-device test",
+      "actual": {
+        "url": "https://automationexercise.com/products?search=top",
+        "resultHeading": "SEARCHED PRODUCTS"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "TOUCH-ADD",
+      "checkedAt": "2026-10-09T15:10:57.245Z",
+      "input": "390 x 844 touch-enabled Chromium emulation",
+      "expected": "Tapping add with quantity 3 shows a successful confirmation",
+      "basis": "Assessment mobile usability; emulated touch events, not a physical-device test",
+      "actual": {
+        "httpStatus": 200,
+        "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=3",
+        "message": "\nAdded!\n\nYour product has been added to cart.\n\nView Cart\n\nContinue Shopping"
+      },
+      "status": "pass"
+    },
+    {
+      "id": "TOUCH-CART-PAN",
+      "checkedAt": "2026-10-09T15:10:58.981Z",
+      "input": "390 x 844 touch-enabled Chromium emulation",
+      "expected": "An emulated leftward swipe exposes horizontally clipped cart columns",
+      "basis": "Assessment mobile usability; emulated touch events, not a physical-device test",
+      "actual": {
+        "before": {
+          "id": "cart_info",
+          "className": "table-responsive cart_info",
+          "scrollLeft": 0,
+          "scrollWidth": 454,
+          "clientWidth": 358,
+          "rect": {
+            "top": 453,
+            "left": 15,
+            "right": 375,
+            "height": 168
+          }
+        },
+        "after": {
+          "id": "cart_info",
+          "className": "table-responsive cart_info",
+          "scrollLeft": 96,
+          "scrollWidth": 454,
+          "clientWidth": 358,
+          "rect": {
+            "top": 453,
+            "left": 15,
+            "right": 375,
+            "height": 168
+          }
+        },
+        "implementation": "Chromium Input.dispatchTouchEvent start/move/end",
+        "documentWidth": 390
+      },
+      "status": "pass"
+    },
+    {
+      "id": "TOUCH-REMOVE-VISIBILITY",
+      "checkedAt": "2026-10-09T15:10:58.986Z",
+      "input": "390 x 844 touch-enabled Chromium emulation",
+      "expected": "The removal control is visible after the table swipe",
+      "basis": "Assessment mobile usability; emulated touch events, not a physical-device test",
+      "actual": {
+        "x": 342.09375,
+        "y": 549.625,
+        "width": 26.578125,
+        "height": 27
+      },
+      "status": "pass"
+    },
+    {
+      "id": "TOUCH-REMOVE",
+      "checkedAt": "2026-10-09T15:10:59.951Z",
+      "input": "390 x 844 touch-enabled Chromium emulation",
+      "expected": "Tapping removal leaves a clear empty-cart state",
+      "basis": "Assessment mobile usability; emulated touch events, not a physical-device test",
+      "actual": {
+        "text": "Home Shopping Cart\n\n\n\nCart is empty! Click here to buy products.Source Suppliers\n\n\n",
+        "removalRequestObserved": true,
+        "httpStatus": 200,
+        "touchEvents": [
+          {
+            "type": "touchstart",
+            "timestamp": 1382.5999999977648,
+            "tag": "P",
+            "id": "",
+            "className": "cart_total_price",
+            "text": "Rs. 1500"
+          },
+          {
+            "type": "touchend",
+            "timestamp": 1682.2999999970198,
+            "tag": "P",
+            "id": "",
+            "className": "cart_total_price",
+            "text": "Rs. 1500"
+          },
+          {
+            "type": "touchstart",
+            "timestamp": 2273.199999999255,
+            "tag": "I",
+            "id": "",
+            "className": "fa fa-times",
+            "text": ""
+          },
+          {
+            "type": "touchend",
+            "timestamp": 2273.2999999970198,
+            "tag": "I",
+            "id": "",
+            "className": "fa fa-times",
+            "text": ""
+          },
+          {
+            "type": "click",
+            "timestamp": 2274.2999999970198,
+            "tag": "I",
+            "id": "",
+            "className": "fa fa-times",
+            "text": ""
+          }
+        ],
+        "hitTest": {
+          "tag": "I",
+          "className": "fa fa-times",
+          "deletionProduct": "1"
+        },
+        "targetRect": {
+          "x": 342.09375,
+          "y": 549.625,
+          "width": 26.578125,
+          "height": 27
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "screenshots": [
+    "mobile-cart-before-pan.png",
+    "mobile-cart-after-pan.png",
+    "mobile-cart-after-remove.png"
+  ]
+}

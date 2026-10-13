@@ -1,0 +1,135 @@
+﻿
+> automation-exercise-qa-assessment@1.0.0 test:tooling
+> tsx --test tests/tooling.test.ts tests/boundary-feedback.test.ts
+
+TAP version 13
+# Subtest: native constraint rejection and visible controlled server rejection are accepted
+ok 1 - native constraint rejection and visible controlled server rejection are accepted
+  ---
+  duration_ms: 0.878
+  type: 'test'
+  ...
+# Subtest: recorded fractional/empty HTTP 500 outcomes always fail graceful feedback
+ok 2 - recorded fractional/empty HTTP 500 outcomes always fail graceful feedback
+  ---
+  duration_ms: 0.121
+  type: 'test'
+  ...
+# Subtest: recorded zero/negative success with invalid cart row fails feedback
+ok 3 - recorded zero/negative success with invalid cart row fails feedback
+  ---
+  duration_ms: 0.1098
+  type: 'test'
+  ...
+# Subtest: silent rejection, unrelated errors, and contradictory success remain failures
+ok 4 - silent rejection, unrelated errors, and contradictory success remain failures
+  ---
+  duration_ms: 0.1547
+  type: 'test'
+  ...
+# Subtest: valid quantity one retains normal success feedback criterion
+ok 5 - valid quantity one retains normal success feedback criterion
+  ---
+  duration_ms: 0.1275
+  type: 'test'
+  ...
+# Subtest: inventory uses union and removes identical duplicate representations
+ok 6 - inventory uses union and removes identical duplicate representations
+  ---
+  duration_ms: 3.2062
+  type: 'test'
+  ...
+# Subtest: conflicting duplicate IDs stay visible and block ambiguous comparisons
+ok 7 - conflicting duplicate IDs stay visible and block ambiguous comparisons
+  ---
+  duration_ms: 0.3603
+  type: 'test'
+  ...
+# Subtest: normalization preserves meaningful differences and arithmetic is decimal safe
+ok 8 - normalization preserves meaningful differences and arithmetic is decimal safe
+  ---
+  duration_ms: 0.3864
+  type: 'test'
+  ...
+# Subtest: missing metadata fails facts without incorrectly requiring h1
+ok 9 - missing metadata fails facts without incorrectly requiring h1
+  ---
+  duration_ms: 0.2695
+  type: 'test'
+  ...
+# Subtest: broken image HTTP and image decoding have independent outcomes
+ok 10 - broken image HTTP and image decoding have independent outcomes
+  ---
+  duration_ms: 0.2716
+  type: 'test'
+  ...
+# Subtest: HTTP error and missing rendered content block dependent comparisons
+ok 11 - HTTP error and missing rendered content block dependent comparisons
+  ---
+  duration_ms: 0.2722
+  type: 'test'
+  ...
+# Subtest: generic wording is content review, separate from missing facts
+ok 12 - generic wording is content review, separate from missing facts
+  ---
+  duration_ms: 0.2353
+  type: 'test'
+  ...
+# Subtest: source outage and collection deadline never report complete coverage
+ok 13 - source outage and collection deadline never report complete coverage
+  ---
+  duration_ms: 0.5539
+  type: 'test'
+  ...
+# Subtest: CSV and Markdown surface raw values, source outage, and blocked coverage
+ok 14 - CSV and Markdown surface raw values, source outage, and blocked coverage
+  ---
+  duration_ms: 1.0467
+  type: 'test'
+  ...
+# Subtest: CSV exposes observed and confirmed absent sources for every union product
+ok 15 - CSV exposes observed and confirmed absent sources for every union product
+  ---
+  duration_ms: 0.7947
+  type: 'test'
+  ...
+# Subtest: CSV reports outage absence as unknown and preserves blocked source comparison
+ok 16 - CSV reports outage absence as unknown and preserves blocked source comparison
+  ---
+  duration_ms: 0.8258
+  type: 'test'
+  ...
+# Subtest: source-presence additions preserve CSV commas, quotes, multiline text and formula protection
+ok 17 - source-presence additions preserve CSV commas, quotes, multiline text and formula protection
+  ---
+  duration_ms: 0.2445
+  type: 'test'
+  ...
+# Subtest: products API validates transport, application success and usable inventory shape
+ok 18 - products API validates transport, application success and usable inventory shape
+  ---
+  duration_ms: 0.6734
+  type: 'test'
+  ...
+# Subtest: a single unmapped detail link remains inventory data and makes coverage incomplete
+ok 19 - a single unmapped detail link remains inventory data and makes coverage incomplete
+  ---
+  duration_ms: 0.6378
+  type: 'test'
+  ...
+# Subtest: detail-link reconciliation tolerates duplicates and excludes unrelated origins
+ok 20 - detail-link reconciliation tolerates duplicates and excludes unrelated origins
+  ---
+  duration_ms: 0.2095
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 323.4695
+

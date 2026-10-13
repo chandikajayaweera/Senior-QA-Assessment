@@ -1,0 +1,79 @@
+{
+  "facts": {
+    "httpStatus": 200,
+    "finalUrl": "https://automationexercise.com/product_details/24",
+    "productRegionPresent": true,
+    "name": "Colour Blocked Shirt – Sky Blue",
+    "price": "Rs. 849",
+    "title": "Automation Exercise - Product Details",
+    "heading": {
+      "tag": "h2",
+      "text": "Colour Blocked Shirt – Sky Blue"
+    },
+    "image": {
+      "present": true,
+      "url": "https://automationexercise.com/get_product_picture/24",
+      "altPresent": true,
+      "altText": "ecommerce website products",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "decoded": true,
+      "width": 1370,
+      "height": 1370
+    }
+  },
+  "navigationAttempts": [
+    {
+      "attempt": 1,
+      "checkedAt": "2026-10-09T14:38:12.290Z",
+      "httpStatus": 200,
+      "finalUrl": "https://automationexercise.com/product_details/24"
+    }
+  ],
+  "checks": {
+    "sourceAgreement": {
+      "status": "pass",
+      "detail": "Present in both inventories with unambiguous values."
+    },
+    "detailAvailability": {
+      "status": "pass",
+      "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/24"
+    },
+    "productContent": {
+      "status": "pass",
+      "detail": "Expected product content region rendered."
+    },
+    "nameAgreement": {
+      "status": "pass",
+      "detail": "API / catalogue / detail: \"Colour Blocked Shirt – Sky Blue\" / \"Colour Blocked Shirt – Sky Blue\" / \"Colour Blocked Shirt – Sky Blue\""
+    },
+    "priceAgreement": {
+      "status": "pass",
+      "detail": "API / catalogue / detail: \"Rs. 849\" / \"Rs. 849\" / \"Rs. 849\""
+    },
+    "titlePresent": {
+      "status": "pass",
+      "detail": "\"Automation Exercise - Product Details\""
+    },
+    "primaryHeadingPresent": {
+      "status": "pass",
+      "detail": "h2: \"Colour Blocked Shirt – Sky Blue\""
+    },
+    "imageAvailability": {
+      "status": "pass",
+      "detail": "Main image HTTP 200 (image/jpeg)."
+    },
+    "imageDecoded": {
+      "status": "pass",
+      "detail": "Decoded with intrinsic dimensions 1370 x 1370."
+    },
+    "alternativeTextPresent": {
+      "status": "pass",
+      "detail": "alt attribute exists."
+    },
+    "alternativeTextNonEmpty": {
+      "status": "pass",
+      "detail": "\"ecommerce website products\""
+    }
+  }
+}

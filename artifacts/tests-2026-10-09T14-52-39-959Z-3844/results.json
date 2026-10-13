@@ -1,0 +1,362 @@
+{
+  "config": {
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.exe",
+      "C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "journey.spec.ts",
+      "--project=desktop",
+      "--project=mobile"
+    ],
+    "configFile": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\playwright.config.ts",
+    "rootDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-52-39-959Z-3844/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "api",
+        "name": "api",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/api\\.spec\\.ts/"],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-52-39-959Z-3844/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/(journey|boundaries|checkout|demo)\\.spec\\.ts/"],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-52-39-959Z-3844/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/(journey|boundaries|checkout|demo)\\.spec\\.ts/"],
+        "timeout": 240000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop",
+        "testDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "snapshotDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "https://automationexercise.com",
+          "browserName": "chromium",
+          "locale": "en-GB",
+          "timezoneId": "Asia/Colombo",
+          "actionTimeout": 10000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off",
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "mobile",
+        "testDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "snapshotDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "https://automationexercise.com",
+          "browserName": "chromium",
+          "locale": "en-GB",
+          "timezoneId": "Asia/Colombo",
+          "actionTimeout": 10000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "isMobile": true,
+          "hasTouch": true,
+          "deviceScaleFactor": 1,
+          "userAgent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      ["line", null],
+      [
+        "html",
+        {
+          "outputFolder": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "journey.spec.ts",
+      "file": "journey.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "search, details, cart, browse and guest account entry @journey",
+          "ok": true,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20021,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:52:40.595Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "search-results",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\search-results-409e3da83ce5868db550fb189971a6ca46412965.png"
+                    },
+                    {
+                      "name": "detail-before-add",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\detail-before-add-b875b2d5cb5085b389dabf8c823877301ec67506.png"
+                    },
+                    {
+                      "name": "add-confirmation",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\add-confirmation-ac87fe7447852d45e0fe7be834a272da17a53e68.png"
+                    },
+                    {
+                      "name": "cart-quantity-three",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\cart-quantity-three-0a9e22c283cdc0c88ba496807ce9b522af5c00e0.png"
+                    },
+                    {
+                      "name": "browse-category",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\browse-category-5f21749627d28f40e4625bbe3cb59ad10eeee1c4.png"
+                    },
+                    {
+                      "name": "cart-two-products",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\cart-two-products-9208ecd89224bed1b46ccb78a8c22ea63d22c8c6.png"
+                    },
+                    {
+                      "name": "guest-checkout-gate",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\guest-checkout-gate-cf046d0af7685311cbb861edc4f971fc926ebafd.png"
+                    },
+                    {
+                      "name": "account-entry",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\account-entry-bff0a3b0c291047dfa6f7bad72df237a53cd4224.png"
+                    },
+                    {
+                      "name": "empty-cart",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\empty-cart-8e04a3f83c8ac978143f19c499b2e269d8afaf69.png"
+                    },
+                    {
+                      "name": "journey",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\journey-542b1b12158f36a8c8ec01c6f6099aa1d94015e6.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bf222bad70f76648f722-43adce7cefaafd022cf5",
+          "file": "journey.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "search, details, cart, browse and guest account entry @journey",
+          "ok": true,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21561,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:53:01.252Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "search-results",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\search-results-8d60e3326776ab7d4c10182ae7874915f035d37e.png"
+                    },
+                    {
+                      "name": "detail-before-add",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\detail-before-add-d65f7815cecb51510279b259e1aa0e40b5ebd65e.png"
+                    },
+                    {
+                      "name": "add-confirmation",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\add-confirmation-9f03b72c640644a01836b8cc9789b1ef9b24eee5.png"
+                    },
+                    {
+                      "name": "cart-quantity-three",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\cart-quantity-three-6febab16163a79bf9a59f97ce60b011cece99d55.png"
+                    },
+                    {
+                      "name": "browse-category",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\browse-category-5c85d9f07652ef89498a167fd22a99fff4b9c801.png"
+                    },
+                    {
+                      "name": "cart-two-products",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\cart-two-products-c6d76e24d5c0ebdf705afdc28e6a85ea24973c8e.png"
+                    },
+                    {
+                      "name": "guest-checkout-gate",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\guest-checkout-gate-bcbb8bae491199aa8011381f14547253f5972dff.png"
+                    },
+                    {
+                      "name": "account-entry",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\account-entry-be74605c902968b349cb0811eb7e5a08dbaaa6b9.png"
+                    },
+                    {
+                      "name": "empty-cart",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\empty-cart-18146862ec33e4ed181e58f2e3f91f99eb1a26df.png"
+                    },
+                    {
+                      "name": "journey",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\journey-a8db17393acde293f649568166ef9c189fe322bb.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bf222bad70f76648f722-6b4d9e33adf8fce96d85",
+          "file": "journey.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-09T14:52:39.963Z",
+    "duration": 43075.564999999995,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

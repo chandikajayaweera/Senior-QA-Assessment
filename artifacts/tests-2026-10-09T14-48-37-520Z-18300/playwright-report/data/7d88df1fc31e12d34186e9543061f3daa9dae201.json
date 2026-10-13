@@ -1,0 +1,591 @@
+{
+  "test": "quantity-boundaries",
+  "project": "desktop",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "browser": "Chromium",
+  "mobileEmulation": false,
+  "collectedAt": "2026-10-09T14:49:04.381Z",
+  "facts": {},
+  "checks": [
+    {
+      "id": "J-QUANTITY-1",
+      "checkedAt": "2026-10-09T14:48:42.453Z",
+      "input": {
+        "value": "1",
+        "url": "https://automationexercise.com/product_details/1"
+      },
+      "expected": "Quantity 1 produces one correctly priced cart item",
+      "basis": "Physical product quantities are positive whole numbers. Invalid values must not create zero/negative/fractional cart lines; blank input must be rejected or resolve to a valid positive quantity.",
+      "actual": {
+        "product": {
+          "url": "https://automationexercise.com/product_details/1",
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "quantityHtml": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+          "availability": "Blue Top\n\nCategory: Women > Tops\n\n \nRs. 500\nQuantity:   Add to cart\n\nAvailability: In Stock\n\nCondition: New\n\nBrand: Polo"
+        },
+        "validity": {
+          "value": "1",
+          "min": "1",
+          "max": "",
+          "step": "",
+          "required": false,
+          "valid": true,
+          "rangeUnderflow": false,
+          "stepMismatch": false,
+          "valueMissing": false,
+          "validationMessage": "",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">"
+        },
+        "feedback": {
+          "requestObserved": true,
+          "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=1",
+          "status": 200,
+          "body": "Added To Cart",
+          "responseDiagnostic": null,
+          "modalVisible": true,
+          "modalText": "\nAdded!\n\nYour product has been added to cart.\n\nView Cart\n\nContinue Shopping",
+          "focus": {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Add to cart",
+            "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+          },
+          "modalHtml": "<div id=\"cartModal\" class=\"modal show\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+        },
+        "cart": [
+          {
+            "id": "product-1",
+            "name": "Blue Top",
+            "price": "Rs. 500",
+            "quantity": "1",
+            "total": "Rs. 500",
+            "html": "<tr id=\"product-1\">\n\t\t\t\t\t\t\t<td class=\"cart_product\">\n\t\t\t\t\t\t\t\t<a href=\"\"><img src=\"get_product_picture/1\" style=\"width:80px; height: 80px;\" class=\"product_image\" alt=\"Product Image\"></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_description\">\n\t\t\t\t\t\t\t\t<h4><a href=\"/product_details/1\">Blue Top</a></h4>\n\t\t\t\t\t\t\t\t<p>Women &gt; Tops</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_price\">\n\t\t\t\t\t\t\t\t<p>Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_quantity\">\n\t\t\t\t\t\t\t\t<button class=\"disabled\">1</button>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_total\">\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_delete\">\n\t\t\t\t\t\t\t\t<a class=\"cart_quantity_delete\" style=\"cursor: pointer;\" data-product-id=\"1\"><i class=\"fa fa-times\"></i></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>"
+          }
+        ]
+      },
+      "status": "pass",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/boundaries-quantity-boundary-exploration-journey-desktop/quantity-1.png"
+      ]
+    },
+    {
+      "id": "J-QUANTITY-1-FEEDBACK",
+      "checkedAt": "2026-10-09T14:48:42.453Z",
+      "input": {
+        "value": "1"
+      },
+      "expected": "Successful add provides accurate confirmation",
+      "basis": "Customer confidence and graceful invalid-input handling; HTML constraints where present",
+      "actual": {
+        "validity": {
+          "value": "1",
+          "min": "1",
+          "max": "",
+          "step": "",
+          "required": false,
+          "valid": true,
+          "rangeUnderflow": false,
+          "stepMismatch": false,
+          "valueMissing": false,
+          "validationMessage": "",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">"
+        },
+        "browserFeedback": {
+          "valid": true,
+          "validationMessage": ""
+        },
+        "response": {
+          "requestObserved": true,
+          "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=1",
+          "status": 200,
+          "body": "Added To Cart",
+          "responseDiagnostic": null,
+          "modalVisible": true,
+          "modalText": "\nAdded!\n\nYour product has been added to cart.\n\nView Cart\n\nContinue Shopping",
+          "focus": {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Add to cart",
+            "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+          },
+          "modalHtml": "<div id=\"cartModal\" class=\"modal show\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+        },
+        "cartRowCreated": true
+      },
+      "status": "pass",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/boundaries-quantity-boundary-exploration-journey-desktop/quantity-1-feedback.png"
+      ]
+    },
+    {
+      "id": "J-QUANTITY-0",
+      "checkedAt": "2026-10-09T14:48:45.782Z",
+      "input": {
+        "value": "0",
+        "url": "https://automationexercise.com/product_details/1"
+      },
+      "expected": "No invalid quantity cart line is created",
+      "basis": "Physical product quantities are positive whole numbers. Invalid values must not create zero/negative/fractional cart lines; blank input must be rejected or resolve to a valid positive quantity.",
+      "actual": {
+        "product": {
+          "url": "https://automationexercise.com/product_details/1",
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "quantityHtml": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+          "availability": "Blue Top\n\nCategory: Women > Tops\n\n \nRs. 500\nQuantity:   Add to cart\n\nAvailability: In Stock\n\nCondition: New\n\nBrand: Polo"
+        },
+        "validity": {
+          "value": "0",
+          "min": "1",
+          "max": "",
+          "step": "",
+          "required": false,
+          "valid": false,
+          "rangeUnderflow": true,
+          "stepMismatch": false,
+          "valueMissing": false,
+          "validationMessage": "Value must be greater than or equal to 1.",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">"
+        },
+        "feedback": {
+          "requestObserved": true,
+          "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=0",
+          "status": 200,
+          "body": "Added To Cart",
+          "responseDiagnostic": null,
+          "modalVisible": true,
+          "modalText": "\nAdded!\n\nYour product has been added to cart.\n\nView Cart\n\nContinue Shopping",
+          "focus": {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Add to cart",
+            "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+          },
+          "modalHtml": "<div id=\"cartModal\" class=\"modal show\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+        },
+        "cart": [
+          {
+            "id": "product-1",
+            "name": "Blue Top",
+            "price": "Rs. 500",
+            "quantity": "0",
+            "total": "Rs. 0",
+            "html": "<tr id=\"product-1\">\n\t\t\t\t\t\t\t<td class=\"cart_product\">\n\t\t\t\t\t\t\t\t<a href=\"\"><img src=\"get_product_picture/1\" style=\"width:80px; height: 80px;\" class=\"product_image\" alt=\"Product Image\"></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_description\">\n\t\t\t\t\t\t\t\t<h4><a href=\"/product_details/1\">Blue Top</a></h4>\n\t\t\t\t\t\t\t\t<p>Women &gt; Tops</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_price\">\n\t\t\t\t\t\t\t\t<p>Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_quantity\">\n\t\t\t\t\t\t\t\t<button class=\"disabled\">0</button>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_total\">\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 0</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_delete\">\n\t\t\t\t\t\t\t\t<a class=\"cart_quantity_delete\" style=\"cursor: pointer;\" data-product-id=\"1\"><i class=\"fa fa-times\"></i></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>"
+          }
+        ]
+      },
+      "status": "fail",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/boundaries-quantity-boundary-exploration-journey-desktop/quantity-0.png"
+      ]
+    },
+    {
+      "id": "J-QUANTITY-0-FEEDBACK",
+      "checkedAt": "2026-10-09T14:48:45.782Z",
+      "input": {
+        "value": "0"
+      },
+      "expected": "Invalid input is rejected with useful feedback and no HTTP 5xx response",
+      "basis": "Customer confidence and graceful invalid-input handling; HTML constraints where present",
+      "actual": {
+        "validity": {
+          "value": "0",
+          "min": "1",
+          "max": "",
+          "step": "",
+          "required": false,
+          "valid": false,
+          "rangeUnderflow": true,
+          "stepMismatch": false,
+          "valueMissing": false,
+          "validationMessage": "Value must be greater than or equal to 1.",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">"
+        },
+        "browserFeedback": {
+          "valid": false,
+          "validationMessage": "Value must be greater than or equal to 1."
+        },
+        "response": {
+          "requestObserved": true,
+          "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=0",
+          "status": 200,
+          "body": "Added To Cart",
+          "responseDiagnostic": null,
+          "modalVisible": true,
+          "modalText": "\nAdded!\n\nYour product has been added to cart.\n\nView Cart\n\nContinue Shopping",
+          "focus": {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Add to cart",
+            "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+          },
+          "modalHtml": "<div id=\"cartModal\" class=\"modal show\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+        },
+        "cartRowCreated": true
+      },
+      "status": "fail",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/boundaries-quantity-boundary-exploration-journey-desktop/quantity-0-feedback.png"
+      ]
+    },
+    {
+      "id": "J-QUANTITY--1",
+      "checkedAt": "2026-10-09T14:48:49.325Z",
+      "input": {
+        "value": "-1",
+        "url": "https://automationexercise.com/product_details/1"
+      },
+      "expected": "No invalid quantity cart line is created",
+      "basis": "Physical product quantities are positive whole numbers. Invalid values must not create zero/negative/fractional cart lines; blank input must be rejected or resolve to a valid positive quantity.",
+      "actual": {
+        "product": {
+          "url": "https://automationexercise.com/product_details/1",
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "quantityHtml": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+          "availability": "Blue Top\n\nCategory: Women > Tops\n\n \nRs. 500\nQuantity:   Add to cart\n\nAvailability: In Stock\n\nCondition: New\n\nBrand: Polo"
+        },
+        "validity": {
+          "value": "-1",
+          "min": "1",
+          "max": "",
+          "step": "",
+          "required": false,
+          "valid": false,
+          "rangeUnderflow": true,
+          "stepMismatch": false,
+          "valueMissing": false,
+          "validationMessage": "Value must be greater than or equal to 1.",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">"
+        },
+        "feedback": {
+          "requestObserved": true,
+          "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=-1",
+          "status": 200,
+          "body": "Added To Cart",
+          "responseDiagnostic": null,
+          "modalVisible": true,
+          "modalText": "\nAdded!\n\nYour product has been added to cart.\n\nView Cart\n\nContinue Shopping",
+          "focus": {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Add to cart",
+            "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+          },
+          "modalHtml": "<div id=\"cartModal\" class=\"modal show\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+        },
+        "cart": [
+          {
+            "id": "product-1",
+            "name": "Blue Top",
+            "price": "Rs. 500",
+            "quantity": "-1",
+            "total": "Rs. -500",
+            "html": "<tr id=\"product-1\">\n\t\t\t\t\t\t\t<td class=\"cart_product\">\n\t\t\t\t\t\t\t\t<a href=\"\"><img src=\"get_product_picture/1\" style=\"width:80px; height: 80px;\" class=\"product_image\" alt=\"Product Image\"></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_description\">\n\t\t\t\t\t\t\t\t<h4><a href=\"/product_details/1\">Blue Top</a></h4>\n\t\t\t\t\t\t\t\t<p>Women &gt; Tops</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_price\">\n\t\t\t\t\t\t\t\t<p>Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_quantity\">\n\t\t\t\t\t\t\t\t<button class=\"disabled\">-1</button>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_total\">\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. -500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_delete\">\n\t\t\t\t\t\t\t\t<a class=\"cart_quantity_delete\" style=\"cursor: pointer;\" data-product-id=\"1\"><i class=\"fa fa-times\"></i></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>"
+          }
+        ]
+      },
+      "status": "fail",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/boundaries-quantity-boundary-exploration-journey-desktop/quantity--1.png"
+      ]
+    },
+    {
+      "id": "J-QUANTITY--1-FEEDBACK",
+      "checkedAt": "2026-10-09T14:48:49.325Z",
+      "input": {
+        "value": "-1"
+      },
+      "expected": "Invalid input is rejected with useful feedback and no HTTP 5xx response",
+      "basis": "Customer confidence and graceful invalid-input handling; HTML constraints where present",
+      "actual": {
+        "validity": {
+          "value": "-1",
+          "min": "1",
+          "max": "",
+          "step": "",
+          "required": false,
+          "valid": false,
+          "rangeUnderflow": true,
+          "stepMismatch": false,
+          "valueMissing": false,
+          "validationMessage": "Value must be greater than or equal to 1.",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">"
+        },
+        "browserFeedback": {
+          "valid": false,
+          "validationMessage": "Value must be greater than or equal to 1."
+        },
+        "response": {
+          "requestObserved": true,
+          "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=-1",
+          "status": 200,
+          "body": "Added To Cart",
+          "responseDiagnostic": null,
+          "modalVisible": true,
+          "modalText": "\nAdded!\n\nYour product has been added to cart.\n\nView Cart\n\nContinue Shopping",
+          "focus": {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Add to cart",
+            "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+          },
+          "modalHtml": "<div id=\"cartModal\" class=\"modal show\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+        },
+        "cartRowCreated": true
+      },
+      "status": "fail",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/boundaries-quantity-boundary-exploration-journey-desktop/quantity--1-feedback.png"
+      ]
+    },
+    {
+      "id": "J-QUANTITY-1.5",
+      "checkedAt": "2026-10-09T14:48:56.902Z",
+      "input": {
+        "value": "1.5",
+        "url": "https://automationexercise.com/product_details/1"
+      },
+      "expected": "No invalid quantity cart line is created",
+      "basis": "Physical product quantities are positive whole numbers. Invalid values must not create zero/negative/fractional cart lines; blank input must be rejected or resolve to a valid positive quantity.",
+      "actual": {
+        "product": {
+          "url": "https://automationexercise.com/product_details/1",
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "quantityHtml": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+          "availability": "Blue Top\n\nCategory: Women > Tops\n\n \nRs. 500\nQuantity:   Add to cart\n\nAvailability: In Stock\n\nCondition: New\n\nBrand: Polo"
+        },
+        "validity": {
+          "value": "1.5",
+          "min": "1",
+          "max": "",
+          "step": "",
+          "required": false,
+          "valid": false,
+          "rangeUnderflow": false,
+          "stepMismatch": true,
+          "valueMissing": false,
+          "validationMessage": "Please enter a valid value. The two nearest valid values are 1 and 2.",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">"
+        },
+        "feedback": {
+          "requestObserved": true,
+          "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=1.5",
+          "status": 500,
+          "body": "[HTTP 5xx response redacted; see allowlisted responseDiagnostic]",
+          "responseDiagnostic": {
+            "redacted": true,
+            "httpStatus": 500,
+            "sha256": "0c01bd11dc2a0791a274a0f40fa3b6eb90d1c8627bbab540451b005964fe0263",
+            "decodedUtf8Bytes": 60261,
+            "debugPageDetected": true,
+            "exceptionType": "ValueError",
+            "exceptionMessage": "invalid literal for int() with base 10: \"1.5\"",
+            "quantityIntegerConversionLinePresent": false,
+            "omitted": "Raw traceback, paths, cookies, request metadata, settings and all non-allowlisted values"
+          },
+          "modalVisible": false,
+          "modalText": null,
+          "focus": {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Add to cart",
+            "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+          },
+          "modalHtml": null
+        },
+        "cart": []
+      },
+      "status": "pass",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/boundaries-quantity-boundary-exploration-journey-desktop/quantity-1.5.png"
+      ]
+    },
+    {
+      "id": "J-QUANTITY-1.5-FEEDBACK",
+      "checkedAt": "2026-10-09T14:48:56.902Z",
+      "input": {
+        "value": "1.5"
+      },
+      "expected": "Invalid input is rejected with useful feedback and no HTTP 5xx response",
+      "basis": "Customer confidence and graceful invalid-input handling; HTML constraints where present",
+      "actual": {
+        "validity": {
+          "value": "1.5",
+          "min": "1",
+          "max": "",
+          "step": "",
+          "required": false,
+          "valid": false,
+          "rangeUnderflow": false,
+          "stepMismatch": true,
+          "valueMissing": false,
+          "validationMessage": "Please enter a valid value. The two nearest valid values are 1 and 2.",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">"
+        },
+        "browserFeedback": {
+          "valid": false,
+          "validationMessage": "Please enter a valid value. The two nearest valid values are 1 and 2."
+        },
+        "response": {
+          "requestObserved": true,
+          "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=1.5",
+          "status": 500,
+          "body": "[HTTP 5xx response redacted; see allowlisted responseDiagnostic]",
+          "responseDiagnostic": {
+            "redacted": true,
+            "httpStatus": 500,
+            "sha256": "0c01bd11dc2a0791a274a0f40fa3b6eb90d1c8627bbab540451b005964fe0263",
+            "decodedUtf8Bytes": 60261,
+            "debugPageDetected": true,
+            "exceptionType": "ValueError",
+            "exceptionMessage": "invalid literal for int() with base 10: \"1.5\"",
+            "quantityIntegerConversionLinePresent": false,
+            "omitted": "Raw traceback, paths, cookies, request metadata, settings and all non-allowlisted values"
+          },
+          "modalVisible": false,
+          "modalText": null,
+          "focus": {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Add to cart",
+            "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+          },
+          "modalHtml": null
+        },
+        "cartRowCreated": false
+      },
+      "status": "fail",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/boundaries-quantity-boundary-exploration-journey-desktop/quantity-1.5-feedback.png"
+      ]
+    },
+    {
+      "id": "J-QUANTITY-EMPTY",
+      "checkedAt": "2026-10-09T14:49:04.034Z",
+      "input": {
+        "value": "",
+        "url": "https://automationexercise.com/product_details/1"
+      },
+      "expected": "No invalid quantity cart line is created",
+      "basis": "Physical product quantities are positive whole numbers. Invalid values must not create zero/negative/fractional cart lines; blank input must be rejected or resolve to a valid positive quantity.",
+      "actual": {
+        "product": {
+          "url": "https://automationexercise.com/product_details/1",
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "quantityHtml": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+          "availability": "Blue Top\n\nCategory: Women > Tops\n\n \nRs. 500\nQuantity:   Add to cart\n\nAvailability: In Stock\n\nCondition: New\n\nBrand: Polo"
+        },
+        "validity": {
+          "value": "",
+          "min": "1",
+          "max": "",
+          "step": "",
+          "required": false,
+          "valid": true,
+          "rangeUnderflow": false,
+          "stepMismatch": false,
+          "valueMissing": false,
+          "validationMessage": "",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">"
+        },
+        "feedback": {
+          "requestObserved": true,
+          "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=",
+          "status": 500,
+          "body": "[HTTP 5xx response redacted; see allowlisted responseDiagnostic]",
+          "responseDiagnostic": {
+            "redacted": true,
+            "httpStatus": 500,
+            "sha256": "6db119521fb1311c90ab48912c192b501231d1b1ae0ad7f322327b79933f1933",
+            "decodedUtf8Bytes": 60743,
+            "debugPageDetected": true,
+            "exceptionType": "ValueError",
+            "exceptionMessage": "invalid literal for int() with base 10: \"\"",
+            "quantityIntegerConversionLinePresent": false,
+            "omitted": "Raw traceback, paths, cookies, request metadata, settings and all non-allowlisted values"
+          },
+          "modalVisible": false,
+          "modalText": null,
+          "focus": {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Add to cart",
+            "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+          },
+          "modalHtml": null
+        },
+        "cart": []
+      },
+      "status": "pass",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/boundaries-quantity-boundary-exploration-journey-desktop/quantity-empty.png"
+      ]
+    },
+    {
+      "id": "J-QUANTITY-EMPTY-FEEDBACK",
+      "checkedAt": "2026-10-09T14:49:04.034Z",
+      "input": {
+        "value": ""
+      },
+      "expected": "Invalid input is rejected with useful feedback and no HTTP 5xx response",
+      "basis": "Customer confidence and graceful invalid-input handling; HTML constraints where present",
+      "actual": {
+        "validity": {
+          "value": "",
+          "min": "1",
+          "max": "",
+          "step": "",
+          "required": false,
+          "valid": true,
+          "rangeUnderflow": false,
+          "stepMismatch": false,
+          "valueMissing": false,
+          "validationMessage": "",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">"
+        },
+        "browserFeedback": {
+          "valid": true,
+          "validationMessage": ""
+        },
+        "response": {
+          "requestObserved": true,
+          "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=",
+          "status": 500,
+          "body": "[HTTP 5xx response redacted; see allowlisted responseDiagnostic]",
+          "responseDiagnostic": {
+            "redacted": true,
+            "httpStatus": 500,
+            "sha256": "6db119521fb1311c90ab48912c192b501231d1b1ae0ad7f322327b79933f1933",
+            "decodedUtf8Bytes": 60743,
+            "debugPageDetected": true,
+            "exceptionType": "ValueError",
+            "exceptionMessage": "invalid literal for int() with base 10: \"\"",
+            "quantityIntegerConversionLinePresent": false,
+            "omitted": "Raw traceback, paths, cookies, request metadata, settings and all non-allowlisted values"
+          },
+          "modalVisible": false,
+          "modalText": null,
+          "focus": {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Add to cart",
+            "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+          },
+          "modalHtml": null
+        },
+        "cartRowCreated": false
+      },
+      "status": "fail",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/boundaries-quantity-boundary-exploration-journey-desktop/quantity-empty-feedback.png"
+      ]
+    }
+  ]
+}

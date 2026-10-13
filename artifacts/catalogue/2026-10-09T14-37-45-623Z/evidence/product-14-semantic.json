@@ -1,0 +1,79 @@
+{
+  "facts": {
+    "httpStatus": 200,
+    "finalUrl": "https://automationexercise.com/product_details/14",
+    "productRegionPresent": true,
+    "name": "Full Sleeves Top Cherry - Pink",
+    "price": "Rs. 679",
+    "title": "Automation Exercise - Product Details",
+    "heading": {
+      "tag": "h2",
+      "text": "Full Sleeves Top Cherry - Pink"
+    },
+    "image": {
+      "present": true,
+      "url": "https://automationexercise.com/get_product_picture/14",
+      "altPresent": true,
+      "altText": "ecommerce website products",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "decoded": true,
+      "width": 438,
+      "height": 531
+    }
+  },
+  "navigationAttempts": [
+    {
+      "attempt": 1,
+      "checkedAt": "2026-10-09T14:38:03.259Z",
+      "httpStatus": 200,
+      "finalUrl": "https://automationexercise.com/product_details/14"
+    }
+  ],
+  "checks": {
+    "sourceAgreement": {
+      "status": "pass",
+      "detail": "Present in both inventories with unambiguous values."
+    },
+    "detailAvailability": {
+      "status": "pass",
+      "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/14"
+    },
+    "productContent": {
+      "status": "pass",
+      "detail": "Expected product content region rendered."
+    },
+    "nameAgreement": {
+      "status": "pass",
+      "detail": "API / catalogue / detail: \"Full Sleeves Top Cherry - Pink\" / \"Full Sleeves Top Cherry - Pink\" / \"Full Sleeves Top Cherry - Pink\""
+    },
+    "priceAgreement": {
+      "status": "pass",
+      "detail": "API / catalogue / detail: \"Rs. 679\" / \"Rs. 679\" / \"Rs. 679\""
+    },
+    "titlePresent": {
+      "status": "pass",
+      "detail": "\"Automation Exercise - Product Details\""
+    },
+    "primaryHeadingPresent": {
+      "status": "pass",
+      "detail": "h2: \"Full Sleeves Top Cherry - Pink\""
+    },
+    "imageAvailability": {
+      "status": "pass",
+      "detail": "Main image HTTP 200 (image/jpeg)."
+    },
+    "imageDecoded": {
+      "status": "pass",
+      "detail": "Decoded with intrinsic dimensions 438 x 531."
+    },
+    "alternativeTextPresent": {
+      "status": "pass",
+      "detail": "alt attribute exists."
+    },
+    "alternativeTextNonEmpty": {
+      "status": "pass",
+      "detail": "\"ecommerce website products\""
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿{
+    "name":  "automation-exercise-qa-assessment",
+    "version":  "1.0.0",
+    "private":  true,
+    "type":  "module",
+    "description":  "Evidence-based live shopping assessment and repeatable catalogue audit",
+    "engines":  {
+                    "node":  "\u003e=22"
+                },
+    "scripts":  {
+                    "test:api":  "playwright test api.spec.ts --project=api",
+                    "test:journey":  "playwright test --grep @journey --project=desktop --project=mobile",
+                    "test:demo":  "playwright test demo.spec.ts --project=desktop --project=mobile",
+                    "catalogue:refresh":  "tsx scripts/refresh-catalogue.ts",
+                    "test:tooling":  "tsx --test tests/tooling.test.ts tests/boundary-feedback.test.ts",
+                    "typecheck":  "tsc --noEmit"
+                },
+    "devDependencies":  {
+                            "@axe-core/playwright":  "4.13.0",
+                            "@playwright/test":  "1.64.0",
+                            "@types/node":  "26.6.4",
+                            "tsx":  "4.23.15",
+                            "typescript":  "7.0.2"
+                        }
+}

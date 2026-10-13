@@ -1,0 +1,79 @@
+{
+  "facts": {
+    "httpStatus": 200,
+    "finalUrl": "https://automationexercise.com/product_details/3",
+    "productRegionPresent": true,
+    "name": "Sleeveless Dress",
+    "price": "Rs. 1000",
+    "title": "Automation Exercise - Product Details",
+    "heading": {
+      "tag": "h2",
+      "text": "Sleeveless Dress"
+    },
+    "image": {
+      "present": true,
+      "url": "https://automationexercise.com/get_product_picture/3",
+      "altPresent": true,
+      "altText": "ecommerce website products",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "decoded": true,
+      "width": 268,
+      "height": 249
+    }
+  },
+  "navigationAttempts": [
+    {
+      "attempt": 1,
+      "checkedAt": "2026-10-09T14:37:54.286Z",
+      "httpStatus": 200,
+      "finalUrl": "https://automationexercise.com/product_details/3"
+    }
+  ],
+  "checks": {
+    "sourceAgreement": {
+      "status": "pass",
+      "detail": "Present in both inventories with unambiguous values."
+    },
+    "detailAvailability": {
+      "status": "pass",
+      "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/3"
+    },
+    "productContent": {
+      "status": "pass",
+      "detail": "Expected product content region rendered."
+    },
+    "nameAgreement": {
+      "status": "pass",
+      "detail": "API / catalogue / detail: \"Sleeveless Dress\" / \"Sleeveless Dress\" / \"Sleeveless Dress\""
+    },
+    "priceAgreement": {
+      "status": "pass",
+      "detail": "API / catalogue / detail: \"Rs. 1000\" / \"Rs. 1000\" / \"Rs. 1000\""
+    },
+    "titlePresent": {
+      "status": "pass",
+      "detail": "\"Automation Exercise - Product Details\""
+    },
+    "primaryHeadingPresent": {
+      "status": "pass",
+      "detail": "h2: \"Sleeveless Dress\""
+    },
+    "imageAvailability": {
+      "status": "pass",
+      "detail": "Main image HTTP 200 (image/jpeg)."
+    },
+    "imageDecoded": {
+      "status": "pass",
+      "detail": "Decoded with intrinsic dimensions 268 x 249."
+    },
+    "alternativeTextPresent": {
+      "status": "pass",
+      "detail": "alt attribute exists."
+    },
+    "alternativeTextNonEmpty": {
+      "status": "pass",
+      "detail": "\"ecommerce website products\""
+    }
+  }
+}

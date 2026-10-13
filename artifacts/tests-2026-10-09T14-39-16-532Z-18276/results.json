@@ -1,0 +1,577 @@
+{
+  "config": {
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.exe",
+      "C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--grep",
+      "@journey",
+      "--project=desktop",
+      "--project=mobile"
+    ],
+    "configFile": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\playwright.config.ts",
+    "rootDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-39-16-532Z-18276/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "api",
+        "name": "api",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/api\\.spec\\.ts/"],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-39-16-532Z-18276/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/(journey|checkout|demo)\\.spec\\.ts/"],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-39-16-532Z-18276/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/(journey|checkout|demo)\\.spec\\.ts/"],
+        "timeout": 240000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop",
+        "testDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "snapshotDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "https://automationexercise.com",
+          "browserName": "chromium",
+          "locale": "en-GB",
+          "timezoneId": "Asia/Colombo",
+          "actionTimeout": 10000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off",
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "mobile",
+        "testDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "snapshotDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "https://automationexercise.com",
+          "browserName": "chromium",
+          "locale": "en-GB",
+          "timezoneId": "Asia/Colombo",
+          "actionTimeout": 10000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "isMobile": true,
+          "hasTouch": true,
+          "deviceScaleFactor": 1,
+          "userAgent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      ["line", null],
+      [
+        "html",
+        {
+          "outputFolder": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "checkout.spec.ts",
+      "file": "checkout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "dedicated owned account reaches checkout @journey",
+          "ok": true,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9826,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:39:17.154Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "authenticated-checkout",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\checkout-dedicated-owned-account-reaches-checkout-journey-desktop\\attachments\\authenticated-checkout-25c460c118ae1b0b88b05eaff9d95f8c1f18135e.png"
+                    },
+                    {
+                      "name": "authenticated-checkout",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\checkout-dedicated-owned-account-reaches-checkout-journey-desktop\\attachments\\authenticated-checkout-348519c8b543ce01abe9676bfa2408262afe85d1.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "25ab1bfc84c57e3e3a45-1f0fac43251179edf8d9",
+          "file": "checkout.spec.ts",
+          "line": 11,
+          "column": 7
+        },
+        {
+          "title": "dedicated owned account reaches checkout @journey",
+          "ok": true,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11990,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:39:58.635Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "authenticated-checkout",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\checkout-dedicated-owned-account-reaches-checkout-journey-mobile\\attachments\\authenticated-checkout-5c97566ccd7c1979d09b3ca8967e8e99c1393e56.png"
+                    },
+                    {
+                      "name": "authenticated-checkout",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\checkout-dedicated-owned-account-reaches-checkout-journey-mobile\\attachments\\authenticated-checkout-3a0365468cdaa3decf7f3720a68db476011fdafe.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "25ab1bfc84c57e3e3a45-bf61afbf220565e624c9",
+          "file": "checkout.spec.ts",
+          "line": 11,
+          "column": 7
+        }
+      ]
+    },
+    {
+      "title": "journey.spec.ts",
+      "file": "journey.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "search, details, cart, browse and guest account entry @journey",
+          "ok": false,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 3642,
+                  "error": {
+                    "message": "Error: frame.evaluate: Error: No elements found for include in page Context\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at new Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+                    "stack": "Error: frame.evaluate: Error: No elements found for include in page Context\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at new Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at AxeBuilder.runPartialRecursive (C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@axe-core\\playwright\\dist\\index.js:315:39)\n    at AxeBuilder.analyze (C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@axe-core\\playwright\\dist\\index.js:245:39)\n    at axe (C:\\Users\\Chand\\Desktop\\QA_Round_2\\src\\journey.ts:72:18)\n    at C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts:22:113",
+                    "location": {
+                      "file": "eval at evaluate (:370:30), <anonymous>",
+                      "column": 15,
+                      "line": 19556
+                    }
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "eval at evaluate (:370:30), <anonymous>",
+                        "column": 15,
+                        "line": 19556
+                      },
+                      "message": "Error: frame.evaluate: Error: No elements found for include in page Context\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at new Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at AxeBuilder.runPartialRecursive (C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@axe-core\\playwright\\dist\\index.js:315:39)\n    at AxeBuilder.analyze (C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@axe-core\\playwright\\dist\\index.js:245:39)\n    at axe (C:\\Users\\Chand\\Desktop\\QA_Round_2\\src\\journey.ts:72:18)\n    at C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts:22:113"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:39:27.533Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "journey",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\journey-12b56e8f299e68650f11ef93fdf9d4b0093bd45d.json"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "eval at evaluate (:370:30), <anonymous>",
+                    "column": 15,
+                    "line": 19556
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "bf222bad70f76648f722-43adce7cefaafd022cf5",
+          "file": "journey.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "quantity boundary exploration @journey",
+          "ok": true,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25987,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:39:32.060Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "quantity-1",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-1-d6e06bcee65d760e4cd56b483c1c84f637bf948d.png"
+                    },
+                    {
+                      "name": "quantity-0",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-0-a54e75c3b88ef355b241942550f4900d586624ef.png"
+                    },
+                    {
+                      "name": "quantity--1",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-quantity-boundary-exploration-journey-desktop\\attachments\\quantity--1-0330a41fa8e6edf3d6ae80362c171d91942633e0.png"
+                    },
+                    {
+                      "name": "quantity-1.5",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-1-5-c5b762583c4670c7b06fc3f4fa4cc94316cb29aa.png"
+                    },
+                    {
+                      "name": "quantity-empty",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-empty-44b597e80471dedcf3146147ae9d43f406be69f8.png"
+                    },
+                    {
+                      "name": "quantity-boundaries",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-boundaries-30d24c45394609d7979855cbc4f61c6149321862.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bf222bad70f76648f722-68ee9aaec551e7ae26b8",
+          "file": "journey.spec.ts",
+          "line": 152,
+          "column": 5
+        },
+        {
+          "title": "search, details, cart, browse and guest account entry @journey",
+          "ok": false,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 3755,
+                  "error": {
+                    "message": "Error: frame.evaluate: Error: No elements found for include in page Context\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at new Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+                    "stack": "Error: frame.evaluate: Error: No elements found for include in page Context\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at new Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at AxeBuilder.runPartialRecursive (C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@axe-core\\playwright\\dist\\index.js:315:39)\n    at AxeBuilder.analyze (C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@axe-core\\playwright\\dist\\index.js:245:39)\n    at axe (C:\\Users\\Chand\\Desktop\\QA_Round_2\\src\\journey.ts:72:18)\n    at C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts:22:113",
+                    "location": {
+                      "file": "eval at evaluate (:370:30), <anonymous>",
+                      "column": 15,
+                      "line": 19556
+                    }
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "eval at evaluate (:370:30), <anonymous>",
+                        "column": 15,
+                        "line": 19556
+                      },
+                      "message": "Error: frame.evaluate: Error: No elements found for include in page Context\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at new Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at AxeBuilder.runPartialRecursive (C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@axe-core\\playwright\\dist\\index.js:315:39)\n    at AxeBuilder.analyze (C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@axe-core\\playwright\\dist\\index.js:245:39)\n    at axe (C:\\Users\\Chand\\Desktop\\QA_Round_2\\src\\journey.ts:72:18)\n    at C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts:22:113"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:40:11.225Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "journey",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\journey-e37e6514c7bfabcd67b3d5cd06dcc31d4457534b.json"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "eval at evaluate (:370:30), <anonymous>",
+                    "column": 15,
+                    "line": 19556
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "bf222bad70f76648f722-6b4d9e33adf8fce96d85",
+          "file": "journey.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "quantity boundary exploration @journey",
+          "ok": true,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 28814,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:40:15.635Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "quantity-1",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-1-78cfcfd180924d9e034d262ab05b60e07d13a328.png"
+                    },
+                    {
+                      "name": "quantity-0",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-0-9ef4f62c043dbe77df9c0ce401ebdb578b749f5c.png"
+                    },
+                    {
+                      "name": "quantity--1",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-quantity-boundary-exploration-journey-mobile\\attachments\\quantity--1-0ff9a363be19a8d674ef00a4ef64994fd741532b.png"
+                    },
+                    {
+                      "name": "quantity-1.5",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-1-5-76c6728c07ecd0d73730fbe08163ee257b42f24e.png"
+                    },
+                    {
+                      "name": "quantity-empty",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-empty-baef6319d0e3252d401b43997dedbc51389808be.png"
+                    },
+                    {
+                      "name": "quantity-boundaries",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-39-16-532Z-18276\\results\\journey-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-boundaries-ec762126624c54fcfd53fb70080327e6057ee6c9.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bf222bad70f76648f722-24a9836e1e34b870b236",
+          "file": "journey.spec.ts",
+          "line": 152,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-09T14:39:16.536Z",
+    "duration": 88123.348,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

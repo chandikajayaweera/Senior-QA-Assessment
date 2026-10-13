@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-09T14:47:54.184Z",
+  "action": "Redact previously recorded public server diagnostic responses",
+  "changed": [
+    {
+      "path": "tests-2026-10-09T14-39-16-532Z-18276/playwright-report/data/247c6ba0ecc729bd424dff39c4dc2f60b542493a.json",
+      "redactedResponses": 2
+    },
+    {
+      "path": "tests-2026-10-09T14-39-16-532Z-18276/playwright-report/data/915abcdde6da97fae6193574afd060b05e5d7fab.json",
+      "redactedResponses": 2
+    },
+    {
+      "path": "tests-2026-10-09T14-39-16-532Z-18276/results/journey-quantity-boundary-exploration-journey-desktop/attachments/quantity-boundaries-30d24c45394609d7979855cbc4f61c6149321862.json",
+      "redactedResponses": 2
+    },
+    {
+      "path": "tests-2026-10-09T14-39-16-532Z-18276/results/journey-quantity-boundary-exploration-journey-desktop/quantity-boundaries.json",
+      "redactedResponses": 2
+    },
+    {
+      "path": "tests-2026-10-09T14-39-16-532Z-18276/results/journey-quantity-boundary-exploration-journey-mobile/attachments/quantity-boundaries-ec762126624c54fcfd53fb70080327e6057ee6c9.json",
+      "redactedResponses": 2
+    },
+    {
+      "path": "tests-2026-10-09T14-39-16-532Z-18276/results/journey-quantity-boundary-exploration-journey-mobile/quantity-boundaries.json",
+      "redactedResponses": 2
+    }
+  ],
+  "responseCount": 12,
+  "scope": "Shareable artifact JSON, including attached JSON copies. No normal API response or factual result was changed."
+}

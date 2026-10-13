@@ -1,0 +1,189 @@
+{
+  "id": "INV-QUANTITY-CLIENT",
+  "checkedAt": "2026-10-09T14:43:53.562Z",
+  "request": {
+    "method": "GET",
+    "url": "https://automationexercise.com/static/js/cart.js"
+  },
+  "response": {
+    "httpStatus": 200,
+    "finalUrl": "https://automationexercise.com/static/js/cart.js",
+    "contentType": "application/javascript"
+  },
+  "sourceEvidence": "cart.js",
+  "relevantLines": [
+    {
+      "line": 1,
+      "text": "$('.add-to-cart').on('click', function() {"
+    },
+    {
+      "line": 2,
+      "text": "    var product = $(this).attr('data-product-id');"
+    },
+    {
+      "line": 3,
+      "text": "    $.ajax({"
+    },
+    {
+      "line": 4,
+      "text": "        url: \"/add_to_cart/\" + product,"
+    },
+    {
+      "line": 5,
+      "text": "        success: function(res) {"
+    },
+    {
+      "line": 6,
+      "text": "            $('#cartModal').removeClass('fade');"
+    },
+    {
+      "line": 7,
+      "text": "            $('#cartModal').addClass('show');"
+    },
+    {
+      "line": 8,
+      "text": "        }"
+    },
+    {
+      "line": 9,
+      "text": "    });"
+    },
+    {
+      "line": 10,
+      "text": "});"
+    },
+    {
+      "line": 13,
+      "text": "    $('#cartModal').removeClass('show');"
+    },
+    {
+      "line": 14,
+      "text": "    $('#cartModal').addClass('fade');"
+    },
+    {
+      "line": 15,
+      "text": "});"
+    },
+    {
+      "line": 16,
+      "text": ""
+    },
+    {
+      "line": 17,
+      "text": "$('.cart_quantity_delete').on('click', function() {"
+    },
+    {
+      "line": 18,
+      "text": "    var product = $(this).attr('data-product-id');"
+    },
+    {
+      "line": 19,
+      "text": "    $.ajax({"
+    },
+    {
+      "line": 20,
+      "text": "        url: \"/delete_cart/\" + product,"
+    },
+    {
+      "line": 21,
+      "text": "        success: function(res) {"
+    },
+    {
+      "line": 22,
+      "text": "            var id = 'product-' + product;"
+    },
+    {
+      "line": 23,
+      "text": "            document.getElementById(id).remove();"
+    },
+    {
+      "line": 24,
+      "text": "            if ($('.cart_quantity_delete').length == 0) {"
+    },
+    {
+      "line": 25,
+      "text": "                document.getElementById(\"do_action\").setAttribute('style', 'display: none;');"
+    },
+    {
+      "line": 26,
+      "text": "                document.getElementById(\"cart_info\").setAttribute('style', 'display: block;');"
+    },
+    {
+      "line": 27,
+      "text": "                document.getElementById(\"cart_info_table\").setAttribute('style', 'display: none;');"
+    },
+    {
+      "line": 28,
+      "text": "                document.getElementById(\"empty_cart\").setAttribute('style', 'display: block;');"
+    },
+    {
+      "line": 29,
+      "text": "            }"
+    },
+    {
+      "line": 30,
+      "text": "        }"
+    },
+    {
+      "line": 31,
+      "text": "    });"
+    },
+    {
+      "line": 32,
+      "text": "});"
+    },
+    {
+      "line": 33,
+      "text": ""
+    },
+    {
+      "line": 34,
+      "text": "$('.cart').on('click', function() {"
+    },
+    {
+      "line": 35,
+      "text": "    var product = document.getElementById(\"product_id\").value;"
+    },
+    {
+      "line": 36,
+      "text": "    var quantity = document.getElementById(\"quantity\").value;"
+    },
+    {
+      "line": 37,
+      "text": "    $.ajax({"
+    },
+    {
+      "line": 38,
+      "text": "        url: \"/add_to_cart/\" + product,"
+    },
+    {
+      "line": 39,
+      "text": "        data: {'quantity': quantity},"
+    },
+    {
+      "line": 40,
+      "text": "        success: function(res) {"
+    },
+    {
+      "line": 41,
+      "text": "            $('#cartModal').removeClass('fade');"
+    },
+    {
+      "line": 42,
+      "text": "            $('#cartModal').addClass('show');"
+    },
+    {
+      "line": 43,
+      "text": "        }"
+    },
+    {
+      "line": 44,
+      "text": "    });"
+    },
+    {
+      "line": 45,
+      "text": "});"
+    }
+  ],
+  "limits": "Only public client code is available. Server implementation, storage validation, and order/payment implications are not established by this source."
+}

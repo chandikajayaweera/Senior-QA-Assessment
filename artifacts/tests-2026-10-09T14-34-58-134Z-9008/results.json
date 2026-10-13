@@ -1,0 +1,199 @@
+{
+  "config": {
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.exe",
+      "C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "journey.spec.ts",
+      "--project=desktop",
+      "--project=mobile"
+    ],
+    "configFile": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\playwright.config.ts",
+    "rootDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-34-58-134Z-9008/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "api",
+        "name": "api",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/api\\.spec\\.ts/"],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-34-58-134Z-9008/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/(journey|demo)\\.spec\\.ts/"],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-34-58-134Z-9008/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/(journey|demo)\\.spec\\.ts/"],
+        "timeout": 240000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-34-58-134Z-9008\\results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "desktop",
+        "testDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "snapshotDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "https://automationexercise.com",
+          "browserName": "chromium",
+          "locale": "en-GB",
+          "timezoneId": "Asia/Colombo",
+          "actionTimeout": 10000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off",
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-34-58-134Z-9008\\results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "mobile",
+        "testDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "snapshotDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "https://automationexercise.com",
+          "browserName": "chromium",
+          "locale": "en-GB",
+          "timezoneId": "Asia/Colombo",
+          "actionTimeout": 10000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "isMobile": true,
+          "hasTouch": true,
+          "deviceScaleFactor": 1,
+          "userAgent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      ["line", null],
+      [
+        "html",
+        {
+          "outputFolder": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-34-58-134Z-9008\\playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-34-58-134Z-9008\\results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "Cannot use({ trace }) in a describe group, because it forces a new worker.\nMake it top-level in the test file or put in the configuration file.",
+      "location": {
+        "file": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts",
+        "line": 185,
+        "column": 8
+      },
+      "snippet": "\u001b[90m   at \u001b[39mjourney.spec.ts:185\n\n  183 |\n  184 | test.describe('own account checkout without order submission', () => {\n> 185 |   test.use({ trace: 'off', screenshot: 'off', video: 'off' });\n      |        ^\n  186 |   test('dedicated owned account reaches checkout @journey', async ({ page }, testInfo) => {\n  187 |     const ledger = new Ledger(testInfo, 'authenticated-checkout');\n  188 |     const api = await request.newContext({ baseURL: BASE_URL, timeout: 30000 });"
+    },
+    {
+      "message": "Cannot use({ screenshot }) in a describe group, because it forces a new worker.\nMake it top-level in the test file or put in the configuration file.",
+      "location": {
+        "file": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts",
+        "line": 185,
+        "column": 8
+      },
+      "snippet": "\u001b[90m   at \u001b[39mjourney.spec.ts:185\n\n  183 |\n  184 | test.describe('own account checkout without order submission', () => {\n> 185 |   test.use({ trace: 'off', screenshot: 'off', video: 'off' });\n      |        ^\n  186 |   test('dedicated owned account reaches checkout @journey', async ({ page }, testInfo) => {\n  187 |     const ledger = new Ledger(testInfo, 'authenticated-checkout');\n  188 |     const api = await request.newContext({ baseURL: BASE_URL, timeout: 30000 });"
+    },
+    {
+      "message": "Cannot use({ video }) in a describe group, because it forces a new worker.\nMake it top-level in the test file or put in the configuration file.",
+      "location": {
+        "file": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts",
+        "line": 185,
+        "column": 8
+      },
+      "snippet": "\u001b[90m   at \u001b[39mjourney.spec.ts:185\n\n  183 |\n  184 | test.describe('own account checkout without order submission', () => {\n> 185 |   test.use({ trace: 'off', screenshot: 'off', video: 'off' });\n      |        ^\n  186 |   test('dedicated owned account reaches checkout @journey', async ({ page }, testInfo) => {\n  187 |     const ledger = new Ledger(testInfo, 'authenticated-checkout');\n  188 |     const api = await request.newContext({ baseURL: BASE_URL, timeout: 30000 });"
+    }
+  ],
+  "stats": {
+    "startTime": "2026-10-09T14:34:58.153Z",
+    "duration": 255.688,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

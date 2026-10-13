@@ -1,0 +1,493 @@
+{
+  "values": [
+    {
+      "id": "1",
+      "name": "Blue Top",
+      "price": "Rs. 500",
+      "detailUrl": "https://automationexercise.com/product_details/1"
+    },
+    {
+      "id": "2",
+      "name": "Men Tshirt",
+      "price": "Rs. 400",
+      "detailUrl": "https://automationexercise.com/product_details/2"
+    },
+    {
+      "id": "3",
+      "name": "Sleeveless Dress",
+      "price": "Rs. 1000",
+      "detailUrl": "https://automationexercise.com/product_details/3"
+    },
+    {
+      "id": "4",
+      "name": "Stylish Dress",
+      "price": "Rs. 1500",
+      "detailUrl": "https://automationexercise.com/product_details/4"
+    },
+    {
+      "id": "5",
+      "name": "Winter Top",
+      "price": "Rs. 600",
+      "detailUrl": "https://automationexercise.com/product_details/5"
+    },
+    {
+      "id": "6",
+      "name": "Summer White Top",
+      "price": "Rs. 400",
+      "detailUrl": "https://automationexercise.com/product_details/6"
+    },
+    {
+      "id": "7",
+      "name": "Madame Top For Women",
+      "price": "Rs. 1000",
+      "detailUrl": "https://automationexercise.com/product_details/7"
+    },
+    {
+      "id": "8",
+      "name": "Fancy Green Top",
+      "price": "Rs. 700",
+      "detailUrl": "https://automationexercise.com/product_details/8"
+    },
+    {
+      "id": "11",
+      "name": "Sleeves Printed Top - White",
+      "price": "Rs. 499",
+      "detailUrl": "https://automationexercise.com/product_details/11"
+    },
+    {
+      "id": "12",
+      "name": "Half Sleeves Top Schiffli Detailing - Pink",
+      "price": "Rs. 359",
+      "detailUrl": "https://automationexercise.com/product_details/12"
+    },
+    {
+      "id": "13",
+      "name": "Frozen Tops For Kids",
+      "price": "Rs. 278",
+      "detailUrl": "https://automationexercise.com/product_details/13"
+    },
+    {
+      "id": "14",
+      "name": "Full Sleeves Top Cherry - Pink",
+      "price": "Rs. 679",
+      "detailUrl": "https://automationexercise.com/product_details/14"
+    },
+    {
+      "id": "15",
+      "name": "Printed Off Shoulder Top - White",
+      "price": "Rs. 315",
+      "detailUrl": "https://automationexercise.com/product_details/15"
+    },
+    {
+      "id": "16",
+      "name": "Sleeves Top and Short - Blue & Pink",
+      "price": "Rs. 478",
+      "detailUrl": "https://automationexercise.com/product_details/16"
+    },
+    {
+      "id": "18",
+      "name": "Little Girls Mr. Panda Shirt",
+      "price": "Rs. 1200",
+      "detailUrl": "https://automationexercise.com/product_details/18"
+    },
+    {
+      "id": "19",
+      "name": "Sleeveless Unicorn Patch Gown - Pink",
+      "price": "Rs. 1050",
+      "detailUrl": "https://automationexercise.com/product_details/19"
+    },
+    {
+      "id": "20",
+      "name": "Cotton Mull Embroidered Dress",
+      "price": "Rs. 1190",
+      "detailUrl": "https://automationexercise.com/product_details/20"
+    },
+    {
+      "id": "21",
+      "name": "Blue Cotton Indie Mickey Dress",
+      "price": "Rs. 1530",
+      "detailUrl": "https://automationexercise.com/product_details/21"
+    },
+    {
+      "id": "22",
+      "name": "Long Maxi Tulle Fancy Dress Up Outfits -Pink",
+      "price": "Rs. 1600",
+      "detailUrl": "https://automationexercise.com/product_details/22"
+    },
+    {
+      "id": "23",
+      "name": "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi",
+      "price": "Rs. 1100",
+      "detailUrl": "https://automationexercise.com/product_details/23"
+    },
+    {
+      "id": "24",
+      "name": "Colour Blocked Shirt – Sky Blue",
+      "price": "Rs. 849",
+      "detailUrl": "https://automationexercise.com/product_details/24"
+    },
+    {
+      "id": "28",
+      "name": "Pure Cotton V-Neck T-Shirt",
+      "price": "Rs. 1299",
+      "detailUrl": "https://automationexercise.com/product_details/28"
+    },
+    {
+      "id": "29",
+      "name": "Green Side Placket Detail T-Shirt",
+      "price": "Rs. 1000",
+      "detailUrl": "https://automationexercise.com/product_details/29"
+    },
+    {
+      "id": "30",
+      "name": "Premium Polo T-Shirts",
+      "price": "Rs. 1500",
+      "detailUrl": "https://automationexercise.com/product_details/30"
+    },
+    {
+      "id": "31",
+      "name": "Pure Cotton Neon Green Tshirt",
+      "price": "Rs. 850",
+      "detailUrl": "https://automationexercise.com/product_details/31"
+    },
+    {
+      "id": "33",
+      "name": "Soft Stretch Jeans",
+      "price": "Rs. 799",
+      "detailUrl": "https://automationexercise.com/product_details/33"
+    },
+    {
+      "id": "35",
+      "name": "Regular Fit Straight Jeans",
+      "price": "Rs. 1200",
+      "detailUrl": "https://automationexercise.com/product_details/35"
+    },
+    {
+      "id": "37",
+      "name": "Grunt Blue Slim Fit Jeans",
+      "price": "Rs. 1400",
+      "detailUrl": "https://automationexercise.com/product_details/37"
+    },
+    {
+      "id": "38",
+      "name": "Rose Pink Embroidered Maxi Dress",
+      "price": "Rs. 2300",
+      "detailUrl": "https://automationexercise.com/product_details/38"
+    },
+    {
+      "id": "39",
+      "name": "Cotton Silk Hand Block Print Saree",
+      "price": "Rs. 3000",
+      "detailUrl": "https://automationexercise.com/product_details/39"
+    },
+    {
+      "id": "40",
+      "name": "Rust Red Linen Saree",
+      "price": "Rs. 3500",
+      "detailUrl": "https://automationexercise.com/product_details/40"
+    },
+    {
+      "id": "41",
+      "name": "Beautiful Peacock Blue Cotton Linen Saree",
+      "price": "Rs. 5000",
+      "detailUrl": "https://automationexercise.com/product_details/41"
+    },
+    {
+      "id": "42",
+      "name": "Lace Top For Women",
+      "price": "Rs. 1400",
+      "detailUrl": "https://automationexercise.com/product_details/42"
+    },
+    {
+      "id": "43",
+      "name": "GRAPHIC DESIGN MEN T SHIRT - BLUE",
+      "price": "Rs. 1389",
+      "detailUrl": "https://automationexercise.com/product_details/43"
+    }
+  ],
+  "pagination": [],
+  "regionPresent": true,
+  "detailUrls": [
+    "https://automationexercise.com/product_details/1",
+    "https://automationexercise.com/product_details/2",
+    "https://automationexercise.com/product_details/3",
+    "https://automationexercise.com/product_details/4",
+    "https://automationexercise.com/product_details/5",
+    "https://automationexercise.com/product_details/6",
+    "https://automationexercise.com/product_details/7",
+    "https://automationexercise.com/product_details/8",
+    "https://automationexercise.com/product_details/11",
+    "https://automationexercise.com/product_details/12",
+    "https://automationexercise.com/product_details/13",
+    "https://automationexercise.com/product_details/14",
+    "https://automationexercise.com/product_details/15",
+    "https://automationexercise.com/product_details/16",
+    "https://automationexercise.com/product_details/18",
+    "https://automationexercise.com/product_details/19",
+    "https://automationexercise.com/product_details/20",
+    "https://automationexercise.com/product_details/21",
+    "https://automationexercise.com/product_details/22",
+    "https://automationexercise.com/product_details/23",
+    "https://automationexercise.com/product_details/24",
+    "https://automationexercise.com/product_details/28",
+    "https://automationexercise.com/product_details/29",
+    "https://automationexercise.com/product_details/30",
+    "https://automationexercise.com/product_details/31",
+    "https://automationexercise.com/product_details/33",
+    "https://automationexercise.com/product_details/35",
+    "https://automationexercise.com/product_details/37",
+    "https://automationexercise.com/product_details/38",
+    "https://automationexercise.com/product_details/39",
+    "https://automationexercise.com/product_details/40",
+    "https://automationexercise.com/product_details/41",
+    "https://automationexercise.com/product_details/42",
+    "https://automationexercise.com/product_details/43"
+  ],
+  "detailLinkCount": 34,
+  "linkReconciliation": {
+    "values": [
+      {
+        "id": "1",
+        "name": "Blue Top",
+        "price": "Rs. 500",
+        "detailUrl": "https://automationexercise.com/product_details/1"
+      },
+      {
+        "id": "2",
+        "name": "Men Tshirt",
+        "price": "Rs. 400",
+        "detailUrl": "https://automationexercise.com/product_details/2"
+      },
+      {
+        "id": "3",
+        "name": "Sleeveless Dress",
+        "price": "Rs. 1000",
+        "detailUrl": "https://automationexercise.com/product_details/3"
+      },
+      {
+        "id": "4",
+        "name": "Stylish Dress",
+        "price": "Rs. 1500",
+        "detailUrl": "https://automationexercise.com/product_details/4"
+      },
+      {
+        "id": "5",
+        "name": "Winter Top",
+        "price": "Rs. 600",
+        "detailUrl": "https://automationexercise.com/product_details/5"
+      },
+      {
+        "id": "6",
+        "name": "Summer White Top",
+        "price": "Rs. 400",
+        "detailUrl": "https://automationexercise.com/product_details/6"
+      },
+      {
+        "id": "7",
+        "name": "Madame Top For Women",
+        "price": "Rs. 1000",
+        "detailUrl": "https://automationexercise.com/product_details/7"
+      },
+      {
+        "id": "8",
+        "name": "Fancy Green Top",
+        "price": "Rs. 700",
+        "detailUrl": "https://automationexercise.com/product_details/8"
+      },
+      {
+        "id": "11",
+        "name": "Sleeves Printed Top - White",
+        "price": "Rs. 499",
+        "detailUrl": "https://automationexercise.com/product_details/11"
+      },
+      {
+        "id": "12",
+        "name": "Half Sleeves Top Schiffli Detailing - Pink",
+        "price": "Rs. 359",
+        "detailUrl": "https://automationexercise.com/product_details/12"
+      },
+      {
+        "id": "13",
+        "name": "Frozen Tops For Kids",
+        "price": "Rs. 278",
+        "detailUrl": "https://automationexercise.com/product_details/13"
+      },
+      {
+        "id": "14",
+        "name": "Full Sleeves Top Cherry - Pink",
+        "price": "Rs. 679",
+        "detailUrl": "https://automationexercise.com/product_details/14"
+      },
+      {
+        "id": "15",
+        "name": "Printed Off Shoulder Top - White",
+        "price": "Rs. 315",
+        "detailUrl": "https://automationexercise.com/product_details/15"
+      },
+      {
+        "id": "16",
+        "name": "Sleeves Top and Short - Blue & Pink",
+        "price": "Rs. 478",
+        "detailUrl": "https://automationexercise.com/product_details/16"
+      },
+      {
+        "id": "18",
+        "name": "Little Girls Mr. Panda Shirt",
+        "price": "Rs. 1200",
+        "detailUrl": "https://automationexercise.com/product_details/18"
+      },
+      {
+        "id": "19",
+        "name": "Sleeveless Unicorn Patch Gown - Pink",
+        "price": "Rs. 1050",
+        "detailUrl": "https://automationexercise.com/product_details/19"
+      },
+      {
+        "id": "20",
+        "name": "Cotton Mull Embroidered Dress",
+        "price": "Rs. 1190",
+        "detailUrl": "https://automationexercise.com/product_details/20"
+      },
+      {
+        "id": "21",
+        "name": "Blue Cotton Indie Mickey Dress",
+        "price": "Rs. 1530",
+        "detailUrl": "https://automationexercise.com/product_details/21"
+      },
+      {
+        "id": "22",
+        "name": "Long Maxi Tulle Fancy Dress Up Outfits -Pink",
+        "price": "Rs. 1600",
+        "detailUrl": "https://automationexercise.com/product_details/22"
+      },
+      {
+        "id": "23",
+        "name": "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi",
+        "price": "Rs. 1100",
+        "detailUrl": "https://automationexercise.com/product_details/23"
+      },
+      {
+        "id": "24",
+        "name": "Colour Blocked Shirt – Sky Blue",
+        "price": "Rs. 849",
+        "detailUrl": "https://automationexercise.com/product_details/24"
+      },
+      {
+        "id": "28",
+        "name": "Pure Cotton V-Neck T-Shirt",
+        "price": "Rs. 1299",
+        "detailUrl": "https://automationexercise.com/product_details/28"
+      },
+      {
+        "id": "29",
+        "name": "Green Side Placket Detail T-Shirt",
+        "price": "Rs. 1000",
+        "detailUrl": "https://automationexercise.com/product_details/29"
+      },
+      {
+        "id": "30",
+        "name": "Premium Polo T-Shirts",
+        "price": "Rs. 1500",
+        "detailUrl": "https://automationexercise.com/product_details/30"
+      },
+      {
+        "id": "31",
+        "name": "Pure Cotton Neon Green Tshirt",
+        "price": "Rs. 850",
+        "detailUrl": "https://automationexercise.com/product_details/31"
+      },
+      {
+        "id": "33",
+        "name": "Soft Stretch Jeans",
+        "price": "Rs. 799",
+        "detailUrl": "https://automationexercise.com/product_details/33"
+      },
+      {
+        "id": "35",
+        "name": "Regular Fit Straight Jeans",
+        "price": "Rs. 1200",
+        "detailUrl": "https://automationexercise.com/product_details/35"
+      },
+      {
+        "id": "37",
+        "name": "Grunt Blue Slim Fit Jeans",
+        "price": "Rs. 1400",
+        "detailUrl": "https://automationexercise.com/product_details/37"
+      },
+      {
+        "id": "38",
+        "name": "Rose Pink Embroidered Maxi Dress",
+        "price": "Rs. 2300",
+        "detailUrl": "https://automationexercise.com/product_details/38"
+      },
+      {
+        "id": "39",
+        "name": "Cotton Silk Hand Block Print Saree",
+        "price": "Rs. 3000",
+        "detailUrl": "https://automationexercise.com/product_details/39"
+      },
+      {
+        "id": "40",
+        "name": "Rust Red Linen Saree",
+        "price": "Rs. 3500",
+        "detailUrl": "https://automationexercise.com/product_details/40"
+      },
+      {
+        "id": "41",
+        "name": "Beautiful Peacock Blue Cotton Linen Saree",
+        "price": "Rs. 5000",
+        "detailUrl": "https://automationexercise.com/product_details/41"
+      },
+      {
+        "id": "42",
+        "name": "Lace Top For Women",
+        "price": "Rs. 1400",
+        "detailUrl": "https://automationexercise.com/product_details/42"
+      },
+      {
+        "id": "43",
+        "name": "GRAPHIC DESIGN MEN T SHIRT - BLUE",
+        "price": "Rs. 1389",
+        "detailUrl": "https://automationexercise.com/product_details/43"
+      }
+    ],
+    "missingCardIds": [],
+    "invalidDetailUrls": [],
+    "discoveredIds": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "28",
+      "29",
+      "30",
+      "31",
+      "33",
+      "35",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ]
+  }
+}

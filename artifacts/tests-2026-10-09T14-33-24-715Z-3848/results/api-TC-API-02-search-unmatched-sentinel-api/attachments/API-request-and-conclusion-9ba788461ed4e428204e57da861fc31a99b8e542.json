@@ -1,0 +1,40 @@
+{
+  "id": "TC-API-02",
+  "checkedAt": "2026-10-09T14:33:27.576Z",
+  "input": {
+    "search": {
+      "search_product": "qa_no_match_7f7b51a8795a"
+    }
+  },
+  "request": {
+    "method": "POST",
+    "url": "https://automationexercise.com/api/searchProduct",
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "form": {
+      "search_product": "qa_no_match_7f7b51a8795a"
+    },
+    "encodedBody": "search_product=qa_no_match_7f7b51a8795a"
+  },
+  "expected": "HTTP success; application code 200; an empty products list",
+  "basis": "Assumption: a successful search with no matches returns an empty collection; the documentation does not specify this case.",
+  "actual": {
+    "httpStatus": 200,
+    "statusText": "OK",
+    "finalUrl": "https://automationexercise.com/api/searchProduct",
+    "contentType": "text/html; charset=utf-8",
+    "responseCode": 200,
+    "responseBody": {
+      "responseCode": 200,
+      "products": []
+    }
+  },
+  "status": "pass",
+  "conclusion": "The unmatched sentinel returns an empty collection, consistent with the stated assumption.",
+  "ambiguity": "No-match response shape/status is not specified in API 5.",
+  "evidence": [
+    "response.txt",
+    "api-record.json"
+  ]
+}

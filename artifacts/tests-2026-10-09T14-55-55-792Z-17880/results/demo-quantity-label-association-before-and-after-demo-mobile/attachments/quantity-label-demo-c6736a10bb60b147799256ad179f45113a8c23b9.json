@@ -1,0 +1,395 @@
+{
+  "test": "quantity-label-demo",
+  "project": "mobile",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "browser": "Chromium",
+  "mobileEmulation": true,
+  "collectedAt": "2026-10-09T14:56:13.793Z",
+  "facts": {
+    "baseline": {
+      "product": {
+        "url": "https://automationexercise.com/product_details/1",
+        "name": "Blue Top",
+        "price": "Rs. 500",
+        "quantityHtml": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+        "availability": "Blue Top\n\nCategory: Women > Tops\n\nRs. 500\nQuantity:   Add to cart\n\nAvailability: In Stock\n\nCondition: New\n\nBrand: Polo"
+      },
+      "before": {
+        "aria": "- spinbutton: \"1\"",
+        "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+        "focusStyle": {
+          "outline": "rgb(105, 103, 99) none 3px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(222, 222, 220)"
+        }
+      },
+      "after": {
+        "aria": "- spinbutton: \"1\"",
+        "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+        "focusStyle": {
+          "outline": "rgb(105, 103, 99) none 3px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(222, 222, 220)"
+        }
+      },
+      "labelFocusedInput": false,
+      "focus": {
+        "tag": "BODY",
+        "id": "",
+        "text": "Home\n\t\t\t\t\t\t\t\t Products\n\t\t\t\t\t\t\t\t Cart\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t Signup / Login\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t Test Cases\n\t\t\t\t\t\t\t\t API Testing\n\t\t\t\t\t\t\t\t Video Tutorials\n\t\t\t\t\t\t\t\t Contact us\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tCategory\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tWomen\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tDress \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tTops \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSaree \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tMen\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tTshirts \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tJeans \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tKids\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tDress \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tTops & Shirts \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tBrands\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (6)Polo\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (5)H&M\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (5)Madame\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (3)Mast & Harbour\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (4)Babyhug\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (3)Allen Solly Junior\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (3)Kookie Kids\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (5)Biba\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tAdded!\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tYour product has been added to cart.\n\t\t\t\t\t\t\t\t\t\tView Cart\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tContinue Shopping\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tBlue Top\n\t\t\t\t\t\t\t\tCategory: Women > Tops\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tRs. 500\n\t\t\t\t\t\t\t\t\tQuantity:\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tAvailability: In Stock\n\t\t\t\t\t\t\t\tCondition: New\n\t\t\t\t\t\t\t\tBrand: Polo\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tWrite Your Review\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tThank you for your review.\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSubmit\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\n\n\n\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tYou have been successfully subscribed!\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tSubscription\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tGet the most recent updates from our site and be updated your self...\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tCopyright © 2021 All rights reserved\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n  \n    \n    \n\t\n    \n    \n\t\n\t\n\n\t$(\"#review-form\").on(\"submit\", function() {\n\t\t$(\"#review-section\").removeClass(\"hide\");\n\t\tsetTimeout(function(){\n\t\t\t$(\"#review-section\").addClass('hide');\n\t\t\tdocument.getElementById(\"name\").value = '';\n\t\t\tdocument.getElementById(\"email\").value = '';\n\t\t\tdocument.getElementById(\"review\").value = '';\n\t\t }, 2000);\n\t\treturn false;\n\t});",
+        "html": "<body style=\"\">\n\n\t<header id=\"header\">\n\t\t<div class=\"header-middle\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-sm-4\">\n\t\t\t\t\t\t<div class=\"logo pull-left\">\n\t\t\t\t\t\t\t<a href=\"/\"><img src=\"/static/images/home/logo.png\" alt=\"Website for automation practice\"></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-sm-8\">\n\t\t\t\t\t\t<div class=\"shop-menu pull-right\">\n\t\t\t\t\t\t\t<ul class=\"nav navbar-nav\">\n\t\t\t\t\t\t\t\t<li><a href=\"/\"><i class=\"fa fa-home\"></i> Home</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"/products\" style=\"color: orange;\"><i class=\"material-icons card_travel\" style=\"font-size: 16px;\"></i> Products</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"/view_cart\"><i class=\"fa fa-shopping-cart\"></i> Cart</a></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<li><a href=\"/login\"><i class=\"fa fa-lock\"></i> Signup / Login</a></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<li><a href=\"/test_cases\"><i class=\"fa fa-list\"></i> Test Cases</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"/api_list\"><i class=\"fa fa-list\"></i> API Testing</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"https://www.youtube.com/c/AutomationExercise\"><i class=\"fa fa-youtube-play\"></i> Video Tutorials</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"/contact_us\"><i class=\"fa fa-envelope\"></i> Contact us</a></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</header>\n\t\n\t<section>\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<div class=\"left-sidebar\">\n\t\t\t\t\t\t<h2>Category</h2>\n\t\t\t\t\t\t<div class=\"panel-group category-products\" id=\"accordian\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"panel panel-default\">\n\t\t\t\t\t\t\t\t<div class=\"panel-heading\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"panel-title\">\n\t\t\t\t\t\t\t\t\t\t<a data-toggle=\"collapse\" data-parent=\"#accordian\" href=\"#Women\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"badge pull-right\"><i class=\"fa fa-plus\"></i></span>\n\t\t\t\t\t\t\t\t\t\t\tWomen\n\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div id=\"Women\" class=\"panel-collapse collapse\">\n\t\t\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/1\">Dress </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/2\">Tops </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/7\">Saree </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"panel panel-default\">\n\t\t\t\t\t\t\t\t<div class=\"panel-heading\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"panel-title\">\n\t\t\t\t\t\t\t\t\t\t<a data-toggle=\"collapse\" data-parent=\"#accordian\" href=\"#Men\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"badge pull-right\"><i class=\"fa fa-plus\"></i></span>\n\t\t\t\t\t\t\t\t\t\t\tMen\n\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div id=\"Men\" class=\"panel-collapse collapse\">\n\t\t\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/3\">Tshirts </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/6\">Jeans </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"panel panel-default\">\n\t\t\t\t\t\t\t\t<div class=\"panel-heading\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"panel-title\">\n\t\t\t\t\t\t\t\t\t\t<a data-toggle=\"collapse\" data-parent=\"#accordian\" href=\"#Kids\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"badge pull-right\"><i class=\"fa fa-plus\"></i></span>\n\t\t\t\t\t\t\t\t\t\t\tKids\n\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div id=\"Kids\" class=\"panel-collapse collapse\">\n\t\t\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/4\">Dress </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/5\">Tops &amp; Shirts </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"brands_products\"><!--brands_products-->\n\t\t\t\t\t\t\t<h2>Brands</h2>\n\t\t\t\t\t\t\t<div class=\"brands-name\">\n\t\t\t\t\t\t\t\t<ul class=\"nav nav-pills nav-stacked\">\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Polo\"> <span class=\"pull-right\">(6)</span>Polo</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/H&amp;M\"> <span class=\"pull-right\">(5)</span>H&amp;M</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Madame\"> <span class=\"pull-right\">(5)</span>Madame</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Mast &amp; Harbour\"> <span class=\"pull-right\">(3)</span>Mast &amp; Harbour</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Babyhug\"> <span class=\"pull-right\">(4)</span>Babyhug</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Allen Solly Junior\"> <span class=\"pull-right\">(3)</span>Allen Solly Junior</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Kookie Kids\"> <span class=\"pull-right\">(3)</span>Kookie Kids</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Biba\"> <span class=\"pull-right\">(5)</span>Biba</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class=\"col-sm-9 padding-right\">\n\n\t\t\t\t\t<!-- Modal HTML -->\n\t\t\t\t\t\t<div id=\"cartModal\" class=\"modal fade\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\n\t\t\t\t\t<div class=\"product-details\">\n\t\t\t\t\t\t<div class=\"col-sm-5\">\n\t\t\t\t\t\t\t<div class=\"view-product\">\n\t\t\t\t\t\t\t\t<img src=\"/get_product_picture/1\" alt=\"ecommerce website products\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-sm-7\">\n\t\t\t\t\t\t\t<div class=\"product-information\">\n\t\t\t\t\t\t\t\t<img src=\"/static/images/product-details/new.jpg\" class=\"newarrival\" alt=\"ecommerce website products\">\n\t\t\t\t\t\t\t\t<h2>Blue Top</h2>\n\t\t\t\t\t\t\t\t<p>Category: Women &gt; Tops</p>\n\t\t\t\t\t\t\t\t<img src=\"/static/images/product-details/rating.png\" alt=\"ecommerce website products\">\n\t\t\t\t\t\t\t\t<span>\n\t\t\t\t\t\t\t\t\t<span>Rs. 500</span>\n\t\t\t\t\t\t\t\t\t<label>Quantity:</label>\n\t\t\t\t\t\t\t\t\t<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">\n\t\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"product_id\" id=\"product_id\" value=\"1\">\n\t\t\t\t\t\t\t\t\t<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t<p><b>Availability:</b> In Stock</p>\n\t\t\t\t\t\t\t\t<p><b>Condition:</b> New</p>\n\t\t\t\t\t\t\t\t<p><b>Brand:</b> Polo</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\n\n\t\t\t\t\t<div class=\"category-tab shop-details-tab\"><!--category-tab-->\n\t\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t\t\t\t\t<li class=\"active\"><a href=\"#reviews\" data-toggle=\"tab\">Write Your Review</a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tab-content\">\n\n\t\t\t\t\t\t\t<div class=\"tab-pane fade active in\" id=\"reviews\">\n\t\t\t\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t\t\t\t<form id=\"review-form\">\n\t\t\t\t\t\t\t\t\t\t<span>\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" id=\"name\" required=\"\" placeholder=\"Your Name\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"email\" id=\"email\" required=\"\" placeholder=\"Email Address\">\n\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<textarea name=\"review\" placeholder=\"Add Review Here!\" id=\"review\" required=\"\"></textarea>\n\n\t\t\t\t\t\t\t\t\t\t<div class=\"form-row hide\" id=\"review-section\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-12 form-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"alert-success alert\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span style=\"font-size: 20px;\">Thank you for your review.</span>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t\t\t<button type=\"submit\" id=\"button-review\" class=\"btn btn-default pull-right\">\n\t\t\t\t\t\t\t\t\t\t\tSubmit\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div><!--/category-tab-->\n\n\n\n\n\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n\t\n\t<footer id=\"footer\">\n\t\t<div class=\"footer-widget\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"form-row\">\n\t\t\t\t\t\t<div class=\"col-md-9 hide form-group\" id=\"success-subscribe\">\n\t\t\t\t\t\t\t<div class=\"alert-success alert\">You have been successfully subscribed!</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-sm-3 col-sm-offset-1\">\n\t\t\t\t\t\t<div class=\"single-widget\">\n\t\t\t\t\t\t\t<h2>Subscription</h2>\n\t\t\t\t\t\t\t<form class=\"searchform\" method=\"POST\">\n\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"73JC6ZggfWVgD5tZi8P5LvucpfD8G9C3Q5vVuXyh7XtEpaxWiuXbo0jCo43iWoNn\">\n\t\t\t\t\t\t\t\t<input type=\"email\" id=\"susbscribe_email\" required=\"\" placeholder=\"Your email address\">\n\t\t\t\t\t\t\t\t<button type=\"submit\" id=\"subscribe\" class=\"btn btn-default\"><i class=\"fa fa-arrow-circle-o-right\"></i></button>\n\t\t\t\t\t\t\t\t<p>Get the most recent updates from <br>our site and be updated your self...</p>\n\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"footer-bottom\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<p class=\"pull-left\">Copyright © 2021 All rights reserved</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</footer>\n  \n    <script src=\"/static/js/jquery.js\"></script><ins class=\"adsbygoogle adsbygoogle-noablate\" data-ad-hi=\"true\" data-adsbygoogle-status=\"done\" style=\"display: none !important;\"><div id=\"aswift_0_host\" style=\"border-width: medium; border-style: none; border-color: currentcolor; border-image: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;\"><iframe id=\"aswift_0\" name=\"aswift_0\" style=\"left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;min-height:auto;max-height:none;min-width:auto;max-width:none;\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\" scrolling=\"no\" src=\"https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1677597403311019&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;abgtt=6&amp;lmt=1791557767&amp;plat=3%3A65536%2C4%3A65536%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fautomationexercise.com%2Fproduct_details%2F1&amp;pra=5&amp;aiof=14&amp;asro=0&amp;aimartd=4&amp;uach=WyJBbmRyb2lkIiwiMTMiLCJhcm0iLCIiLCIxNTYuMC44MDc4LjQiLG51bGwsMSxudWxsLCI2NCIsW1siTm90OkEtQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjE1Ni4wLjgwNzguNCJdLFsiSGVhZGxlc3NDaHJvbWUiLCIxNTYuMC44MDc4LjQiXV0sMF0.&amp;dt=1791557767213&amp;bpp=2&amp;bdt=269&amp;idt=280&amp;shv=r20261007&amp;mjsv=m202610090101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;nras=1&amp;correlator=2179212629675&amp;frm=20&amp;pv=2&amp;u_tz=330&amp;u_his=2&amp;u_h=844&amp;u_w=390&amp;u_ah=844&amp;u_aw=390&amp;u_cd=24&amp;u_sd=1&amp;dmc=16&amp;adx=-12245933&amp;ady=-12245933&amp;biw=390&amp;bih=844&amp;scr_x=0&amp;scr_y=0&amp;eid=95404667%2C95404844%2C42533294%2C95390278%2C122881550&amp;oid=2&amp;pvsid=7039444409984855&amp;tmod=2075499678&amp;uas=3&amp;nvt=1&amp;fsapi=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C390%2C0%2C390%2C844%2C390%2C844&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;bz=1&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=294\" data-google-container-id=\"a!1\" tabindex=\"0\" title=\"Advertisement\" aria-label=\"Advertisement\"></iframe></div></ins>\n    <script src=\"/static/js/jquery.scrollUp.min.js\"></script>\n\t<script src=\"/static/js/bootstrap.min.js\"></script>\n    <script src=\"/static/js/jquery.prettyPhoto.js\"></script>\n    <script src=\"/static/js/main.js\"></script>\n\t<script src=\"/static/js/cart.js\"></script>\n\t<script src=\"/static/js/subscription.js\"></script>\n<script type=\"text/javascript\">\n\t$(\"#review-form\").on(\"submit\", function() {\n\t\t$(\"#review-section\").removeClass(\"hide\");\n\t\tsetTimeout(function(){\n\t\t\t$(\"#review-section\").addClass('hide');\n\t\t\tdocument.getElementById(\"name\").value = '';\n\t\t\tdocument.getElementById(\"email\").value = '';\n\t\t\tdocument.getElementById(\"review\").value = '';\n\t\t }, 2000);\n\t\treturn false;\n\t});\n</script>\n\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920\" integrity=\"sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;cd4e8a3390ec4a29b8f61484a473eff3&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>\n\n<a id=\"scrollUp\" href=\"#top\" style=\"position: fixed; z-index: 2147483647; opacity: 0.53923;\"><i class=\"fa fa-angle-up\"></i></a></body>"
+      },
+      "layout": {
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "documentWidth": 390,
+          "horizontalOverflow": false
+        },
+        "control": {
+          "x": 143.8125,
+          "y": 815.5625,
+          "width": 50,
+          "height": 33,
+          "withinWidth": true,
+          "hitIsControl": true
+        }
+      },
+      "labelHtml": "<label>Quantity:</label>"
+    },
+    "patched": {
+      "product": {
+        "url": "https://automationexercise.com/product_details/1",
+        "name": "Blue Top",
+        "price": "Rs. 500",
+        "quantityHtml": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+        "availability": "Blue Top\n\nCategory: Women > Tops\n\nRs. 500\nQuantity:   Add to cart\n\nAvailability: In Stock\n\nCondition: New\n\nBrand: Polo"
+      },
+      "before": {
+        "aria": "- spinbutton: \"1\"",
+        "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+        "focusStyle": {
+          "outline": "rgb(105, 103, 99) none 3px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(222, 222, 220)"
+        }
+      },
+      "after": {
+        "aria": "- spinbutton \"Quantity:\": \"1\"",
+        "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+        "focusStyle": {
+          "outline": "rgb(105, 103, 99) none 3px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(222, 222, 220)"
+        }
+      },
+      "labelFocusedInput": true,
+      "focus": {
+        "tag": "INPUT",
+        "id": "quantity",
+        "text": "",
+        "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">"
+      },
+      "layout": {
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "documentWidth": 390,
+          "horizontalOverflow": false
+        },
+        "control": {
+          "x": 143.8125,
+          "y": 559.5625,
+          "width": 50,
+          "height": 33,
+          "withinWidth": true,
+          "hitIsControl": true
+        }
+      },
+      "labelHtml": "<label data-qa-original-for=\"\" for=\"quantity\">Quantity:</label>"
+    }
+  },
+  "checks": [
+    {
+      "id": "DEMO-BASELINE-ASSOCIATION",
+      "checkedAt": "2026-10-09T14:56:07.801Z",
+      "input": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "patchApplied": false
+      },
+      "expected": "Visible Quantity label exposes the Quantity accessible name and focuses its input when selected",
+      "basis": "WCAG 2.2 1.3.1 and 4.1.2; native HTML label association",
+      "actual": {
+        "product": {
+          "url": "https://automationexercise.com/product_details/1",
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "quantityHtml": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+          "availability": "Blue Top\n\nCategory: Women > Tops\n\nRs. 500\nQuantity:   Add to cart\n\nAvailability: In Stock\n\nCondition: New\n\nBrand: Polo"
+        },
+        "before": {
+          "aria": "- spinbutton: \"1\"",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+          "focusStyle": {
+            "outline": "rgb(105, 103, 99) none 3px",
+            "boxShadow": "none",
+            "border": "1px solid rgb(222, 222, 220)"
+          }
+        },
+        "after": {
+          "aria": "- spinbutton: \"1\"",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+          "focusStyle": {
+            "outline": "rgb(105, 103, 99) none 3px",
+            "boxShadow": "none",
+            "border": "1px solid rgb(222, 222, 220)"
+          }
+        },
+        "labelFocusedInput": false,
+        "focus": {
+          "tag": "BODY",
+          "id": "",
+          "text": "Home\n\t\t\t\t\t\t\t\t Products\n\t\t\t\t\t\t\t\t Cart\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t Signup / Login\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t Test Cases\n\t\t\t\t\t\t\t\t API Testing\n\t\t\t\t\t\t\t\t Video Tutorials\n\t\t\t\t\t\t\t\t Contact us\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\tCategory\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tWomen\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tDress \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tTops \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSaree \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tMen\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tTshirts \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tJeans \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tKids\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tDress \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tTops & Shirts \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tBrands\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (6)Polo\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (5)H&M\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (5)Madame\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (3)Mast & Harbour\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (4)Babyhug\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (3)Allen Solly Junior\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (3)Kookie Kids\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t (5)Biba\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tAdded!\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tYour product has been added to cart.\n\t\t\t\t\t\t\t\t\t\tView Cart\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tContinue Shopping\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tBlue Top\n\t\t\t\t\t\t\t\tCategory: Women > Tops\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tRs. 500\n\t\t\t\t\t\t\t\t\tQuantity:\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tAvailability: In Stock\n\t\t\t\t\t\t\t\tCondition: New\n\t\t\t\t\t\t\t\tBrand: Polo\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\n\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tWrite Your Review\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tThank you for your review.\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tSubmit\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\n\n\n\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tYou have been successfully subscribed!\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tSubscription\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tGet the most recent updates from our site and be updated your self...\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tCopyright © 2021 All rights reserved\n\t\t\t\t\n\t\t\t\n\t\t\n\t\n  \n    \n    \n\t\n    \n    \n\t\n\t\n\n\t$(\"#review-form\").on(\"submit\", function() {\n\t\t$(\"#review-section\").removeClass(\"hide\");\n\t\tsetTimeout(function(){\n\t\t\t$(\"#review-section\").addClass('hide');\n\t\t\tdocument.getElementById(\"name\").value = '';\n\t\t\tdocument.getElementById(\"email\").value = '';\n\t\t\tdocument.getElementById(\"review\").value = '';\n\t\t }, 2000);\n\t\treturn false;\n\t});",
+          "html": "<body style=\"\">\n\n\t<header id=\"header\">\n\t\t<div class=\"header-middle\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-sm-4\">\n\t\t\t\t\t\t<div class=\"logo pull-left\">\n\t\t\t\t\t\t\t<a href=\"/\"><img src=\"/static/images/home/logo.png\" alt=\"Website for automation practice\"></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-sm-8\">\n\t\t\t\t\t\t<div class=\"shop-menu pull-right\">\n\t\t\t\t\t\t\t<ul class=\"nav navbar-nav\">\n\t\t\t\t\t\t\t\t<li><a href=\"/\"><i class=\"fa fa-home\"></i> Home</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"/products\" style=\"color: orange;\"><i class=\"material-icons card_travel\" style=\"font-size: 16px;\"></i> Products</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"/view_cart\"><i class=\"fa fa-shopping-cart\"></i> Cart</a></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<li><a href=\"/login\"><i class=\"fa fa-lock\"></i> Signup / Login</a></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<li><a href=\"/test_cases\"><i class=\"fa fa-list\"></i> Test Cases</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"/api_list\"><i class=\"fa fa-list\"></i> API Testing</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"https://www.youtube.com/c/AutomationExercise\"><i class=\"fa fa-youtube-play\"></i> Video Tutorials</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"/contact_us\"><i class=\"fa fa-envelope\"></i> Contact us</a></li>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</header>\n\t\n\t<section>\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-sm-3\">\n\t\t\t\t\t<div class=\"left-sidebar\">\n\t\t\t\t\t\t<h2>Category</h2>\n\t\t\t\t\t\t<div class=\"panel-group category-products\" id=\"accordian\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"panel panel-default\">\n\t\t\t\t\t\t\t\t<div class=\"panel-heading\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"panel-title\">\n\t\t\t\t\t\t\t\t\t\t<a data-toggle=\"collapse\" data-parent=\"#accordian\" href=\"#Women\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"badge pull-right\"><i class=\"fa fa-plus\"></i></span>\n\t\t\t\t\t\t\t\t\t\t\tWomen\n\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div id=\"Women\" class=\"panel-collapse collapse\">\n\t\t\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/1\">Dress </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/2\">Tops </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/7\">Saree </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"panel panel-default\">\n\t\t\t\t\t\t\t\t<div class=\"panel-heading\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"panel-title\">\n\t\t\t\t\t\t\t\t\t\t<a data-toggle=\"collapse\" data-parent=\"#accordian\" href=\"#Men\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"badge pull-right\"><i class=\"fa fa-plus\"></i></span>\n\t\t\t\t\t\t\t\t\t\t\tMen\n\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div id=\"Men\" class=\"panel-collapse collapse\">\n\t\t\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/3\">Tshirts </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/6\">Jeans </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"panel panel-default\">\n\t\t\t\t\t\t\t\t<div class=\"panel-heading\">\n\t\t\t\t\t\t\t\t\t<h4 class=\"panel-title\">\n\t\t\t\t\t\t\t\t\t\t<a data-toggle=\"collapse\" data-parent=\"#accordian\" href=\"#Kids\">\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"badge pull-right\"><i class=\"fa fa-plus\"></i></span>\n\t\t\t\t\t\t\t\t\t\t\tKids\n\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div id=\"Kids\" class=\"panel-collapse collapse\">\n\t\t\t\t\t\t\t\t\t<div class=\"panel-body\">\n\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/4\">Dress </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li><a href=\"/category_products/5\">Tops &amp; Shirts </a></li>\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"brands_products\"><!--brands_products-->\n\t\t\t\t\t\t\t<h2>Brands</h2>\n\t\t\t\t\t\t\t<div class=\"brands-name\">\n\t\t\t\t\t\t\t\t<ul class=\"nav nav-pills nav-stacked\">\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Polo\"> <span class=\"pull-right\">(6)</span>Polo</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/H&amp;M\"> <span class=\"pull-right\">(5)</span>H&amp;M</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Madame\"> <span class=\"pull-right\">(5)</span>Madame</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Mast &amp; Harbour\"> <span class=\"pull-right\">(3)</span>Mast &amp; Harbour</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Babyhug\"> <span class=\"pull-right\">(4)</span>Babyhug</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Allen Solly Junior\"> <span class=\"pull-right\">(3)</span>Allen Solly Junior</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Kookie Kids\"> <span class=\"pull-right\">(3)</span>Kookie Kids</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<li><a href=\"/brand_products/Biba\"> <span class=\"pull-right\">(5)</span>Biba</a></li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div class=\"col-sm-9 padding-right\">\n\n\t\t\t\t\t<!-- Modal HTML -->\n\t\t\t\t\t\t<div id=\"cartModal\" class=\"modal fade\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\n\n\t\t\t\t\t<div class=\"product-details\">\n\t\t\t\t\t\t<div class=\"col-sm-5\">\n\t\t\t\t\t\t\t<div class=\"view-product\">\n\t\t\t\t\t\t\t\t<img src=\"/get_product_picture/1\" alt=\"ecommerce website products\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-sm-7\">\n\t\t\t\t\t\t\t<div class=\"product-information\">\n\t\t\t\t\t\t\t\t<img src=\"/static/images/product-details/new.jpg\" class=\"newarrival\" alt=\"ecommerce website products\">\n\t\t\t\t\t\t\t\t<h2>Blue Top</h2>\n\t\t\t\t\t\t\t\t<p>Category: Women &gt; Tops</p>\n\t\t\t\t\t\t\t\t<img src=\"/static/images/product-details/rating.png\" alt=\"ecommerce website products\">\n\t\t\t\t\t\t\t\t<span>\n\t\t\t\t\t\t\t\t\t<span>Rs. 500</span>\n\t\t\t\t\t\t\t\t\t<label>Quantity:</label>\n\t\t\t\t\t\t\t\t\t<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">\n\t\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"product_id\" id=\"product_id\" value=\"1\">\n\t\t\t\t\t\t\t\t\t<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t<p><b>Availability:</b> In Stock</p>\n\t\t\t\t\t\t\t\t<p><b>Condition:</b> New</p>\n\t\t\t\t\t\t\t\t<p><b>Brand:</b> Polo</p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\n\n\t\t\t\t\t<div class=\"category-tab shop-details-tab\"><!--category-tab-->\n\t\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t\t<ul class=\"nav nav-tabs\">\n\t\t\t\t\t\t\t\t<li class=\"active\"><a href=\"#reviews\" data-toggle=\"tab\">Write Your Review</a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"tab-content\">\n\n\t\t\t\t\t\t\t<div class=\"tab-pane fade active in\" id=\"reviews\">\n\t\t\t\t\t\t\t\t<div class=\"col-sm-12\">\n\t\t\t\t\t\t\t\t\t<form id=\"review-form\">\n\t\t\t\t\t\t\t\t\t\t<span>\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" id=\"name\" required=\"\" placeholder=\"Your Name\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"email\" id=\"email\" required=\"\" placeholder=\"Email Address\">\n\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<textarea name=\"review\" placeholder=\"Add Review Here!\" id=\"review\" required=\"\"></textarea>\n\n\t\t\t\t\t\t\t\t\t\t<div class=\"form-row hide\" id=\"review-section\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-12 form-group\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"alert-success alert\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span style=\"font-size: 20px;\">Thank you for your review.</span>\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t\t\t<button type=\"submit\" id=\"button-review\" class=\"btn btn-default pull-right\">\n\t\t\t\t\t\t\t\t\t\t\tSubmit\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div><!--/category-tab-->\n\n\n\n\n\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n\t\n\t<footer id=\"footer\">\n\t\t<div class=\"footer-widget\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"form-row\">\n\t\t\t\t\t\t<div class=\"col-md-9 hide form-group\" id=\"success-subscribe\">\n\t\t\t\t\t\t\t<div class=\"alert-success alert\">You have been successfully subscribed!</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-sm-3 col-sm-offset-1\">\n\t\t\t\t\t\t<div class=\"single-widget\">\n\t\t\t\t\t\t\t<h2>Subscription</h2>\n\t\t\t\t\t\t\t<form class=\"searchform\" method=\"POST\">\n\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"73JC6ZggfWVgD5tZi8P5LvucpfD8G9C3Q5vVuXyh7XtEpaxWiuXbo0jCo43iWoNn\">\n\t\t\t\t\t\t\t\t<input type=\"email\" id=\"susbscribe_email\" required=\"\" placeholder=\"Your email address\">\n\t\t\t\t\t\t\t\t<button type=\"submit\" id=\"subscribe\" class=\"btn btn-default\"><i class=\"fa fa-arrow-circle-o-right\"></i></button>\n\t\t\t\t\t\t\t\t<p>Get the most recent updates from <br>our site and be updated your self...</p>\n\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"footer-bottom\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<p class=\"pull-left\">Copyright © 2021 All rights reserved</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</footer>\n  \n    <script src=\"/static/js/jquery.js\"></script><ins class=\"adsbygoogle adsbygoogle-noablate\" data-ad-hi=\"true\" data-adsbygoogle-status=\"done\" style=\"display: none !important;\"><div id=\"aswift_0_host\" style=\"border-width: medium; border-style: none; border-color: currentcolor; border-image: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;\"><iframe id=\"aswift_0\" name=\"aswift_0\" style=\"left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;min-height:auto;max-height:none;min-width:auto;max-width:none;\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" vspace=\"0\" hspace=\"0\" allowtransparency=\"true\" scrolling=\"no\" src=\"https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1677597403311019&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;abgtt=6&amp;lmt=1791557767&amp;plat=3%3A65536%2C4%3A65536%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fautomationexercise.com%2Fproduct_details%2F1&amp;pra=5&amp;aiof=14&amp;asro=0&amp;aimartd=4&amp;uach=WyJBbmRyb2lkIiwiMTMiLCJhcm0iLCIiLCIxNTYuMC44MDc4LjQiLG51bGwsMSxudWxsLCI2NCIsW1siTm90OkEtQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjE1Ni4wLjgwNzguNCJdLFsiSGVhZGxlc3NDaHJvbWUiLCIxNTYuMC44MDc4LjQiXV0sMF0.&amp;dt=1791557767213&amp;bpp=2&amp;bdt=269&amp;idt=280&amp;shv=r20261007&amp;mjsv=m202610090101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;nras=1&amp;correlator=2179212629675&amp;frm=20&amp;pv=2&amp;u_tz=330&amp;u_his=2&amp;u_h=844&amp;u_w=390&amp;u_ah=844&amp;u_aw=390&amp;u_cd=24&amp;u_sd=1&amp;dmc=16&amp;adx=-12245933&amp;ady=-12245933&amp;biw=390&amp;bih=844&amp;scr_x=0&amp;scr_y=0&amp;eid=95404667%2C95404844%2C42533294%2C95390278%2C122881550&amp;oid=2&amp;pvsid=7039444409984855&amp;tmod=2075499678&amp;uas=3&amp;nvt=1&amp;fsapi=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C390%2C0%2C390%2C844%2C390%2C844&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;bz=1&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=294\" data-google-container-id=\"a!1\" tabindex=\"0\" title=\"Advertisement\" aria-label=\"Advertisement\"></iframe></div></ins>\n    <script src=\"/static/js/jquery.scrollUp.min.js\"></script>\n\t<script src=\"/static/js/bootstrap.min.js\"></script>\n    <script src=\"/static/js/jquery.prettyPhoto.js\"></script>\n    <script src=\"/static/js/main.js\"></script>\n\t<script src=\"/static/js/cart.js\"></script>\n\t<script src=\"/static/js/subscription.js\"></script>\n<script type=\"text/javascript\">\n\t$(\"#review-form\").on(\"submit\", function() {\n\t\t$(\"#review-section\").removeClass(\"hide\");\n\t\tsetTimeout(function(){\n\t\t\t$(\"#review-section\").addClass('hide');\n\t\t\tdocument.getElementById(\"name\").value = '';\n\t\t\tdocument.getElementById(\"email\").value = '';\n\t\t\tdocument.getElementById(\"review\").value = '';\n\t\t }, 2000);\n\t\treturn false;\n\t});\n</script>\n\n<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920\" integrity=\"sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;cd4e8a3390ec4a29b8f61484a473eff3&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}\" crossorigin=\"anonymous\"></script>\n\n<a id=\"scrollUp\" href=\"#top\" style=\"position: fixed; z-index: 2147483647; opacity: 0.53923;\"><i class=\"fa fa-angle-up\"></i></a></body>"
+        },
+        "layout": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "documentWidth": 390,
+            "horizontalOverflow": false
+          },
+          "control": {
+            "x": 143.8125,
+            "y": 815.5625,
+            "width": 50,
+            "height": 33,
+            "withinWidth": true,
+            "hitIsControl": true
+          }
+        },
+        "labelHtml": "<label>Quantity:</label>"
+      },
+      "status": "fail",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-55-55-792Z-17880/results/demo-quantity-label-association-before-and-after-demo-mobile/quantity-label-baseline.png"
+      ]
+    },
+    {
+      "id": "DEMO-BASELINE-CART",
+      "checkedAt": "2026-10-09T14:56:09.411Z",
+      "input": {
+        "product": "Blue Top",
+        "quantity": 3,
+        "keyboardAdd": true
+      },
+      "expected": "Keyboard add preserves unit price, quantity 3, correct total, and success feedback",
+      "basis": "Assessment improvement regression requirement",
+      "actual": {
+        "feedback": {
+          "requestObserved": true,
+          "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=3",
+          "status": 200,
+          "body": "Added To Cart",
+          "responseDiagnostic": null,
+          "modalVisible": true,
+          "modalText": "\nAdded!\n\nYour product has been added to cart.\n\nView Cart\n\nContinue Shopping",
+          "focus": {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Add to cart",
+            "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+          },
+          "modalHtml": "<div id=\"cartModal\" class=\"modal show\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+        },
+        "cart": [
+          {
+            "id": "product-1",
+            "name": "Blue Top",
+            "price": "Rs. 500",
+            "quantity": "3",
+            "total": "Rs. 1500",
+            "html": "<tr id=\"product-1\">\n\t\t\t\t\t\t\t<td class=\"cart_product\">\n\t\t\t\t\t\t\t\t<a href=\"\"><img src=\"get_product_picture/1\" style=\"width:80px; height: 80px;\" class=\"product_image\" alt=\"Product Image\"></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_description\">\n\t\t\t\t\t\t\t\t<h4><a href=\"/product_details/1\">Blue Top</a></h4>\n\t\t\t\t\t\t\t\t<p>Women &gt; Tops</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_price\">\n\t\t\t\t\t\t\t\t<p>Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_quantity\">\n\t\t\t\t\t\t\t\t<button class=\"disabled\">3</button>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_total\">\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 1500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_delete\">\n\t\t\t\t\t\t\t\t<a class=\"cart_quantity_delete\" style=\"cursor: pointer;\" data-product-id=\"1\"><i class=\"fa fa-times\"></i></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>"
+          }
+        ]
+      },
+      "status": "pass",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-55-55-792Z-17880/results/demo-quantity-label-association-before-and-after-demo-mobile/quantity-label-baseline-cart.png"
+      ]
+    },
+    {
+      "id": "DEMO-PATCHED-ASSOCIATION",
+      "checkedAt": "2026-10-09T14:56:11.553Z",
+      "input": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "patchApplied": true
+      },
+      "expected": "Visible Quantity label exposes the Quantity accessible name and focuses its input when selected",
+      "basis": "WCAG 2.2 1.3.1 and 4.1.2; native HTML label association",
+      "actual": {
+        "product": {
+          "url": "https://automationexercise.com/product_details/1",
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "quantityHtml": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+          "availability": "Blue Top\n\nCategory: Women > Tops\n\nRs. 500\nQuantity:   Add to cart\n\nAvailability: In Stock\n\nCondition: New\n\nBrand: Polo"
+        },
+        "before": {
+          "aria": "- spinbutton: \"1\"",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+          "focusStyle": {
+            "outline": "rgb(105, 103, 99) none 3px",
+            "boxShadow": "none",
+            "border": "1px solid rgb(222, 222, 220)"
+          }
+        },
+        "after": {
+          "aria": "- spinbutton \"Quantity:\": \"1\"",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+          "focusStyle": {
+            "outline": "rgb(105, 103, 99) none 3px",
+            "boxShadow": "none",
+            "border": "1px solid rgb(222, 222, 220)"
+          }
+        },
+        "labelFocusedInput": true,
+        "focus": {
+          "tag": "INPUT",
+          "id": "quantity",
+          "text": "",
+          "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">"
+        },
+        "layout": {
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "documentWidth": 390,
+            "horizontalOverflow": false
+          },
+          "control": {
+            "x": 143.8125,
+            "y": 559.5625,
+            "width": 50,
+            "height": 33,
+            "withinWidth": true,
+            "hitIsControl": true
+          }
+        },
+        "labelHtml": "<label data-qa-original-for=\"\" for=\"quantity\">Quantity:</label>"
+      },
+      "status": "pass",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-55-55-792Z-17880/results/demo-quantity-label-association-before-and-after-demo-mobile/quantity-label-patched.png"
+      ]
+    },
+    {
+      "id": "DEMO-KEYBOARD-EDIT",
+      "checkedAt": "2026-10-09T14:56:11.588Z",
+      "input": "Select associated label, Ctrl+A, type 3",
+      "expected": "Quantity remains directly editable by keyboard",
+      "basis": "Preserve existing input behaviour; WCAG 2.2 2.1.1",
+      "actual": {
+        "inputValue": "3"
+      },
+      "status": "pass",
+      "evidencepaths": []
+    },
+    {
+      "id": "DEMO-REMOVE",
+      "checkedAt": "2026-10-09T14:56:11.602Z",
+      "input": "Run window.removeQuantityLabelDemo()",
+      "expected": "Original label attribute is restored",
+      "basis": "Reversible browser-applied demonstration",
+      "actual": {
+        "originalFor": "",
+        "restoredFor": null
+      },
+      "status": "pass",
+      "evidencepaths": []
+    },
+    {
+      "id": "DEMO-PATCHED-CART",
+      "checkedAt": "2026-10-09T14:56:13.626Z",
+      "input": {
+        "product": "Blue Top",
+        "quantity": 3,
+        "keyboardAdd": true
+      },
+      "expected": "Keyboard add preserves unit price, quantity 3, correct total, and success feedback",
+      "basis": "Assessment improvement regression requirement",
+      "actual": {
+        "feedback": {
+          "requestObserved": true,
+          "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=3",
+          "status": 200,
+          "body": "Added To Cart",
+          "responseDiagnostic": null,
+          "modalVisible": true,
+          "modalText": "\nAdded!\n\nYour product has been added to cart.\n\nView Cart\n\nContinue Shopping",
+          "focus": {
+            "tag": "BUTTON",
+            "id": "",
+            "text": "Add to cart",
+            "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+          },
+          "modalHtml": "<div id=\"cartModal\" class=\"modal show\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+        },
+        "cart": [
+          {
+            "id": "product-1",
+            "name": "Blue Top",
+            "price": "Rs. 500",
+            "quantity": "3",
+            "total": "Rs. 1500",
+            "html": "<tr id=\"product-1\">\n\t\t\t\t\t\t\t<td class=\"cart_product\">\n\t\t\t\t\t\t\t\t<a href=\"\"><img src=\"get_product_picture/1\" style=\"width:80px; height: 80px;\" class=\"product_image\" alt=\"Product Image\"></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_description\">\n\t\t\t\t\t\t\t\t<h4><a href=\"/product_details/1\">Blue Top</a></h4>\n\t\t\t\t\t\t\t\t<p>Women &gt; Tops</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_price\">\n\t\t\t\t\t\t\t\t<p>Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_quantity\">\n\t\t\t\t\t\t\t\t<button class=\"disabled\">3</button>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_total\">\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 1500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_delete\">\n\t\t\t\t\t\t\t\t<a class=\"cart_quantity_delete\" style=\"cursor: pointer;\" data-product-id=\"1\"><i class=\"fa fa-times\"></i></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>"
+          }
+        ]
+      },
+      "status": "pass",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-55-55-792Z-17880/results/demo-quantity-label-association-before-and-after-demo-mobile/quantity-label-patched-cart.png"
+      ]
+    },
+    {
+      "id": "DEMO-CART-UNCHANGED",
+      "checkedAt": "2026-10-09T14:56:13.792Z",
+      "input": {
+        "baselineCart": [
+          {
+            "id": "product-1",
+            "name": "Blue Top",
+            "price": "Rs. 500",
+            "quantity": "3",
+            "total": "Rs. 1500"
+          }
+        ],
+        "patchedCart": [
+          {
+            "id": "product-1",
+            "name": "Blue Top",
+            "price": "Rs. 500",
+            "quantity": "3",
+            "total": "Rs. 1500"
+          }
+        ]
+      },
+      "expected": "Baseline and patched cart values match exactly",
+      "basis": "Frontend change modifies only label association",
+      "actual": {
+        "equal": true
+      },
+      "status": "pass",
+      "evidencepaths": []
+    }
+  ]
+}

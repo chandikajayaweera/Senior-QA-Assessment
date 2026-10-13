@@ -1,0 +1,26 @@
+{
+    "review":  "Focused read-only trace archive marker scan",
+    "startedAt":  "2026-10-09T15:03:31.9952170Z",
+    "finishedAt":  "2026-10-09T15:03:33.9974589Z",
+    "elapsedMs":  2002,
+    "archivesChecked":  8,
+    "zipEntriesTotal":  1790,
+    "entriesScanned":  1764,
+    "entriesSkipped":  26,
+    "maximumEntryBytes":  2097152,
+    "markersChecked":  [
+                           "djangoVersionText",
+                           "ownedSyntheticAccountIdentity",
+                           "tracebackElementId"
+                       ],
+    "matchedEntryCounts":  {
+                               "ownedSyntheticAccountIdentity":  0,
+                               "tracebackElementId":  0,
+                               "djangoVersionText":  0
+                           },
+    "markerMatches":  [
+
+                      ],
+    "scope":  "Retained .zip trace archives under artifacts; nonempty entries no larger than 2 MiB were decoded and scanned in memory.",
+    "limitations":  "This is a targeted marker scan, not a comprehensive secret scan. Empty/large entries and non-ZIP files were not covered. No raw entry contents, settings, cookies or credential values were printed or retained."
+}

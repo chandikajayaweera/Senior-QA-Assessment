@@ -1,0 +1,106 @@
+﻿{
+    "runId":  "mobile-touch-2026-10-09T15-01-50-447Z-6076",
+    "startedAt":  "2026-10-09T15:01:50.447Z",
+    "finishedAt":  "2026-10-09T15:02:29.795Z",
+    "browser":  "156.0.8078.4",
+    "viewport":  {
+                     "width":  390,
+                     "height":  844
+                 },
+    "hasTouch":  true,
+    "physicalDevice":  false,
+    "checks":  [
+                   {
+                       "id":  "TOUCH-SEARCH",
+                       "checkedAt":  "2026-10-09T15:01:54.197Z",
+                       "input":  "390 x 844 touch-enabled Chromium emulation",
+                       "expected":  "Tapping search opens current matching results",
+                       "basis":  "Assessment mobile usability; emulated touch events, not a physical-device test",
+                       "actual":  {
+                                      "url":  "https://automationexercise.com/products?search=top",
+                                      "resultHeading":  "SEARCHED PRODUCTS"
+                                  },
+                       "status":  "pass"
+                   },
+                   {
+                       "id":  "TOUCH-ADD",
+                       "checkedAt":  "2026-10-09T15:01:56.175Z",
+                       "input":  "390 x 844 touch-enabled Chromium emulation",
+                       "expected":  "Tapping add with quantity 3 shows a successful confirmation",
+                       "basis":  "Assessment mobile usability; emulated touch events, not a physical-device test",
+                       "actual":  {
+                                      "httpStatus":  200,
+                                      "requestUrl":  "https://automationexercise.com/add_to_cart/1?quantity=3",
+                                      "message":  "\nAdded!\n\nYour product has been added to cart.\n\nView Cart\n\nContinue Shopping"
+                                  },
+                       "status":  "pass"
+                   },
+                   {
+                       "id":  "TOUCH-CART-PAN",
+                       "checkedAt":  "2026-10-09T15:01:57.639Z",
+                       "input":  "390 x 844 touch-enabled Chromium emulation",
+                       "expected":  "An emulated leftward swipe exposes horizontally clipped cart columns",
+                       "basis":  "Assessment mobile usability; emulated touch events, not a physical-device test",
+                       "actual":  {
+                                      "before":  {
+                                                     "id":  "cart_info",
+                                                     "className":  "table-responsive cart_info",
+                                                     "scrollLeft":  0,
+                                                     "scrollWidth":  454,
+                                                     "clientWidth":  358,
+                                                     "rect":  {
+                                                                  "top":  453,
+                                                                  "left":  15,
+                                                                  "right":  375,
+                                                                  "height":  168
+                                                              }
+                                                 },
+                                      "after":  {
+                                                    "id":  "cart_info",
+                                                    "className":  "table-responsive cart_info",
+                                                    "scrollLeft":  96,
+                                                    "scrollWidth":  454,
+                                                    "clientWidth":  358,
+                                                    "rect":  {
+                                                                 "top":  453,
+                                                                 "left":  15,
+                                                                 "right":  375,
+                                                                 "height":  168
+                                                             }
+                                                },
+                                      "implementation":  "Chromium Input.dispatchTouchEvent start/move/end",
+                                      "documentWidth":  390
+                                  },
+                       "status":  "pass"
+                   },
+                   {
+                       "id":  "TOUCH-REMOVE-VISIBILITY",
+                       "checkedAt":  "2026-10-09T15:01:57.645Z",
+                       "input":  "390 x 844 touch-enabled Chromium emulation",
+                       "expected":  "The removal control is visible after the table swipe",
+                       "basis":  "Assessment mobile usability; emulated touch events, not a physical-device test",
+                       "actual":  {
+                                      "x":  342.09375,
+                                      "y":  549.625,
+                                      "width":  26.578125,
+                                      "height":  27
+                                  },
+                       "status":  "pass"
+                   },
+                   {
+                       "id":  "TOUCH-EXECUTION",
+                       "checkedAt":  "2026-10-09T15:02:27.766Z",
+                       "expected":  "Complete the touch smoke",
+                       "actual":  "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator(\u0027#product-1\u0027) to be detached\u001b[22m\n\u001b[2m    63 × locator resolved to visible \u003ctr id=\"product-1\"\u003e…\u003c/tr\u003e\u001b[22m\n",
+                       "status":  "blocked"
+                   }
+               ],
+    "screenshots":  [
+                        "mobile-cart-before-pan.png",
+                        "mobile-cart-after-pan.png"
+                    ],
+    "unavailableScreenshots":  [
+                                   "mobile-cart-after-remove.png"
+                               ],
+    "evidenceNote":  "Only created screenshots are listed; the after-remove image was not created because this attempt was blocked. Check outcomes are unchanged."
+}

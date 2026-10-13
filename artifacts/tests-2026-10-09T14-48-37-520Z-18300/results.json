@@ -1,0 +1,677 @@
+{
+  "config": {
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.exe",
+      "C:\\Users\\Chand\\Desktop\\QA_Round_2\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--grep",
+      "@journey",
+      "--project=desktop",
+      "--project=mobile"
+    ],
+    "configFile": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\playwright.config.ts",
+    "rootDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-48-37-520Z-18300/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "api",
+        "name": "api",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/api\\.spec\\.ts/"],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-48-37-520Z-18300/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "desktop",
+        "name": "desktop",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/(journey|boundaries|checkout|demo)\\.spec\\.ts/"],
+        "timeout": 240000
+      },
+      {
+        "outputDir": "C:/Users/Chand/Desktop/QA_Round_2/artifacts/tests-2026-10-09T14-48-37-520Z-18300/results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "mobile",
+        "name": "mobile",
+        "testDir": "C:/Users/Chand/Desktop/QA_Round_2/tests",
+        "testIgnore": [],
+        "testMatch": ["/(journey|boundaries|checkout|demo)\\.spec\\.ts/"],
+        "timeout": 240000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "desktop",
+        "testDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "snapshotDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "https://automationexercise.com",
+          "browserName": "chromium",
+          "locale": "en-GB",
+          "timezoneId": "Asia/Colombo",
+          "actionTimeout": 10000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off",
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "mobile",
+        "testDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "snapshotDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests",
+        "testIgnore": [],
+        "testMatch": {},
+        "timeout": 240000,
+        "use": {
+          "baseURL": "https://automationexercise.com",
+          "browserName": "chromium",
+          "locale": "en-GB",
+          "timezoneId": "Asia/Colombo",
+          "actionTimeout": 10000,
+          "navigationTimeout": 30000,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "off",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "isMobile": true,
+          "hasTouch": true,
+          "deviceScaleFactor": 1,
+          "userAgent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      ["line", null],
+      [
+        "html",
+        {
+          "outputFolder": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "boundaries.spec.ts",
+      "file": "boundaries.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "quantity boundary exploration @journey",
+          "ok": true,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26148,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:48:38.164Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "quantity-1-feedback",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-1-feedback-4fc498885326525bacd132e823ca7d10d9d640cd.png"
+                    },
+                    {
+                      "name": "quantity-1",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-1-1f4b3acc4693cfef15eac1e2fe9df974382bf2cc.png"
+                    },
+                    {
+                      "name": "quantity-0-feedback",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-0-feedback-a04e17ecbbbbc7cf0e266692907b73de1af2d355.png"
+                    },
+                    {
+                      "name": "quantity-0",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-0-14fdf8342a54bdbb3bfa3883e6c3989ee1792eb3.png"
+                    },
+                    {
+                      "name": "quantity--1-feedback",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-desktop\\attachments\\quantity--1-feedback-737683514e3f0e74f64e5453cabcb9404a45fa66.png"
+                    },
+                    {
+                      "name": "quantity--1",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-desktop\\attachments\\quantity--1-0ca410ee824de96c9a754883c63c578fa803176a.png"
+                    },
+                    {
+                      "name": "quantity-1.5-feedback",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-1-5-feedback-5f6856e37096f04938ef5b2f97daaccd8c19ae65.png"
+                    },
+                    {
+                      "name": "quantity-1.5",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-1-5-1c024964df9ade73ae4ca701fc4253641ba856af.png"
+                    },
+                    {
+                      "name": "quantity-empty-feedback",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-empty-feedback-404d235da6632664c9e9dda0be97a543c9289368.png"
+                    },
+                    {
+                      "name": "quantity-empty",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-empty-1a2bcb2f328d0b2244e58a50f8666477f4bcefa4.png"
+                    },
+                    {
+                      "name": "quantity-boundaries",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-desktop\\attachments\\quantity-boundaries-35bcb3457a03bed6682ea976e95b9b9bbbd0c9e8.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a0a85330a59013ae9a19-572930cb935663cfa4b0",
+          "file": "boundaries.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "quantity boundary exploration @journey",
+          "ok": true,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26376,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:49:37.629Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "quantity-1-feedback",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-1-feedback-6418fb215ebebd71fff76fb3567f6a94262a5be5.png"
+                    },
+                    {
+                      "name": "quantity-1",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-1-ee38ade456ab3477cc5e7b48b53cd9d7a6c32619.png"
+                    },
+                    {
+                      "name": "quantity-0-feedback",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-0-feedback-679dfdfa963cdf37d4882a257224a623086ff05b.png"
+                    },
+                    {
+                      "name": "quantity-0",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-0-389eb56ebad9eed372078ba4a8115f86240eb3cb.png"
+                    },
+                    {
+                      "name": "quantity--1-feedback",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-mobile\\attachments\\quantity--1-feedback-62f45eee9f69b130815f9a652156fcdd437fafd9.png"
+                    },
+                    {
+                      "name": "quantity--1",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-mobile\\attachments\\quantity--1-9dc492d1c8449056876375b440b36ff42c63c459.png"
+                    },
+                    {
+                      "name": "quantity-1.5-feedback",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-1-5-feedback-b588c4fae60fc9e4695278f925f654f501950516.png"
+                    },
+                    {
+                      "name": "quantity-1.5",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-1-5-0d93cc52c208473d1238feda17565b3a092ca553.png"
+                    },
+                    {
+                      "name": "quantity-empty-feedback",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-empty-feedback-97dbf0e9b372292890f4b05e367440280ee6d311.png"
+                    },
+                    {
+                      "name": "quantity-empty",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-empty-dbf26d0111333ee4bd3dacc8dd3c465d3663cfa5.png"
+                    },
+                    {
+                      "name": "quantity-boundaries",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-mobile\\attachments\\quantity-boundaries-d5e7bccdfefe5895e267d6163fe384083cb3d524.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a0a85330a59013ae9a19-79f12644f8badb78c9d3",
+          "file": "boundaries.spec.ts",
+          "line": 9,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "checkout.spec.ts",
+      "file": "checkout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "dedicated owned account reaches checkout @journey",
+          "ok": true,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10987,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:49:04.402Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "authenticated-checkout",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\checkout-dedicated-owned-account-reaches-checkout-journey-desktop\\attachments\\authenticated-checkout-de1d321c3812c064106e91bf81779710fdf1296b.png"
+                    },
+                    {
+                      "name": "authenticated-checkout",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\checkout-dedicated-owned-account-reaches-checkout-journey-desktop\\attachments\\authenticated-checkout-bae7ec450c687b37ce8fd700d88a111f223bf89c.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "25ab1bfc84c57e3e3a45-1f0fac43251179edf8d9",
+          "file": "checkout.spec.ts",
+          "line": 11,
+          "column": 7
+        },
+        {
+          "title": "dedicated owned account reaches checkout @journey",
+          "ok": true,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12875,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:50:04.104Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "authenticated-checkout",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\checkout-dedicated-owned-account-reaches-checkout-journey-mobile\\attachments\\authenticated-checkout-701f36985fdf65246cd358f381f08b572e17c814.png"
+                    },
+                    {
+                      "name": "authenticated-checkout",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\checkout-dedicated-owned-account-reaches-checkout-journey-mobile\\attachments\\authenticated-checkout-cecc36eb1d45ee575fabe8a655b0087827a2d775.json"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "25ab1bfc84c57e3e3a45-bf61afbf220565e624c9",
+          "file": "checkout.spec.ts",
+          "line": 11,
+          "column": 7
+        }
+      ]
+    },
+    {
+      "title": "journey.spec.ts",
+      "file": "journey.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "search, details, cart, browse and guest account entry @journey",
+          "ok": false,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop",
+              "projectName": "desktop",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 20640,
+                  "error": {
+                    "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#Women a').filter({ hasText: /^Tops$/ })\u001b[22m\n",
+                    "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#Women a').filter({ hasText: /^Tops$/ })\u001b[22m\n\n    at C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts:105:20",
+                    "location": {
+                      "file": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts",
+                      "column": 20,
+                      "line": 105
+                    },
+                    "snippet": "  103 |     await page.locator('.left-sidebar a[href=\"#Women\"]').click();\n  104 |     const category = page.locator('#Women a').filter({ hasText: /^Tops$/ });\n> 105 |     await category.click();\n      |                    ^\n  106 |     await page.waitForURL('**/category_products/**');\n  107 |     const categoryData = { url: page.url(), heading: await page.locator('.features_items h2.title').innerText(),\n  108 |       productCount: await page.locator(site.cards).count() };"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts",
+                        "column": 20,
+                        "line": 105
+                      },
+                      "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#Women a').filter({ hasText: /^Tops$/ })\u001b[22m\n\n\n  103 |     await page.locator('.left-sidebar a[href=\"#Women\"]').click();\n  104 |     const category = page.locator('#Women a').filter({ hasText: /^Tops$/ });\n> 105 |     await category.click();\n      |                    ^\n  106 |     await page.waitForURL('**/category_products/**');\n  107 |     const categoryData = { url: page.url(), heading: await page.locator('.features_items h2.title').innerText(),\n  108 |       productCount: await page.locator(site.cards).count() };\n    at C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts:105:20"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:49:15.881Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "search-results",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\search-results-5403f10b5f85d8aef942f66c0ecabb84e87458f3.png"
+                    },
+                    {
+                      "name": "detail-before-add",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\detail-before-add-2cb3aeca2625df039d1ece50df64fa938e24ce64.png"
+                    },
+                    {
+                      "name": "add-confirmation",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\add-confirmation-0bf0df66106f2a23769c38ca3b9da2266949c569.png"
+                    },
+                    {
+                      "name": "cart-quantity-three",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\cart-quantity-three-26e6cfc6f08d1cc70bdd595cc59f8a82e44156c5.png"
+                    },
+                    {
+                      "name": "journey",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\attachments\\journey-21920bea700cd71c348d93d6b272ac35ff871374.json"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts",
+                    "column": 20,
+                    "line": 105
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "bf222bad70f76648f722-43adce7cefaafd022cf5",
+          "file": "journey.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "search, details, cart, browse and guest account entry @journey",
+          "ok": false,
+          "tags": ["journey"],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile",
+              "projectName": "mobile",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 22242,
+                  "error": {
+                    "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#Women a').filter({ hasText: /^Tops$/ })\u001b[22m\n",
+                    "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#Women a').filter({ hasText: /^Tops$/ })\u001b[22m\n\n    at C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts:105:20",
+                    "location": {
+                      "file": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts",
+                      "column": 20,
+                      "line": 105
+                    },
+                    "snippet": "  103 |     await page.locator('.left-sidebar a[href=\"#Women\"]').click();\n  104 |     const category = page.locator('#Women a').filter({ hasText: /^Tops$/ });\n> 105 |     await category.click();\n      |                    ^\n  106 |     await page.waitForURL('**/category_products/**');\n  107 |     const categoryData = { url: page.url(), heading: await page.locator('.features_items h2.title').innerText(),\n  108 |       productCount: await page.locator(site.cards).count() };"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts",
+                        "column": 20,
+                        "line": 105
+                      },
+                      "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#Women a').filter({ hasText: /^Tops$/ })\u001b[22m\n\n\n  103 |     await page.locator('.left-sidebar a[href=\"#Women\"]').click();\n  104 |     const category = page.locator('#Women a').filter({ hasText: /^Tops$/ });\n> 105 |     await category.click();\n      |                    ^\n  106 |     await page.waitForURL('**/category_products/**');\n  107 |     const categoryData = { url: page.url(), heading: await page.locator('.features_items h2.title').innerText(),\n  108 |       productCount: await page.locator(site.cards).count() };\n    at C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts:105:20"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-09T14:50:17.469Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "search-results",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\search-results-15a09bfaa821a7200f5ae48923722ea3b513974b.png"
+                    },
+                    {
+                      "name": "detail-before-add",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\detail-before-add-035d027390215ff1f6cdcbd26d69fdfc2ee81df9.png"
+                    },
+                    {
+                      "name": "add-confirmation",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\add-confirmation-a830c3d244515eaa94d5c1f23b174afcd9ece81b.png"
+                    },
+                    {
+                      "name": "cart-quantity-three",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\cart-quantity-three-196c05c553dab62bd35b40a79bdc3b17ea554705.png"
+                    },
+                    {
+                      "name": "journey",
+                      "contentType": "application/json",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\attachments\\journey-ed92a429994e5459ebd92f2ec7eff8b875fe84d2.json"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\tests\\journey.spec.ts",
+                    "column": 20,
+                    "line": 105
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "bf222bad70f76648f722-6b4d9e33adf8fce96d85",
+          "file": "journey.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-09T14:48:37.524Z",
+    "duration": 123081.86200000001,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

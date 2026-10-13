@@ -1,0 +1,117 @@
+{
+  "test": "authenticated-checkout",
+  "project": "desktop",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "browser": "Chromium",
+  "mobileEmulation": false,
+  "collectedAt": "2026-10-09T14:49:15.383Z",
+  "facts": {
+    "checkout": {
+      "url": "https://automationexercise.com/checkout",
+      "content": "Home Checkout\nAddress Details\nYOUR DELIVERY ADDRESS\nMr. QA Assessment\nTest Only\nSynthetic Test Address\nNo Delivery\nTest City Test State 000000\nIndia\n0000000000\nYOUR BILLING ADDRESS\nMr. QA Assessment\nTest Only\nSynthetic Test Address\nNo Delivery\nTest City Test State 000000\nIndia\n0000000000\nReview Your Order\nItem\tDescription\tPrice\tQuantity\tTotal\t\n\nBlue Top\n\nWomen > Tops\n\n\t\n\nRs. 500\n\n\t3\t\n\nRs. 1500\n\n\n\t\t\nTotal Amount\n\t\n\nRs. 1500\n\nIf you would like to add a comment about your order, please write it in the field below.\nPlace Order",
+      "rows": [
+        {
+          "id": "product-1",
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "quantity": "3",
+          "total": "Rs. 1500",
+          "html": "<tr id=\"product-1\">\n\t\t\t\t\t\t\t<td class=\"cart_product\">\n\t\t\t\t\t\t\t\t<a href=\"\"><img src=\"get_product_picture/1\" style=\"width:80px; height: 80px;\" alt=\"Product Image\"></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_description\">\n\t\t\t\t\t\t\t\t<h4><a href=\"/product_details/1\">Blue Top</a></h4>\n\t\t\t\t\t\t\t\t<p>Women &gt; Tops</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_price\">\n\t\t\t\t\t\t\t\t<p>Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_quantity\">\n\t\t\t\t\t\t\t\t<button class=\"disabled\">3</button>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_total\">\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 1500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>"
+        }
+      ],
+      "totalAmount": "Rs. 1500",
+      "aggregateMatchesLines": true,
+      "tableHtml": "<table class=\"table table-condensed\">\n\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr class=\"cart_menu\">\n\t\t\t\t\t\t\t<td class=\"image\">Item</td>\n\t\t\t\t\t\t\t<td class=\"description\">Description</td>\n\t\t\t\t\t\t\t<td class=\"price\">Price</td>\n\t\t\t\t\t\t\t<td class=\"quantity\">Quantity</td>\n\t\t\t\t\t\t\t<td class=\"total\">Total</td>\n\t\t\t\t\t\t\t<td></td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</thead>\n\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<tr id=\"product-1\">\n\t\t\t\t\t\t\t<td class=\"cart_product\">\n\t\t\t\t\t\t\t\t<a href=\"\"><img src=\"get_product_picture/1\" style=\"width:80px; height: 80px;\" alt=\"Product Image\"></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_description\">\n\t\t\t\t\t\t\t\t<h4><a href=\"/product_details/1\">Blue Top</a></h4>\n\t\t\t\t\t\t\t\t<p>Women &gt; Tops</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_price\">\n\t\t\t\t\t\t\t\t<p>Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_quantity\">\n\t\t\t\t\t\t\t\t<button class=\"disabled\">3</button>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_total\">\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 1500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td></td>\n\t\t\t\t\t\t\t<td></td>\n\t\t\t\t\t\t\t<td colspan=\"2\">\n\t\t\t\t\t\t\t\t<h4><b>Total Amount</b></h4>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 1500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\n\t\t\t\t\t</tbody>\n\t\t\t\t</table>",
+      "placeOrderVisible": true,
+      "stoppedBeforeOrder": true
+    }
+  },
+  "checks": [
+    {
+      "id": "J-OWN-ACCOUNT-CREATE",
+      "checkedAt": "2026-10-09T14:49:05.866Z",
+      "input": "Unique synthetic identity; credentials excluded",
+      "expected": "Provision only a newly owned test account",
+      "basis": "Assessment use-own-accounts requirement; documented createAccount API",
+      "actual": {
+        "httpStatus": 200,
+        "responseCode": 201,
+        "message": "User created!"
+      },
+      "status": "pass",
+      "evidencepaths": []
+    },
+    {
+      "id": "J-OWN-ACCOUNT-RESET",
+      "checkedAt": "2026-10-09T14:49:09.550Z",
+      "input": "Owned account login and cart reset",
+      "expected": "Authenticated session is established with an empty cart",
+      "basis": "Account-backed state isolation",
+      "actual": {
+        "loggedIn": true,
+        "cartRows": []
+      },
+      "status": "pass",
+      "evidencepaths": []
+    },
+    {
+      "id": "J-AUTH-CHECKOUT",
+      "checkedAt": "2026-10-09T14:49:13.200Z",
+      "input": "Owned account, Blue Top × 3",
+      "expected": "Checkout shows address, correct product quantity and line total, an aggregate equal to the line-total sum, and order continuation",
+      "basis": "Assessment checkout; no order/payment submission authorised",
+      "actual": {
+        "url": "https://automationexercise.com/checkout",
+        "content": "Home Checkout\nAddress Details\nYOUR DELIVERY ADDRESS\nMr. QA Assessment\nTest Only\nSynthetic Test Address\nNo Delivery\nTest City Test State 000000\nIndia\n0000000000\nYOUR BILLING ADDRESS\nMr. QA Assessment\nTest Only\nSynthetic Test Address\nNo Delivery\nTest City Test State 000000\nIndia\n0000000000\nReview Your Order\nItem\tDescription\tPrice\tQuantity\tTotal\t\n\nBlue Top\n\nWomen > Tops\n\n\t\n\nRs. 500\n\n\t3\t\n\nRs. 1500\n\n\n\t\t\nTotal Amount\n\t\n\nRs. 1500\n\nIf you would like to add a comment about your order, please write it in the field below.\nPlace Order",
+        "rows": [
+          {
+            "id": "product-1",
+            "name": "Blue Top",
+            "price": "Rs. 500",
+            "quantity": "3",
+            "total": "Rs. 1500",
+            "html": "<tr id=\"product-1\">\n\t\t\t\t\t\t\t<td class=\"cart_product\">\n\t\t\t\t\t\t\t\t<a href=\"\"><img src=\"get_product_picture/1\" style=\"width:80px; height: 80px;\" alt=\"Product Image\"></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_description\">\n\t\t\t\t\t\t\t\t<h4><a href=\"/product_details/1\">Blue Top</a></h4>\n\t\t\t\t\t\t\t\t<p>Women &gt; Tops</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_price\">\n\t\t\t\t\t\t\t\t<p>Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_quantity\">\n\t\t\t\t\t\t\t\t<button class=\"disabled\">3</button>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_total\">\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 1500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>"
+          }
+        ],
+        "totalAmount": "Rs. 1500",
+        "aggregateMatchesLines": true,
+        "tableHtml": "<table class=\"table table-condensed\">\n\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr class=\"cart_menu\">\n\t\t\t\t\t\t\t<td class=\"image\">Item</td>\n\t\t\t\t\t\t\t<td class=\"description\">Description</td>\n\t\t\t\t\t\t\t<td class=\"price\">Price</td>\n\t\t\t\t\t\t\t<td class=\"quantity\">Quantity</td>\n\t\t\t\t\t\t\t<td class=\"total\">Total</td>\n\t\t\t\t\t\t\t<td></td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</thead>\n\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<tr id=\"product-1\">\n\t\t\t\t\t\t\t<td class=\"cart_product\">\n\t\t\t\t\t\t\t\t<a href=\"\"><img src=\"get_product_picture/1\" style=\"width:80px; height: 80px;\" alt=\"Product Image\"></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_description\">\n\t\t\t\t\t\t\t\t<h4><a href=\"/product_details/1\">Blue Top</a></h4>\n\t\t\t\t\t\t\t\t<p>Women &gt; Tops</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_price\">\n\t\t\t\t\t\t\t\t<p>Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_quantity\">\n\t\t\t\t\t\t\t\t<button class=\"disabled\">3</button>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_total\">\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 1500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td></td>\n\t\t\t\t\t\t\t<td></td>\n\t\t\t\t\t\t\t<td colspan=\"2\">\n\t\t\t\t\t\t\t\t<h4><b>Total Amount</b></h4>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 1500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\n\t\t\t\t\t</tbody>\n\t\t\t\t</table>",
+        "placeOrderVisible": true,
+        "stoppedBeforeOrder": true
+      },
+      "status": "pass",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/checkout-dedicated-owned-account-reaches-checkout-journey-desktop/authenticated-checkout.png"
+      ]
+    },
+    {
+      "id": "J-OWN-ACCOUNT-CART-CLEANUP",
+      "checkedAt": "2026-10-09T14:49:14.454Z",
+      "input": "Remove owned-account test items",
+      "expected": "Test account cart is empty",
+      "basis": "Assessment non-disruption",
+      "actual": {
+        "rows": []
+      },
+      "status": "pass",
+      "evidencepaths": []
+    },
+    {
+      "id": "J-OWN-ACCOUNT-DELETE",
+      "checkedAt": "2026-10-09T14:49:15.381Z",
+      "input": "Delete only account created in this test",
+      "expected": "Own disposable account is deleted",
+      "basis": "Documented deleteAccount API; ownership confirmed by creation in this run",
+      "actual": {
+        "httpStatus": 200,
+        "responseCode": 200,
+        "message": "Account deleted!"
+      },
+      "status": "pass",
+      "evidencepaths": []
+    }
+  ]
+}

@@ -1,0 +1,892 @@
+{
+  "test": "journey",
+  "project": "desktop",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "browser": "Chromium",
+  "mobileEmulation": false,
+  "collectedAt": "2026-10-09T14:49:35.918Z",
+  "facts": {
+    "api": {
+      "url": "https://automationexercise.com/api/searchProduct",
+      "httpStatus": 200,
+      "body": {
+        "responseCode": 200,
+        "products": [
+          {
+            "id": 1,
+            "name": "Blue Top",
+            "price": "Rs. 500",
+            "brand": "Polo",
+            "category": {
+              "usertype": {
+                "usertype": "Women"
+              },
+              "category": "Tops"
+            }
+          },
+          {
+            "id": 5,
+            "name": "Winter Top",
+            "price": "Rs. 600",
+            "brand": "Mast & Harbour",
+            "category": {
+              "usertype": {
+                "usertype": "Women"
+              },
+              "category": "Tops"
+            }
+          },
+          {
+            "id": 6,
+            "name": "Summer White Top",
+            "price": "Rs. 400",
+            "brand": "H&M",
+            "category": {
+              "usertype": {
+                "usertype": "Women"
+              },
+              "category": "Tops"
+            }
+          },
+          {
+            "id": 7,
+            "name": "Madame Top For Women",
+            "price": "Rs. 1000",
+            "brand": "Madame",
+            "category": {
+              "usertype": {
+                "usertype": "Women"
+              },
+              "category": "Tops"
+            }
+          },
+          {
+            "id": 8,
+            "name": "Fancy Green Top",
+            "price": "Rs. 700",
+            "brand": "Polo",
+            "category": {
+              "usertype": {
+                "usertype": "Women"
+              },
+              "category": "Tops"
+            }
+          },
+          {
+            "id": 11,
+            "name": "Sleeves Printed Top - White",
+            "price": "Rs. 499",
+            "brand": "Babyhug",
+            "category": {
+              "usertype": {
+                "usertype": "Kids"
+              },
+              "category": "Tops & Shirts"
+            }
+          },
+          {
+            "id": 12,
+            "name": "Half Sleeves Top Schiffli Detailing - Pink",
+            "price": "Rs. 359",
+            "brand": "Babyhug",
+            "category": {
+              "usertype": {
+                "usertype": "Kids"
+              },
+              "category": "Tops & Shirts"
+            }
+          },
+          {
+            "id": 13,
+            "name": "Frozen Tops For Kids",
+            "price": "Rs. 278",
+            "brand": "Allen Solly Junior",
+            "category": {
+              "usertype": {
+                "usertype": "Kids"
+              },
+              "category": "Tops & Shirts"
+            }
+          },
+          {
+            "id": 14,
+            "name": "Full Sleeves Top Cherry - Pink",
+            "price": "Rs. 679",
+            "brand": "Kookie Kids",
+            "category": {
+              "usertype": {
+                "usertype": "Kids"
+              },
+              "category": "Tops & Shirts"
+            }
+          },
+          {
+            "id": 15,
+            "name": "Printed Off Shoulder Top - White",
+            "price": "Rs. 315",
+            "brand": "Babyhug",
+            "category": {
+              "usertype": {
+                "usertype": "Kids"
+              },
+              "category": "Tops & Shirts"
+            }
+          },
+          {
+            "id": 16,
+            "name": "Sleeves Top and Short - Blue & Pink",
+            "price": "Rs. 478",
+            "brand": "Babyhug",
+            "category": {
+              "usertype": {
+                "usertype": "Kids"
+              },
+              "category": "Dress"
+            }
+          },
+          {
+            "id": 18,
+            "name": "Little Girls Mr. Panda Shirt",
+            "price": "Rs. 1200",
+            "brand": "Kookie Kids",
+            "category": {
+              "usertype": {
+                "usertype": "Kids"
+              },
+              "category": "Tops & Shirts"
+            }
+          },
+          {
+            "id": 24,
+            "name": "Colour Blocked Shirt – Sky Blue",
+            "price": "Rs. 849",
+            "brand": "Allen Solly Junior",
+            "category": {
+              "usertype": {
+                "usertype": "Kids"
+              },
+              "category": "Tops & Shirts"
+            }
+          },
+          {
+            "id": 42,
+            "name": "Lace Top For Women",
+            "price": "Rs. 1400",
+            "brand": "Mast & Harbour",
+            "category": {
+              "usertype": {
+                "usertype": "Women"
+              },
+              "category": "Tops"
+            }
+          }
+        ]
+      }
+    },
+    "searchStructure": {
+      "field": {
+        "aria": "- textbox \"Search Product\": top",
+        "html": "<input type=\"text\" name=\"search\" id=\"search_product\" value=\"\" placeholder=\"Search Product\" class=\"form-control input-lg\">",
+        "focusStyle": {
+          "outline": "rgb(85, 85, 85) none 0px",
+          "boxShadow": "rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset, rgba(102, 175, 233, 0.243) 0px 0px 3.2427px 0px",
+          "border": "1px solid rgb(163, 192, 216)"
+        }
+      },
+      "button": {
+        "aria": "- button \"\"",
+        "html": "<button type=\"button\" id=\"submit_search\" class=\"btn btn-default btn-lg\"><i class=\"fa fa-search\"></i></button>",
+        "focusStyle": {
+          "outline": "rgb(51, 51, 51) none 3px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(204, 204, 204)"
+        }
+      },
+      "axe": {
+        "scope": "#search",
+        "status": "blocked",
+        "checkedAt": "2026-10-09T14:49:19.102Z",
+        "error": "frame.evaluate: Error: No elements found for include in page Context\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at new Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)"
+      }
+    },
+    "searchResults": [
+      {
+        "href": "/product_details/1",
+        "name": "Blue Top",
+        "price": "Rs. 500"
+      },
+      {
+        "href": "/product_details/5",
+        "name": "Winter Top",
+        "price": "Rs. 600"
+      },
+      {
+        "href": "/product_details/6",
+        "name": "Summer White Top",
+        "price": "Rs. 400"
+      },
+      {
+        "href": "/product_details/7",
+        "name": "Madame Top For Women",
+        "price": "Rs. 1000"
+      },
+      {
+        "href": "/product_details/8",
+        "name": "Fancy Green Top",
+        "price": "Rs. 700"
+      },
+      {
+        "href": "/product_details/11",
+        "name": "Sleeves Printed Top - WhiteSource Suppliers",
+        "price": "Rs. 499"
+      },
+      {
+        "href": "/product_details/12",
+        "name": "Half Sleeves Top Schiffli Detailing - Pink",
+        "price": "Rs. 359"
+      },
+      {
+        "href": "/product_details/13",
+        "name": "Frozen Tops For Kids",
+        "price": "Rs. 278"
+      },
+      {
+        "href": "/product_details/14",
+        "name": "Full Sleeves Top Cherry - Pink",
+        "price": "Rs. 679"
+      },
+      {
+        "href": "/product_details/15",
+        "name": "Printed Off Shoulder Top - White",
+        "price": "Rs. 315"
+      },
+      {
+        "href": "/product_details/16",
+        "name": "Sleeves Top and Short - Blue & Pink",
+        "price": "Rs. 478"
+      },
+      {
+        "href": "/product_details/18",
+        "name": "Little Girls Mr. Panda Shirt",
+        "price": "Rs. 1200"
+      },
+      {
+        "href": "/product_details/24",
+        "name": "Colour Blocked Shirt – Sky Blue",
+        "price": "Rs. 849"
+      },
+      {
+        "href": "/product_details/42",
+        "name": "Lace Top For Women",
+        "price": "Rs. 1400"
+      }
+    ],
+    "product": {
+      "url": "https://automationexercise.com/product_details/1",
+      "name": "Blue Top",
+      "price": "Rs. 500",
+      "quantityHtml": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+      "availability": "Blue Top\n\nCategory: Women > Tops\n\n \nRs. 500\nQuantity:   Add to cart\n\nAvailability: In Stock\n\nCondition: New\n\nBrand: Polo"
+    },
+    "detailStructure": {
+      "quantity": {
+        "aria": "- spinbutton: \"1\"",
+        "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+        "focusStyle": {
+          "outline": "rgb(105, 103, 99) none 3px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(222, 222, 220)"
+        }
+      },
+      "add": {
+        "aria": "- button \" Add to cart\"",
+        "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>",
+        "focusStyle": {
+          "outline": "rgb(255, 255, 255) none 3px",
+          "boxShadow": "none",
+          "border": "0px none rgb(255, 255, 255)"
+        }
+      },
+      "axe": {
+        "scope": ".product-information",
+        "status": "completed",
+        "checkedAt": "2026-10-09T14:49:22.847Z",
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
+            ],
+            "nodes": [
+              {
+                "html": "<span>Rs. 500</span>",
+                "target": [
+                  "span > span"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.16 (foreground color: #fe980f, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+              },
+              {
+                "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>",
+                "target": [
+                  ".cart"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.16 (foreground color: #ffffff, background color: #fe980f, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          },
+          {
+            "id": "label",
+            "impact": "critical",
+            "description": "Ensure every form element has a label",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+            "tags": [
+              "cat.forms",
+              "wcag2a",
+              "wcag412",
+              "section508",
+              "section508.22.n",
+              "TTv5",
+              "TT5.c",
+              "EN-301-549",
+              "EN-9.4.1.2",
+              "ACT",
+              "RGAAv4",
+              "RGAA-11.1.1"
+            ],
+            "nodes": [
+              {
+                "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+                "target": [
+                  "#quantity"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ]
+          }
+        ],
+        "passes": [
+          "button-name",
+          "color-contrast",
+          "form-field-multiple-labels",
+          "image-alt",
+          "nested-interactive"
+        ],
+        "incomplete": []
+      },
+      "layout": {
+        "viewport": {
+          "width": 1366,
+          "height": 768,
+          "documentWidth": 1366,
+          "horizontalOverflow": false
+        },
+        "control": {
+          "x": 1036.296875,
+          "y": 301.34375,
+          "width": 50,
+          "height": 33,
+          "withinWidth": true,
+          "hitIsControl": true
+        }
+      }
+    },
+    "addFeedback": {
+      "requestObserved": true,
+      "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=3",
+      "status": 200,
+      "body": "Added To Cart",
+      "responseDiagnostic": null,
+      "modalVisible": true,
+      "modalText": "\nAdded!\n\nYour product has been added to cart.\n\nView Cart\n\nContinue Shopping",
+      "focus": {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Add to cart",
+        "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+      },
+      "modalHtml": "<div id=\"cartModal\" class=\"modal show\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+    },
+    "crossSurface": {
+      "api": {
+        "id": 1,
+        "name": "Blue Top",
+        "price": "Rs. 500",
+        "brand": "Polo",
+        "category": {
+          "usertype": {
+            "usertype": "Women"
+          },
+          "category": "Tops"
+        }
+      },
+      "search": {
+        "href": "/product_details/1",
+        "name": "Blue Top",
+        "price": "Rs. 500"
+      },
+      "detail": {
+        "url": "https://automationexercise.com/product_details/1",
+        "name": "Blue Top",
+        "price": "Rs. 500",
+        "quantityHtml": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+        "availability": "Blue Top\n\nCategory: Women > Tops\n\n \nRs. 500\nQuantity:   Add to cart\n\nAvailability: In Stock\n\nCondition: New\n\nBrand: Polo"
+      },
+      "cart": {
+        "id": "product-1",
+        "name": "Blue Top",
+        "price": "Rs. 500",
+        "quantity": "3",
+        "total": "Rs. 1500",
+        "html": "<tr id=\"product-1\">\n\t\t\t\t\t\t\t<td class=\"cart_product\">\n\t\t\t\t\t\t\t\t<a href=\"\"><img src=\"get_product_picture/1\" style=\"width:80px; height: 80px;\" class=\"product_image\" alt=\"Product Image\"></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_description\">\n\t\t\t\t\t\t\t\t<h4><a href=\"/product_details/1\">Blue Top</a></h4>\n\t\t\t\t\t\t\t\t<p>Women &gt; Tops</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_price\">\n\t\t\t\t\t\t\t\t<p>Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_quantity\">\n\t\t\t\t\t\t\t\t<button class=\"disabled\">3</button>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_total\">\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 1500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_delete\">\n\t\t\t\t\t\t\t\t<a class=\"cart_quantity_delete\" style=\"cursor: pointer;\" data-product-id=\"1\"><i class=\"fa fa-times\"></i></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>"
+      }
+    }
+  },
+  "checks": [
+    {
+      "id": "FE-SEARCH-AXE",
+      "checkedAt": "2026-10-09T14:49:19.102Z",
+      "input": "#search",
+      "expected": "Scoped automated accessibility check completes without violations",
+      "basis": "Automated WCAG check supplements keyboard inspection; incomplete/manual items are not asserted as passes",
+      "actual": {
+        "scope": "#search",
+        "status": "blocked",
+        "checkedAt": "2026-10-09T14:49:19.102Z",
+        "error": "frame.evaluate: Error: No elements found for include in page Context\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at new Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)"
+      },
+      "status": "blocked",
+      "evidencepaths": []
+    },
+    {
+      "id": "FE-SEARCH-NAME",
+      "checkedAt": "2026-10-09T14:49:19.102Z",
+      "input": {
+        "url": "https://automationexercise.com/products"
+      },
+      "expected": "Search field and search button expose names describing their purpose",
+      "basis": "WCAG 2.2 4.1.2 Name, Role, Value",
+      "actual": {
+        "field": {
+          "aria": "- textbox \"Search Product\": top",
+          "html": "<input type=\"text\" name=\"search\" id=\"search_product\" value=\"\" placeholder=\"Search Product\" class=\"form-control input-lg\">",
+          "focusStyle": {
+            "outline": "rgb(85, 85, 85) none 0px",
+            "boxShadow": "rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset, rgba(102, 175, 233, 0.243) 0px 0px 3.2427px 0px",
+            "border": "1px solid rgb(163, 192, 216)"
+          }
+        },
+        "button": {
+          "aria": "- button \"\"",
+          "html": "<button type=\"button\" id=\"submit_search\" class=\"btn btn-default btn-lg\"><i class=\"fa fa-search\"></i></button>",
+          "focusStyle": {
+            "outline": "rgb(51, 51, 51) none 3px",
+            "boxShadow": "none",
+            "border": "1px solid rgb(204, 204, 204)"
+          }
+        },
+        "axe": {
+          "scope": "#search",
+          "status": "blocked",
+          "checkedAt": "2026-10-09T14:49:19.102Z",
+          "error": "frame.evaluate: Error: No elements found for include in page Context\n    at validateContext (eval at evaluate (:370:30), <anonymous>:19556:15)\n    at new Context (eval at evaluate (:370:30), <anonymous>:19537:7)\n    at Object._getFrameContexts (eval at evaluate (:370:30), <anonymous>:19578:22)\n    at eval (eval at evaluate (:370:30), <anonymous>:4:27)"
+        }
+      },
+      "status": "pass",
+      "evidencepaths": []
+    },
+    {
+      "id": "FE-SEARCH-TAB",
+      "checkedAt": "2026-10-09T14:49:19.122Z",
+      "input": "Tab from search field",
+      "expected": "Focus reaches the search action",
+      "basis": "WCAG 2.2 2.1.1 Keyboard",
+      "actual": {
+        "tag": "BUTTON",
+        "id": "submit_search",
+        "text": "",
+        "html": "<button type=\"button\" id=\"submit_search\" class=\"btn btn-default btn-lg\"><i class=\"fa fa-search\"></i></button>"
+      },
+      "status": "pass",
+      "evidencepaths": []
+    },
+    {
+      "id": "J-SEARCH",
+      "checkedAt": "2026-10-09T14:49:21.125Z",
+      "input": "top, Tab then Enter",
+      "expected": "Search shows relevant products and opens a matching detail page",
+      "basis": "Assessment required journey; compare result IDs with live search API because top also matches category Tops & Shirts",
+      "actual": {
+        "url": "https://automationexercise.com/products?search=top",
+        "count": 14,
+        "products": [
+          {
+            "href": "/product_details/1",
+            "name": "Blue Top",
+            "price": "Rs. 500"
+          },
+          {
+            "href": "/product_details/5",
+            "name": "Winter Top",
+            "price": "Rs. 600"
+          },
+          {
+            "href": "/product_details/6",
+            "name": "Summer White Top",
+            "price": "Rs. 400"
+          },
+          {
+            "href": "/product_details/7",
+            "name": "Madame Top For Women",
+            "price": "Rs. 1000"
+          },
+          {
+            "href": "/product_details/8",
+            "name": "Fancy Green Top",
+            "price": "Rs. 700"
+          },
+          {
+            "href": "/product_details/11",
+            "name": "Sleeves Printed Top - WhiteSource Suppliers",
+            "price": "Rs. 499"
+          },
+          {
+            "href": "/product_details/12",
+            "name": "Half Sleeves Top Schiffli Detailing - Pink",
+            "price": "Rs. 359"
+          },
+          {
+            "href": "/product_details/13",
+            "name": "Frozen Tops For Kids",
+            "price": "Rs. 278"
+          },
+          {
+            "href": "/product_details/14",
+            "name": "Full Sleeves Top Cherry - Pink",
+            "price": "Rs. 679"
+          },
+          {
+            "href": "/product_details/15",
+            "name": "Printed Off Shoulder Top - White",
+            "price": "Rs. 315"
+          },
+          {
+            "href": "/product_details/16",
+            "name": "Sleeves Top and Short - Blue & Pink",
+            "price": "Rs. 478"
+          },
+          {
+            "href": "/product_details/18",
+            "name": "Little Girls Mr. Panda Shirt",
+            "price": "Rs. 1200"
+          },
+          {
+            "href": "/product_details/24",
+            "name": "Colour Blocked Shirt – Sky Blue",
+            "price": "Rs. 849"
+          },
+          {
+            "href": "/product_details/42",
+            "name": "Lace Top For Women",
+            "price": "Rs. 1400"
+          }
+        ]
+      },
+      "status": "pass",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/journey-search-details-car-8380b-guest-account-entry-journey-desktop/search-results.png"
+      ]
+    },
+    {
+      "id": "FE-DETAIL-AXE",
+      "checkedAt": "2026-10-09T14:49:22.857Z",
+      "input": ".product-information",
+      "expected": "Scoped automated accessibility check completes without violations",
+      "basis": "Automated WCAG check supplements keyboard inspection; incomplete/manual items are not asserted as passes",
+      "actual": {
+        "scope": ".product-information",
+        "status": "completed",
+        "checkedAt": "2026-10-09T14:49:22.847Z",
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
+            ],
+            "nodes": [
+              {
+                "html": "<span>Rs. 500</span>",
+                "target": [
+                  "span > span"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.16 (foreground color: #fe980f, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+              },
+              {
+                "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>",
+                "target": [
+                  ".cart"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.16 (foreground color: #ffffff, background color: #fe980f, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          },
+          {
+            "id": "label",
+            "impact": "critical",
+            "description": "Ensure every form element has a label",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+            "tags": [
+              "cat.forms",
+              "wcag2a",
+              "wcag412",
+              "section508",
+              "section508.22.n",
+              "TTv5",
+              "TT5.c",
+              "EN-301-549",
+              "EN-9.4.1.2",
+              "ACT",
+              "RGAAv4",
+              "RGAA-11.1.1"
+            ],
+            "nodes": [
+              {
+                "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+                "target": [
+                  "#quantity"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ]
+          }
+        ],
+        "passes": [
+          "button-name",
+          "color-contrast",
+          "form-field-multiple-labels",
+          "image-alt",
+          "nested-interactive"
+        ],
+        "incomplete": []
+      },
+      "status": "fail",
+      "evidencepaths": []
+    },
+    {
+      "id": "FE-QUANTITY-NAME",
+      "checkedAt": "2026-10-09T14:49:22.953Z",
+      "input": {
+        "quantity": 3,
+        "url": "https://automationexercise.com/product_details/1"
+      },
+      "expected": "Quantity input has an accessible name associated with its visible label",
+      "basis": "WCAG 2.2 1.3.1 Info and Relationships; 4.1.2 Name, Role, Value",
+      "actual": {
+        "aria": "- spinbutton: \"1\"",
+        "html": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+        "focusStyle": {
+          "outline": "rgb(105, 103, 99) none 3px",
+          "boxShadow": "none",
+          "border": "1px solid rgb(222, 222, 220)"
+        }
+      },
+      "status": "fail",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/journey-search-details-car-8380b-guest-account-entry-journey-desktop/detail-before-add.png"
+      ]
+    },
+    {
+      "id": "FE-DETAIL-LAYOUT",
+      "checkedAt": "2026-10-09T14:49:22.953Z",
+      "input": {
+        "width": 1366,
+        "height": 768
+      },
+      "expected": "Quantity and add controls are visible within viewport width without horizontal overflow",
+      "basis": "Assessment mobile usability; WCAG 2.2 1.4.10 Reflow at the reviewed width",
+      "actual": {
+        "viewport": {
+          "width": 1366,
+          "height": 768,
+          "documentWidth": 1366,
+          "horizontalOverflow": false
+        },
+        "control": {
+          "x": 1036.296875,
+          "y": 301.34375,
+          "width": 50,
+          "height": 33,
+          "withinWidth": true,
+          "hitIsControl": true
+        }
+      },
+      "status": "pass",
+      "evidencepaths": []
+    },
+    {
+      "id": "J-ADD-FEEDBACK",
+      "checkedAt": "2026-10-09T14:49:23.491Z",
+      "input": {
+        "product": "Blue Top",
+        "quantity": 3,
+        "action": "Tab from quantity then Enter"
+      },
+      "expected": "Keyboard activation adds item and confirms success",
+      "basis": "WCAG 2.2 2.1.1; assessment shopping behaviour",
+      "actual": {
+        "requestObserved": true,
+        "requestUrl": "https://automationexercise.com/add_to_cart/1?quantity=3",
+        "status": 200,
+        "body": "Added To Cart",
+        "responseDiagnostic": null,
+        "modalVisible": true,
+        "modalText": "\nAdded!\n\nYour product has been added to cart.\n\nView Cart\n\nContinue Shopping",
+        "focus": {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "Add to cart",
+          "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+        },
+        "modalHtml": "<div id=\"cartModal\" class=\"modal show\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+      },
+      "status": "pass",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/journey-search-details-car-8380b-guest-account-entry-journey-desktop/add-confirmation.png"
+      ]
+    },
+    {
+      "id": "FE-MODAL-KEYBOARD",
+      "checkedAt": "2026-10-09T14:49:23.538Z",
+      "input": "Tab / Shift+Tab after add confirmation",
+      "expected": "Keyboard focus remains reachable in the modal with suitable dialog semantics",
+      "basis": "WCAG 2.2 2.1.1; 2.4.3 Focus Order",
+      "actual": {
+        "before": {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "Add to cart",
+          "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+        },
+        "afterTab": {
+          "tag": "A",
+          "id": "",
+          "text": "Write Your Review",
+          "html": "<a href=\"#reviews\" data-toggle=\"tab\">Write Your Review</a>"
+        },
+        "afterShiftTab": {
+          "tag": "BUTTON",
+          "id": "",
+          "text": "Add to cart",
+          "html": "<button type=\"button\" class=\"btn btn-default cart\">\n\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-shopping-cart\"></i>\n\t\t\t\t\t\t\t\t\t\tAdd to cart\n\t\t\t\t\t\t\t\t\t</button>"
+        },
+        "dialogHtml": "<div id=\"cartModal\" class=\"modal show\">\n\t\t\t\t\t\t\t<div class=\"modal-dialog modal-confirm\">\n\t\t\t\t\t\t\t\t<div class=\"modal-content\">\n\t\t\t\t\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"icon-box\">\n\t\t\t\t\t\t\t\t\t\t\t<i class=\"material-icons\"></i>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"modal-title w-100\">Added!</h4>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-body\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\">Your product has been added to cart.</p>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-center\"><a href=\"/view_cart\"><u>View Cart</u></a></p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"modal-footer\">\n\t\t\t\t\t\t\t\t\t\t<button class=\"btn btn-success close-modal btn-block\" data-dismiss=\"modal\">Continue Shopping</button>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+      },
+      "status": "fail",
+      "evidencepaths": []
+    },
+    {
+      "id": "TECH-CROSS-SURFACE",
+      "checkedAt": "2026-10-09T14:49:24.875Z",
+      "input": {
+        "search": "top",
+        "productId": 1,
+        "quantity": 3
+      },
+      "expected": "Product name and unit price agree across API/search/detail/cart; line total equals unit price × 3",
+      "basis": "Assessment explicit comparison; integer minor-unit calculation",
+      "actual": {
+        "api": {
+          "id": 1,
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "brand": "Polo",
+          "category": {
+            "usertype": {
+              "usertype": "Women"
+            },
+            "category": "Tops"
+          }
+        },
+        "search": {
+          "href": "/product_details/1",
+          "name": "Blue Top",
+          "price": "Rs. 500"
+        },
+        "detail": {
+          "url": "https://automationexercise.com/product_details/1",
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "quantityHtml": "<input type=\"number\" name=\"quantity\" id=\"quantity\" value=\"1\" min=\"1\">",
+          "availability": "Blue Top\n\nCategory: Women > Tops\n\n \nRs. 500\nQuantity:   Add to cart\n\nAvailability: In Stock\n\nCondition: New\n\nBrand: Polo"
+        },
+        "cart": {
+          "id": "product-1",
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "quantity": "3",
+          "total": "Rs. 1500",
+          "html": "<tr id=\"product-1\">\n\t\t\t\t\t\t\t<td class=\"cart_product\">\n\t\t\t\t\t\t\t\t<a href=\"\"><img src=\"get_product_picture/1\" style=\"width:80px; height: 80px;\" class=\"product_image\" alt=\"Product Image\"></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_description\">\n\t\t\t\t\t\t\t\t<h4><a href=\"/product_details/1\">Blue Top</a></h4>\n\t\t\t\t\t\t\t\t<p>Women &gt; Tops</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_price\">\n\t\t\t\t\t\t\t\t<p>Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_quantity\">\n\t\t\t\t\t\t\t\t<button class=\"disabled\">3</button>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_total\">\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 1500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_delete\">\n\t\t\t\t\t\t\t\t<a class=\"cart_quantity_delete\" style=\"cursor: pointer;\" data-product-id=\"1\"><i class=\"fa fa-times\"></i></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>"
+        }
+      },
+      "status": "pass",
+      "evidencepaths": [
+        "artifacts/tests-2026-10-09T14-48-37-520Z-18300/results/journey-search-details-car-8380b-guest-account-entry-journey-desktop/cart-quantity-three.png"
+      ]
+    },
+    {
+      "id": "J-CART-RELOAD",
+      "checkedAt": "2026-10-09T14:49:25.335Z",
+      "input": "reload cart",
+      "expected": "Cart preserves selected product and quantity across refresh",
+      "basis": "Ordinary shopping expectation; session-level only",
+      "actual": [
+        {
+          "id": "product-1",
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "quantity": "3",
+          "total": "Rs. 1500",
+          "html": "<tr id=\"product-1\">\n\t\t\t\t\t\t\t<td class=\"cart_product\">\n\t\t\t\t\t\t\t\t<a href=\"\"><img src=\"get_product_picture/1\" style=\"width:80px; height: 80px;\" class=\"product_image\" alt=\"Product Image\"></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_description\">\n\t\t\t\t\t\t\t\t<h4><a href=\"/product_details/1\">Blue Top</a></h4>\n\t\t\t\t\t\t\t\t<p>Women &gt; Tops</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_price\">\n\t\t\t\t\t\t\t\t<p>Rs. 500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_quantity\">\n\t\t\t\t\t\t\t\t<button class=\"disabled\">3</button>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_total\">\n\t\t\t\t\t\t\t\t<p class=\"cart_total_price\">Rs. 1500</p>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t<td class=\"cart_delete\">\n\t\t\t\t\t\t\t\t<a class=\"cart_quantity_delete\" style=\"cursor: pointer;\" data-product-id=\"1\"><i class=\"fa fa-times\"></i></a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>"
+        }
+      ],
+      "status": "pass",
+      "evidencepaths": []
+    },
+    {
+      "id": "J-EXECUTION",
+      "checkedAt": "2026-10-09T14:49:35.918Z",
+      "input": "current phase",
+      "expected": "All planned journey checks execute",
+      "basis": "Automation prerequisite",
+      "actual": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#Women a').filter({ hasText: /^Tops$/ })\u001b[22m\n",
+      "status": "blocked",
+      "evidencepaths": []
+    }
+  ]
+}

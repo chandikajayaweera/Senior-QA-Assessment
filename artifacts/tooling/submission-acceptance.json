@@ -1,0 +1,1166 @@
+{
+  "checkedAt": "2026-10-09T15:31:02.425Z",
+  "status": "pass",
+  "checks": [
+    {
+      "id": "FILE-README.md",
+      "status": "pass",
+      "detail": "README.md"
+    },
+    {
+      "id": "FILE-docs/findings.md",
+      "status": "pass",
+      "detail": "docs/findings.md"
+    },
+    {
+      "id": "FILE-docs/technical-assessment.md",
+      "status": "pass",
+      "detail": "docs/technical-assessment.md"
+    },
+    {
+      "id": "FILE-docs/test-record.md",
+      "status": "pass",
+      "detail": "docs/test-record.md"
+    },
+    {
+      "id": "FILE-docs/recommendation.md",
+      "status": "pass",
+      "detail": "docs/recommendation.md"
+    },
+    {
+      "id": "FILE-docs/traceability.md",
+      "status": "pass",
+      "detail": "docs/traceability.md"
+    },
+    {
+      "id": "FILE-docs/execution-log.md",
+      "status": "pass",
+      "detail": "docs/execution-log.md"
+    },
+    {
+      "id": "FILE-demo/README.md",
+      "status": "pass",
+      "detail": "demo/README.md"
+    },
+    {
+      "id": "FILE-demo/quantity-label.js",
+      "status": "pass",
+      "detail": "demo/quantity-label.js"
+    },
+    {
+      "id": "FILE-package.json",
+      "status": "pass",
+      "detail": "package.json"
+    },
+    {
+      "id": "FILE-package-lock.json",
+      "status": "pass",
+      "detail": "package-lock.json"
+    },
+    {
+      "id": "FILE-playwright.config.ts",
+      "status": "pass",
+      "detail": "playwright.config.ts"
+    },
+    {
+      "id": "FILE-src/catalogue.ts",
+      "status": "pass",
+      "detail": "src/catalogue.ts"
+    },
+    {
+      "id": "FILE-scripts/refresh-catalogue.ts",
+      "status": "pass",
+      "detail": "scripts/refresh-catalogue.ts"
+    },
+    {
+      "id": "FILE-../PLAN.md",
+      "status": "pass",
+      "detail": "../PLAN.md"
+    },
+    {
+      "id": "COMMAND-test:api",
+      "status": "pass",
+      "detail": "playwright test api.spec.ts --project=api"
+    },
+    {
+      "id": "COMMAND-test:journey",
+      "status": "pass",
+      "detail": "playwright test --grep @journey --project=desktop --project=mobile"
+    },
+    {
+      "id": "COMMAND-test:demo",
+      "status": "pass",
+      "detail": "playwright test demo.spec.ts --project=desktop --project=mobile"
+    },
+    {
+      "id": "COMMAND-catalogue:refresh",
+      "status": "pass",
+      "detail": "tsx scripts/refresh-catalogue.ts"
+    },
+    {
+      "id": "COMMAND-test:tooling",
+      "status": "pass",
+      "detail": "tsx --test tests/tooling.test.ts tests/boundary-feedback.test.ts"
+    },
+    {
+      "id": "COMMAND-typecheck",
+      "status": "pass",
+      "detail": "tsc --noEmit"
+    },
+    {
+      "id": "EXECUTED-api-record.json",
+      "status": "pass",
+      "detail": {
+        "count": 3,
+        "paths": [
+          "artifacts\\tests-2026-10-09T14-33-24-715Z-3848\\results\\api-TC-API-01-search-top-api\\api-record.json",
+          "artifacts\\tests-2026-10-09T14-33-24-715Z-3848\\results\\api-TC-API-02-search-unmatched-sentinel-api\\api-record.json",
+          "artifacts\\tests-2026-10-09T14-33-24-715Z-3848\\results\\api-TC-API-03-omit-required-search-product-api\\api-record.json"
+        ]
+      }
+    },
+    {
+      "id": "TC-API-01",
+      "status": "pass",
+      "detail": {
+        "status": "pass",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "TC-API-02",
+      "status": "pass",
+      "detail": {
+        "status": "pass",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "TC-API-03",
+      "status": "pass",
+      "detail": {
+        "status": "pass",
+        "httpStatus": 200
+      }
+    },
+    {
+      "id": "EXECUTED-journey.json",
+      "status": "pass",
+      "detail": {
+        "count": 2,
+        "paths": [
+          "artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-desktop\\journey.json",
+          "artifacts\\tests-2026-10-09T14-52-39-959Z-3844\\results\\journey-search-details-car-8380b-guest-account-entry-journey-mobile\\journey.json"
+        ]
+      }
+    },
+    {
+      "id": "COMPLETE-journey.json-desktop",
+      "status": "pass",
+      "detail": {
+        "checkCount": 18,
+        "passed": 13,
+        "failed": 5
+      }
+    },
+    {
+      "id": "COMPLETE-journey.json-mobile",
+      "status": "pass",
+      "detail": {
+        "checkCount": 18,
+        "passed": 12,
+        "failed": 6
+      }
+    },
+    {
+      "id": "EXECUTED-authenticated-checkout.json",
+      "status": "pass",
+      "detail": {
+        "count": 2,
+        "paths": [
+          "artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\checkout-dedicated-owned-account-reaches-checkout-journey-desktop\\authenticated-checkout.json",
+          "artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\checkout-dedicated-owned-account-reaches-checkout-journey-mobile\\authenticated-checkout.json"
+        ]
+      }
+    },
+    {
+      "id": "COMPLETE-authenticated-checkout.json-desktop",
+      "status": "pass",
+      "detail": {
+        "checkCount": 5,
+        "passed": 5,
+        "failed": 0
+      }
+    },
+    {
+      "id": "COMPLETE-authenticated-checkout.json-mobile",
+      "status": "pass",
+      "detail": {
+        "checkCount": 5,
+        "passed": 5,
+        "failed": 0
+      }
+    },
+    {
+      "id": "EXECUTED-quantity-boundaries.json",
+      "status": "pass",
+      "detail": {
+        "count": 2,
+        "paths": [
+          "artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-desktop\\quantity-boundaries.json",
+          "artifacts\\tests-2026-10-09T14-48-37-520Z-18300\\results\\boundaries-quantity-boundary-exploration-journey-mobile\\quantity-boundaries.json"
+        ]
+      }
+    },
+    {
+      "id": "COMPLETE-quantity-boundaries.json-desktop",
+      "status": "pass",
+      "detail": {
+        "checkCount": 10,
+        "passed": 4,
+        "failed": 6
+      }
+    },
+    {
+      "id": "COMPLETE-quantity-boundaries.json-mobile",
+      "status": "pass",
+      "detail": {
+        "checkCount": 10,
+        "passed": 4,
+        "failed": 6
+      }
+    },
+    {
+      "id": "EXECUTED-quantity-label-demo.json",
+      "status": "pass",
+      "detail": {
+        "count": 2,
+        "paths": [
+          "artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results\\demo-quantity-label-association-before-and-after-demo-desktop\\quantity-label-demo.json",
+          "artifacts\\tests-2026-10-09T14-55-55-792Z-17880\\results\\demo-quantity-label-association-before-and-after-demo-mobile\\quantity-label-demo.json"
+        ]
+      }
+    },
+    {
+      "id": "COMPLETE-quantity-label-demo.json-desktop",
+      "status": "pass",
+      "detail": {
+        "checkCount": 7,
+        "passed": 6,
+        "failed": 1
+      }
+    },
+    {
+      "id": "DEMO-PATCHED-ASSOCIATION-desktop",
+      "status": "pass",
+      "detail": "DEMO-PATCHED-ASSOCIATION"
+    },
+    {
+      "id": "DEMO-KEYBOARD-EDIT-desktop",
+      "status": "pass",
+      "detail": "DEMO-KEYBOARD-EDIT"
+    },
+    {
+      "id": "DEMO-REMOVE-desktop",
+      "status": "pass",
+      "detail": "DEMO-REMOVE"
+    },
+    {
+      "id": "DEMO-CART-UNCHANGED-desktop",
+      "status": "pass",
+      "detail": "DEMO-CART-UNCHANGED"
+    },
+    {
+      "id": "COMPLETE-quantity-label-demo.json-mobile",
+      "status": "pass",
+      "detail": {
+        "checkCount": 7,
+        "passed": 6,
+        "failed": 1
+      }
+    },
+    {
+      "id": "DEMO-PATCHED-ASSOCIATION-mobile",
+      "status": "pass",
+      "detail": "DEMO-PATCHED-ASSOCIATION"
+    },
+    {
+      "id": "DEMO-KEYBOARD-EDIT-mobile",
+      "status": "pass",
+      "detail": "DEMO-KEYBOARD-EDIT"
+    },
+    {
+      "id": "DEMO-REMOVE-mobile",
+      "status": "pass",
+      "detail": "DEMO-REMOVE"
+    },
+    {
+      "id": "DEMO-CART-UNCHANGED-mobile",
+      "status": "pass",
+      "detail": "DEMO-CART-UNCHANGED"
+    },
+    {
+      "id": "TOUCH-COMPLETE",
+      "status": "pass",
+      "detail": [
+        {
+          "id": "TOUCH-SEARCH",
+          "status": "pass"
+        },
+        {
+          "id": "TOUCH-ADD",
+          "status": "pass"
+        },
+        {
+          "id": "TOUCH-CART-PAN",
+          "status": "pass"
+        },
+        {
+          "id": "TOUCH-REMOVE-VISIBILITY",
+          "status": "pass"
+        },
+        {
+          "id": "TOUCH-REMOVE",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "id": "TWO-REFRESHES",
+      "status": "pass",
+      "detail": [
+        {
+          "checkedAt": "2026-10-09T14:38:25.9394954Z",
+          "command": "npm run catalogue:refresh",
+          "elapsedMs": 41057,
+          "exitCode": 0,
+          "reportDirectory": "2026-10-09T14-37-45-623Z"
+        },
+        {
+          "checkedAt": "2026-10-09T15:06:01.3000419Z",
+          "command": "npm run catalogue:refresh",
+          "elapsedMs": 37751,
+          "exitCode": 0,
+          "reportDirectory": "2026-10-09T15-05-24-208Z"
+        }
+      ]
+    },
+    {
+      "id": "CATALOGUE-2026-10-09T14-37-45-623Z",
+      "status": "pass",
+      "detail": {
+        "inventory": {
+          "apiUnique": 34,
+          "catalogueUnique": 34,
+          "union": 34,
+          "attempted": 34,
+          "completed": 34,
+          "blocked": 0
+        },
+        "serviceErrors": [],
+        "sourceStatuses": [
+          "pass",
+          "pass"
+        ]
+      }
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-1-evidence/product-1.html",
+      "status": "pass",
+      "detail": "evidence/product-1.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-1-evidence/product-1-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-1-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-1-evidence/product-1.png",
+      "status": "pass",
+      "detail": "evidence/product-1.png"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-2-evidence/product-2.html",
+      "status": "pass",
+      "detail": "evidence/product-2.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-2-evidence/product-2-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-2-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-3-evidence/product-3.html",
+      "status": "pass",
+      "detail": "evidence/product-3.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-3-evidence/product-3-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-3-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-4-evidence/product-4.html",
+      "status": "pass",
+      "detail": "evidence/product-4.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-4-evidence/product-4-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-4-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-5-evidence/product-5.html",
+      "status": "pass",
+      "detail": "evidence/product-5.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-5-evidence/product-5-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-5-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-6-evidence/product-6.html",
+      "status": "pass",
+      "detail": "evidence/product-6.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-6-evidence/product-6-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-6-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-7-evidence/product-7.html",
+      "status": "pass",
+      "detail": "evidence/product-7.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-7-evidence/product-7-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-7-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-8-evidence/product-8.html",
+      "status": "pass",
+      "detail": "evidence/product-8.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-8-evidence/product-8-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-8-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-11-evidence/product-11.html",
+      "status": "pass",
+      "detail": "evidence/product-11.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-11-evidence/product-11-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-11-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-12-evidence/product-12.html",
+      "status": "pass",
+      "detail": "evidence/product-12.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-12-evidence/product-12-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-12-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-13-evidence/product-13.html",
+      "status": "pass",
+      "detail": "evidence/product-13.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-13-evidence/product-13-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-13-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-14-evidence/product-14.html",
+      "status": "pass",
+      "detail": "evidence/product-14.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-14-evidence/product-14-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-14-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-15-evidence/product-15.html",
+      "status": "pass",
+      "detail": "evidence/product-15.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-15-evidence/product-15-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-15-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-16-evidence/product-16.html",
+      "status": "pass",
+      "detail": "evidence/product-16.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-16-evidence/product-16-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-16-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-18-evidence/product-18.html",
+      "status": "pass",
+      "detail": "evidence/product-18.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-18-evidence/product-18-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-18-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-19-evidence/product-19.html",
+      "status": "pass",
+      "detail": "evidence/product-19.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-19-evidence/product-19-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-19-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-20-evidence/product-20.html",
+      "status": "pass",
+      "detail": "evidence/product-20.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-20-evidence/product-20-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-20-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-21-evidence/product-21.html",
+      "status": "pass",
+      "detail": "evidence/product-21.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-21-evidence/product-21-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-21-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-22-evidence/product-22.html",
+      "status": "pass",
+      "detail": "evidence/product-22.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-22-evidence/product-22-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-22-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-23-evidence/product-23.html",
+      "status": "pass",
+      "detail": "evidence/product-23.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-23-evidence/product-23-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-23-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-24-evidence/product-24.html",
+      "status": "pass",
+      "detail": "evidence/product-24.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-24-evidence/product-24-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-24-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-28-evidence/product-28.html",
+      "status": "pass",
+      "detail": "evidence/product-28.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-28-evidence/product-28-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-28-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-29-evidence/product-29.html",
+      "status": "pass",
+      "detail": "evidence/product-29.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-29-evidence/product-29-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-29-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-30-evidence/product-30.html",
+      "status": "pass",
+      "detail": "evidence/product-30.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-30-evidence/product-30-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-30-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-31-evidence/product-31.html",
+      "status": "pass",
+      "detail": "evidence/product-31.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-31-evidence/product-31-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-31-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-33-evidence/product-33.html",
+      "status": "pass",
+      "detail": "evidence/product-33.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-33-evidence/product-33-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-33-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-35-evidence/product-35.html",
+      "status": "pass",
+      "detail": "evidence/product-35.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-35-evidence/product-35-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-35-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-37-evidence/product-37.html",
+      "status": "pass",
+      "detail": "evidence/product-37.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-37-evidence/product-37-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-37-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-38-evidence/product-38.html",
+      "status": "pass",
+      "detail": "evidence/product-38.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-38-evidence/product-38-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-38-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-39-evidence/product-39.html",
+      "status": "pass",
+      "detail": "evidence/product-39.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-39-evidence/product-39-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-39-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-40-evidence/product-40.html",
+      "status": "pass",
+      "detail": "evidence/product-40.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-40-evidence/product-40-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-40-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-41-evidence/product-41.html",
+      "status": "pass",
+      "detail": "evidence/product-41.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-41-evidence/product-41-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-41-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-42-evidence/product-42.html",
+      "status": "pass",
+      "detail": "evidence/product-42.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-42-evidence/product-42-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-42-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-43-evidence/product-43.html",
+      "status": "pass",
+      "detail": "evidence/product-43.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T14-37-45-623Z-43-evidence/product-43-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-43-semantic.json"
+    },
+    {
+      "id": "CATALOGUE-2026-10-09T15-05-24-208Z",
+      "status": "pass",
+      "detail": {
+        "inventory": {
+          "apiUnique": 34,
+          "catalogueUnique": 34,
+          "union": 34,
+          "attempted": 34,
+          "completed": 34,
+          "blocked": 0
+        },
+        "serviceErrors": [],
+        "sourceStatuses": [
+          "pass",
+          "pass"
+        ]
+      }
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-1-evidence/product-1.html",
+      "status": "pass",
+      "detail": "evidence/product-1.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-1-evidence/product-1-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-1-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-1-evidence/product-1.png",
+      "status": "pass",
+      "detail": "evidence/product-1.png"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-2-evidence/product-2.html",
+      "status": "pass",
+      "detail": "evidence/product-2.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-2-evidence/product-2-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-2-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-3-evidence/product-3.html",
+      "status": "pass",
+      "detail": "evidence/product-3.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-3-evidence/product-3-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-3-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-4-evidence/product-4.html",
+      "status": "pass",
+      "detail": "evidence/product-4.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-4-evidence/product-4-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-4-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-5-evidence/product-5.html",
+      "status": "pass",
+      "detail": "evidence/product-5.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-5-evidence/product-5-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-5-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-6-evidence/product-6.html",
+      "status": "pass",
+      "detail": "evidence/product-6.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-6-evidence/product-6-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-6-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-7-evidence/product-7.html",
+      "status": "pass",
+      "detail": "evidence/product-7.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-7-evidence/product-7-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-7-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-8-evidence/product-8.html",
+      "status": "pass",
+      "detail": "evidence/product-8.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-8-evidence/product-8-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-8-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-11-evidence/product-11.html",
+      "status": "pass",
+      "detail": "evidence/product-11.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-11-evidence/product-11-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-11-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-12-evidence/product-12.html",
+      "status": "pass",
+      "detail": "evidence/product-12.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-12-evidence/product-12-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-12-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-13-evidence/product-13.html",
+      "status": "pass",
+      "detail": "evidence/product-13.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-13-evidence/product-13-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-13-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-14-evidence/product-14.html",
+      "status": "pass",
+      "detail": "evidence/product-14.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-14-evidence/product-14-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-14-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-15-evidence/product-15.html",
+      "status": "pass",
+      "detail": "evidence/product-15.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-15-evidence/product-15-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-15-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-16-evidence/product-16.html",
+      "status": "pass",
+      "detail": "evidence/product-16.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-16-evidence/product-16-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-16-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-18-evidence/product-18.html",
+      "status": "pass",
+      "detail": "evidence/product-18.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-18-evidence/product-18-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-18-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-19-evidence/product-19.html",
+      "status": "pass",
+      "detail": "evidence/product-19.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-19-evidence/product-19-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-19-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-20-evidence/product-20.html",
+      "status": "pass",
+      "detail": "evidence/product-20.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-20-evidence/product-20-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-20-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-21-evidence/product-21.html",
+      "status": "pass",
+      "detail": "evidence/product-21.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-21-evidence/product-21-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-21-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-22-evidence/product-22.html",
+      "status": "pass",
+      "detail": "evidence/product-22.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-22-evidence/product-22-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-22-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-23-evidence/product-23.html",
+      "status": "pass",
+      "detail": "evidence/product-23.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-23-evidence/product-23-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-23-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-24-evidence/product-24.html",
+      "status": "pass",
+      "detail": "evidence/product-24.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-24-evidence/product-24-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-24-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-28-evidence/product-28.html",
+      "status": "pass",
+      "detail": "evidence/product-28.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-28-evidence/product-28-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-28-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-29-evidence/product-29.html",
+      "status": "pass",
+      "detail": "evidence/product-29.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-29-evidence/product-29-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-29-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-30-evidence/product-30.html",
+      "status": "pass",
+      "detail": "evidence/product-30.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-30-evidence/product-30-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-30-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-31-evidence/product-31.html",
+      "status": "pass",
+      "detail": "evidence/product-31.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-31-evidence/product-31-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-31-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-33-evidence/product-33.html",
+      "status": "pass",
+      "detail": "evidence/product-33.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-33-evidence/product-33-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-33-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-35-evidence/product-35.html",
+      "status": "pass",
+      "detail": "evidence/product-35.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-35-evidence/product-35-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-35-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-37-evidence/product-37.html",
+      "status": "pass",
+      "detail": "evidence/product-37.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-37-evidence/product-37-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-37-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-38-evidence/product-38.html",
+      "status": "pass",
+      "detail": "evidence/product-38.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-38-evidence/product-38-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-38-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-39-evidence/product-39.html",
+      "status": "pass",
+      "detail": "evidence/product-39.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-39-evidence/product-39-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-39-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-40-evidence/product-40.html",
+      "status": "pass",
+      "detail": "evidence/product-40.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-40-evidence/product-40-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-40-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-41-evidence/product-41.html",
+      "status": "pass",
+      "detail": "evidence/product-41.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-41-evidence/product-41-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-41-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-42-evidence/product-42.html",
+      "status": "pass",
+      "detail": "evidence/product-42.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-42-evidence/product-42-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-42-semantic.json"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-43-evidence/product-43.html",
+      "status": "pass",
+      "detail": "evidence/product-43.html"
+    },
+    {
+      "id": "EVIDENCE-2026-10-09T15-05-24-208Z-43-evidence/product-43-semantic.json",
+      "status": "pass",
+      "detail": "evidence/product-43-semantic.json"
+    },
+    {
+      "id": "FINAL-OFFLINE-VERIFICATION",
+      "status": "pass",
+      "detail": [
+        {
+          "command": "npm ci",
+          "exitCode": 0,
+          "status": "pass",
+          "evidence": "clean-install.stdout.txt"
+        },
+        {
+          "command": "npm run typecheck",
+          "exitCode": 0,
+          "status": "pass",
+          "evidence": "typecheck.stdout.txt"
+        },
+        {
+          "command": "npm run test:tooling",
+          "exitCode": 0,
+          "status": "pass",
+          "testCount": 20,
+          "passed": 20,
+          "failed": 0,
+          "evidence": "tooling.stdout.txt"
+        }
+      ]
+    },
+    {
+      "id": "ADJUSTMENT-REHEARSAL",
+      "status": "pass",
+      "detail": {
+        "rehearsalId": "report-adjustment-source-presence",
+        "scope": "Offline report adjustment; no live requests or collector changes.",
+        "startedAt": "2026-10-09T14:43:07Z",
+        "finishedAt": "2026-10-09T14:45:44Z",
+        "elapsedMs": 157000,
+        "targetMs": 900000,
+        "change": "Add api_present and catalogue_present CSV columns; values true (observed), false (confirmed absent from successfully collected source), unknown (source failure/incomplete discovery).",
+        "filesChanged": [
+          "src/catalogue-report.ts",
+          "tests/tooling.test.ts"
+        ],
+        "compatibility": "CSV columns are inserted after detail_url; read columns by header names. Existing quoting, embedded newlines, formula protection, JSON schema and collection behavior remain unchanged.",
+        "checks": [
+          {
+            "command": "npm.cmd run test:tooling",
+            "status": "pass",
+            "exitCode": 0,
+            "stdoutFile": "report-adjustment-rehearsal-stdout.txt"
+          },
+          {
+            "command": "npm.cmd run typecheck",
+            "status": "pass",
+            "exitCode": 0,
+            "stdoutFile": "report-adjustment-rehearsal-stdout.txt"
+          }
+        ],
+        "regressionScenarios": [
+          "Both inventories contain product",
+          "API-only and catalogue-only union products",
+          "Source outage yields unknown presence and blocked comparison, without false confirmed inventory defect",
+          "Header and row column alignment",
+          "Comma, quote and newline escaping",
+          "Spreadsheet formula protection"
+        ],
+        "withinTarget": true
+      }
+    },
+    {
+      "id": "FINAL-DOCUMENTS",
+      "status": "pass",
+      "detail": []
+    },
+    {
+      "id": "LOCAL-MARKDOWN-LINKS",
+      "status": "pass",
+      "detail": {
+        "linksChecked": 102,
+        "brokenLinks": []
+      }
+    }
+  ],
+  "artifacts": {
+    "api": "artifacts/tests-2026-10-09T14-33-24-715Z-3848",
+    "accountAndBoundaries": "artifacts/tests-2026-10-09T14-48-37-520Z-18300",
+    "journey": "artifacts/tests-2026-10-09T14-52-39-959Z-3844",
+    "demo": "artifacts/tests-2026-10-09T14-55-55-792Z-17880",
+    "touch": "artifacts/mobile-touch-2026-10-09T15-10-51-203Z-8332"
+  },
+  "limits": "Assignment completion does not imply all customer checks passed. Historical development runs and blocked attempts remain separate from final primary evidence."
+}

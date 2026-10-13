@@ -1,0 +1,34 @@
+﻿{
+  "checkedAt": "2026-10-09T15:15:26Z",
+  "environment": {
+    "node": "v22.22.0",
+    "npm": "11.15.0",
+    "platform": "Windows",
+    "chromium": "156.0.8078.4"
+  },
+  "checks": [
+    {
+      "command": "npm ci",
+      "exitCode": 0,
+      "status": "pass",
+      "evidence": "clean-install.stdout.txt"
+    },
+    {
+      "command": "npm run typecheck",
+      "exitCode": 0,
+      "status": "pass",
+      "evidence": "typecheck.stdout.txt"
+    },
+    {
+      "command": "npm run test:tooling",
+      "exitCode": 0,
+      "status": "pass",
+      "testCount": 20,
+      "passed": 20,
+      "failed": 0,
+      "evidence": "tooling.stdout.txt"
+    }
+  ],
+  "limits": "These are installation, static typing, and offline fixture checks. Live customer outcomes are recorded separately in their timestamped runs."
+}
+

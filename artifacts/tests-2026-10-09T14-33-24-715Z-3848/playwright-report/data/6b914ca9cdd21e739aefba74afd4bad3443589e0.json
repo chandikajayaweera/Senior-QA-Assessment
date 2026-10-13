@@ -1,0 +1,36 @@
+{
+  "id": "TC-API-03",
+  "checkedAt": "2026-10-09T14:33:28.529Z",
+  "input": {
+    "search": {}
+  },
+  "request": {
+    "method": "POST",
+    "url": "https://automationexercise.com/api/searchProduct",
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "form": {},
+    "encodedBody": ""
+  },
+  "expected": "Request is rejected with application code 400 and the documented missing-parameter message; actual transport status is recorded independently",
+  "basis": "API 6 says Response Code 400. Whether that means transport HTTP status or JSON responseCode is not explicit.",
+  "actual": {
+    "httpStatus": 200,
+    "statusText": "OK",
+    "finalUrl": "https://automationexercise.com/api/searchProduct",
+    "contentType": "text/html; charset=utf-8",
+    "responseCode": 400,
+    "responseBody": {
+      "responseCode": 400,
+      "message": "Bad request, search_product parameter is missing in POST request."
+    }
+  },
+  "status": "pass",
+  "conclusion": "The required parameter is rejected using the documented application code/message.",
+  "ambiguity": "Documentation says Response Code 400; observed HTTP 200 and JSON responseCode 400. Clarify whether transport status is contractual before filing a status-code defect.",
+  "evidence": [
+    "response.txt",
+    "api-record.json"
+  ]
+}

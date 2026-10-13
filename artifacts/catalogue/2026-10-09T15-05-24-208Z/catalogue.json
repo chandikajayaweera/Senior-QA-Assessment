@@ -1,0 +1,3468 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-09T15-05-24-208Z",
+  "startedAt": "2026-10-09T15:05:24.208Z",
+  "finishedAt": "2026-10-09T15:06:01.173Z",
+  "durationMs": 36965,
+  "outputDir": "C:\\Users\\Chand\\Desktop\\QA_Round_2\\artifacts\\catalogue\\2026-10-09T15-05-24-208Z",
+  "environment": {
+    "node": "v22.22.0",
+    "platform": "win32",
+    "architecture": "x64",
+    "baseUrl": "https://automationexercise.com",
+    "browser": "Chromium",
+    "headless": true,
+    "timezone": "UTC",
+    "inventorySnapshot": "Start-of-run sources; no transactional snapshot across independent live surfaces.",
+    "chromiumVersion": "156.0.8078.4",
+    "collectionDurationMs": 36957.5004,
+    "reportTargetMet": true
+  },
+  "config": {
+    "collectionDeadlineMs": 240000,
+    "reportTargetMs": 270000,
+    "workers": 2,
+    "controlledStartIntervalMs": 1000
+  },
+  "sources": [
+    {
+      "name": "api",
+      "status": "pass",
+      "httpStatus": 200,
+      "observedAt": "2026-10-09T15:05:25.568Z",
+      "urls": ["https://automationexercise.com/api/productsList"],
+      "recordCount": 34,
+      "evidence": [
+        "evidence/api-products-response.json",
+        "evidence/api-products-body.txt"
+      ]
+    },
+    {
+      "name": "catalogue",
+      "status": "pass",
+      "httpStatus": 200,
+      "observedAt": "2026-10-09T15:05:27.204Z",
+      "urls": ["https://automationexercise.com/products"],
+      "recordCount": 34,
+      "evidence": [
+        "evidence/catalogue-001.html",
+        "evidence/catalogue-001-navigation.json",
+        "evidence/catalogue-001-semantic.json",
+        "evidence/catalogue-representative.png"
+      ]
+    }
+  ],
+  "inventory": {
+    "apiUnique": 34,
+    "catalogueUnique": 34,
+    "union": 34,
+    "attempted": 34,
+    "completed": 34,
+    "blocked": 0
+  },
+  "coverageComplete": true,
+  "serviceErrors": [],
+  "rows": [
+    {
+      "id": "1",
+      "detailUrl": "https://automationexercise.com/product_details/1",
+      "api": [
+        {
+          "id": "1",
+          "name": "Blue Top",
+          "price": "Rs. 500"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "1",
+          "name": "Blue Top",
+          "price": "Rs. 500",
+          "detailUrl": "https://automationexercise.com/product_details/1"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:28.811Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/1",
+        "productRegionPresent": true,
+        "name": "Blue Top",
+        "price": "Rs. 500",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Blue Top"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/1",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 268,
+          "height": 249
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/1"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Blue Top\" / \"Blue Top\" / \"Blue Top\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 500\" / \"Rs. 500\" / \"Rs. 500\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Blue Top\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 268 x 249."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-1.html",
+        "evidence/product-1-semantic.json",
+        "evidence/product-1.png"
+      ]
+    },
+    {
+      "id": "2",
+      "detailUrl": "https://automationexercise.com/product_details/2",
+      "api": [
+        {
+          "id": "2",
+          "name": "Men Tshirt",
+          "price": "Rs. 400"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "2",
+          "name": "Men Tshirt",
+          "price": "Rs. 400",
+          "detailUrl": "https://automationexercise.com/product_details/2"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:28.980Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/2",
+        "productRegionPresent": true,
+        "name": "Men Tshirt",
+        "price": "Rs. 400",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Men Tshirt"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/2",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 268,
+          "height": 249
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/2"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Men Tshirt\" / \"Men Tshirt\" / \"Men Tshirt\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 400\" / \"Rs. 400\" / \"Rs. 400\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Men Tshirt\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 268 x 249."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-2.html",
+        "evidence/product-2-semantic.json"
+      ]
+    },
+    {
+      "id": "3",
+      "detailUrl": "https://automationexercise.com/product_details/3",
+      "api": [
+        {
+          "id": "3",
+          "name": "Sleeveless Dress",
+          "price": "Rs. 1000"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "3",
+          "name": "Sleeveless Dress",
+          "price": "Rs. 1000",
+          "detailUrl": "https://automationexercise.com/product_details/3"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:29.941Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/3",
+        "productRegionPresent": true,
+        "name": "Sleeveless Dress",
+        "price": "Rs. 1000",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Sleeveless Dress"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/3",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 268,
+          "height": 249
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/3"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Sleeveless Dress\" / \"Sleeveless Dress\" / \"Sleeveless Dress\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1000\" / \"Rs. 1000\" / \"Rs. 1000\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Sleeveless Dress\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 268 x 249."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-3.html",
+        "evidence/product-3-semantic.json"
+      ]
+    },
+    {
+      "id": "4",
+      "detailUrl": "https://automationexercise.com/product_details/4",
+      "api": [
+        {
+          "id": "4",
+          "name": "Stylish Dress",
+          "price": "Rs. 1500"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "4",
+          "name": "Stylish Dress",
+          "price": "Rs. 1500",
+          "detailUrl": "https://automationexercise.com/product_details/4"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:30.976Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/4",
+        "productRegionPresent": true,
+        "name": "Stylish Dress",
+        "price": "Rs. 1500",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Stylish Dress"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/4",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 268,
+          "height": 249
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/4"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Stylish Dress\" / \"Stylish Dress\" / \"Stylish Dress\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1500\" / \"Rs. 1500\" / \"Rs. 1500\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Stylish Dress\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 268 x 249."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-4.html",
+        "evidence/product-4-semantic.json"
+      ]
+    },
+    {
+      "id": "5",
+      "detailUrl": "https://automationexercise.com/product_details/5",
+      "api": [
+        {
+          "id": "5",
+          "name": "Winter Top",
+          "price": "Rs. 600"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "5",
+          "name": "Winter Top",
+          "price": "Rs. 600",
+          "detailUrl": "https://automationexercise.com/product_details/5"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:32.075Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/5",
+        "productRegionPresent": true,
+        "name": "Winter Top",
+        "price": "Rs. 600",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Winter Top"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/5",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 268,
+          "height": 249
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/5"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Winter Top\" / \"Winter Top\" / \"Winter Top\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 600\" / \"Rs. 600\" / \"Rs. 600\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Winter Top\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 268 x 249."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-5.html",
+        "evidence/product-5-semantic.json"
+      ]
+    },
+    {
+      "id": "6",
+      "detailUrl": "https://automationexercise.com/product_details/6",
+      "api": [
+        {
+          "id": "6",
+          "name": "Summer White Top",
+          "price": "Rs. 400"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "6",
+          "name": "Summer White Top",
+          "price": "Rs. 400",
+          "detailUrl": "https://automationexercise.com/product_details/6"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:32.946Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/6",
+        "productRegionPresent": true,
+        "name": "Summer White Top",
+        "price": "Rs. 400",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Summer White Top"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/6",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 268,
+          "height": 249
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/6"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Summer White Top\" / \"Summer White Top\" / \"Summer White Top\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 400\" / \"Rs. 400\" / \"Rs. 400\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Summer White Top\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 268 x 249."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-6.html",
+        "evidence/product-6-semantic.json"
+      ]
+    },
+    {
+      "id": "7",
+      "detailUrl": "https://automationexercise.com/product_details/7",
+      "api": [
+        {
+          "id": "7",
+          "name": "Madame Top For Women",
+          "price": "Rs. 1000"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "7",
+          "name": "Madame Top For Women",
+          "price": "Rs. 1000",
+          "detailUrl": "https://automationexercise.com/product_details/7"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:34.142Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/7",
+        "productRegionPresent": true,
+        "name": "Madame Top For Women",
+        "price": "Rs. 1000",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Madame Top For Women"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/7",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 683,
+          "height": 1024
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/7"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Madame Top For Women\" / \"Madame Top For Women\" / \"Madame Top For Women\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1000\" / \"Rs. 1000\" / \"Rs. 1000\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Madame Top For Women\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 683 x 1024."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-7.html",
+        "evidence/product-7-semantic.json"
+      ]
+    },
+    {
+      "id": "8",
+      "detailUrl": "https://automationexercise.com/product_details/8",
+      "api": [
+        {
+          "id": "8",
+          "name": "Fancy Green Top",
+          "price": "Rs. 700"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "8",
+          "name": "Fancy Green Top",
+          "price": "Rs. 700",
+          "detailUrl": "https://automationexercise.com/product_details/8"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:34.893Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/8",
+        "productRegionPresent": true,
+        "name": "Fancy Green Top",
+        "price": "Rs. 700",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Fancy Green Top"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/8",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 500,
+          "height": 500
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/8"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Fancy Green Top\" / \"Fancy Green Top\" / \"Fancy Green Top\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 700\" / \"Rs. 700\" / \"Rs. 700\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Fancy Green Top\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 500 x 500."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-8.html",
+        "evidence/product-8-semantic.json"
+      ]
+    },
+    {
+      "id": "11",
+      "detailUrl": "https://automationexercise.com/product_details/11",
+      "api": [
+        {
+          "id": "11",
+          "name": "Sleeves Printed Top - White",
+          "price": "Rs. 499"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "11",
+          "name": "Sleeves Printed Top - White",
+          "price": "Rs. 499",
+          "detailUrl": "https://automationexercise.com/product_details/11"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:36.192Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/11",
+        "productRegionPresent": true,
+        "name": "Sleeves Printed Top - White",
+        "price": "Rs. 499",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Sleeves Printed Top - White"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/11",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 1600,
+          "height": 1939
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/11"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Sleeves Printed Top - White\" / \"Sleeves Printed Top - White\" / \"Sleeves Printed Top - White\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 499\" / \"Rs. 499\" / \"Rs. 499\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Sleeves Printed Top - White\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 1600 x 1939."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-11.html",
+        "evidence/product-11-semantic.json"
+      ]
+    },
+    {
+      "id": "12",
+      "detailUrl": "https://automationexercise.com/product_details/12",
+      "api": [
+        {
+          "id": "12",
+          "name": "Half Sleeves Top Schiffli Detailing - Pink",
+          "price": "Rs. 359"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "12",
+          "name": "Half Sleeves Top Schiffli Detailing - Pink",
+          "price": "Rs. 359",
+          "detailUrl": "https://automationexercise.com/product_details/12"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:36.963Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/12",
+        "productRegionPresent": true,
+        "name": "Half Sleeves Top Schiffli Detailing - Pink",
+        "price": "Rs. 359",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Half Sleeves Top Schiffli Detailing - Pink"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/12",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 438,
+          "height": 531
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/12"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Half Sleeves Top Schiffli Detailing - Pink\" / \"Half Sleeves Top Schiffli Detailing - Pink\" / \"Half Sleeves Top Schiffli Detailing - Pink\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 359\" / \"Rs. 359\" / \"Rs. 359\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Half Sleeves Top Schiffli Detailing - Pink\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 438 x 531."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-12.html",
+        "evidence/product-12-semantic.json"
+      ]
+    },
+    {
+      "id": "13",
+      "detailUrl": "https://automationexercise.com/product_details/13",
+      "api": [
+        {
+          "id": "13",
+          "name": "Frozen Tops For Kids",
+          "price": "Rs. 278"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "13",
+          "name": "Frozen Tops For Kids",
+          "price": "Rs. 278",
+          "detailUrl": "https://automationexercise.com/product_details/13"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:38.079Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/13",
+        "productRegionPresent": true,
+        "name": "Frozen Tops For Kids",
+        "price": "Rs. 278",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Frozen Tops For Kids"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/13",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 1000,
+          "height": 1320
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/13"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Frozen Tops For Kids\" / \"Frozen Tops For Kids\" / \"Frozen Tops For Kids\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 278\" / \"Rs. 278\" / \"Rs. 278\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Frozen Tops For Kids\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 1000 x 1320."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-13.html",
+        "evidence/product-13-semantic.json"
+      ]
+    },
+    {
+      "id": "14",
+      "detailUrl": "https://automationexercise.com/product_details/14",
+      "api": [
+        {
+          "id": "14",
+          "name": "Full Sleeves Top Cherry - Pink",
+          "price": "Rs. 679"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "14",
+          "name": "Full Sleeves Top Cherry - Pink",
+          "price": "Rs. 679",
+          "detailUrl": "https://automationexercise.com/product_details/14"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:38.908Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/14",
+        "productRegionPresent": true,
+        "name": "Full Sleeves Top Cherry - Pink",
+        "price": "Rs. 679",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Full Sleeves Top Cherry - Pink"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/14",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 438,
+          "height": 531
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/14"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Full Sleeves Top Cherry - Pink\" / \"Full Sleeves Top Cherry - Pink\" / \"Full Sleeves Top Cherry - Pink\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 679\" / \"Rs. 679\" / \"Rs. 679\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Full Sleeves Top Cherry - Pink\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 438 x 531."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-14.html",
+        "evidence/product-14-semantic.json"
+      ]
+    },
+    {
+      "id": "15",
+      "detailUrl": "https://automationexercise.com/product_details/15",
+      "api": [
+        {
+          "id": "15",
+          "name": "Printed Off Shoulder Top - White",
+          "price": "Rs. 315"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "15",
+          "name": "Printed Off Shoulder Top - White",
+          "price": "Rs. 315",
+          "detailUrl": "https://automationexercise.com/product_details/15"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:39.978Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/15",
+        "productRegionPresent": true,
+        "name": "Printed Off Shoulder Top - White",
+        "price": "Rs. 315",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Printed Off Shoulder Top - White"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/15",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 438,
+          "height": 531
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/15"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Printed Off Shoulder Top - White\" / \"Printed Off Shoulder Top - White\" / \"Printed Off Shoulder Top - White\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 315\" / \"Rs. 315\" / \"Rs. 315\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Printed Off Shoulder Top - White\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 438 x 531."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-15.html",
+        "evidence/product-15-semantic.json"
+      ]
+    },
+    {
+      "id": "16",
+      "detailUrl": "https://automationexercise.com/product_details/16",
+      "api": [
+        {
+          "id": "16",
+          "name": "Sleeves Top and Short - Blue & Pink",
+          "price": "Rs. 478"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "16",
+          "name": "Sleeves Top and Short - Blue & Pink",
+          "price": "Rs. 478",
+          "detailUrl": "https://automationexercise.com/product_details/16"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:41.015Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/16",
+        "productRegionPresent": true,
+        "name": "Sleeves Top and Short - Blue & Pink",
+        "price": "Rs. 478",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Sleeves Top and Short - Blue & Pink"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/16",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 438,
+          "height": 531
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/16"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Sleeves Top and Short - Blue & Pink\" / \"Sleeves Top and Short - Blue & Pink\" / \"Sleeves Top and Short - Blue & Pink\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 478\" / \"Rs. 478\" / \"Rs. 478\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Sleeves Top and Short - Blue & Pink\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 438 x 531."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-16.html",
+        "evidence/product-16-semantic.json"
+      ]
+    },
+    {
+      "id": "18",
+      "detailUrl": "https://automationexercise.com/product_details/18",
+      "api": [
+        {
+          "id": "18",
+          "name": "Little Girls Mr. Panda Shirt",
+          "price": "Rs. 1200"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "18",
+          "name": "Little Girls Mr. Panda Shirt",
+          "price": "Rs. 1200",
+          "detailUrl": "https://automationexercise.com/product_details/18"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:42.075Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/18",
+        "productRegionPresent": true,
+        "name": "Little Girls Mr. Panda Shirt",
+        "price": "Rs. 1200",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Little Girls Mr. Panda Shirt"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/18",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 485,
+          "height": 548
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/18"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Little Girls Mr. Panda Shirt\" / \"Little Girls Mr. Panda Shirt\" / \"Little Girls Mr. Panda Shirt\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1200\" / \"Rs. 1200\" / \"Rs. 1200\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Little Girls Mr. Panda Shirt\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 485 x 548."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-18.html",
+        "evidence/product-18-semantic.json"
+      ]
+    },
+    {
+      "id": "19",
+      "detailUrl": "https://automationexercise.com/product_details/19",
+      "api": [
+        {
+          "id": "19",
+          "name": "Sleeveless Unicorn Patch Gown - Pink",
+          "price": "Rs. 1050"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "19",
+          "name": "Sleeveless Unicorn Patch Gown - Pink",
+          "price": "Rs. 1050",
+          "detailUrl": "https://automationexercise.com/product_details/19"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:43.025Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/19",
+        "productRegionPresent": true,
+        "name": "Sleeveless Unicorn Patch Gown - Pink",
+        "price": "Rs. 1050",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Sleeveless Unicorn Patch Gown - Pink"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/19",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 438,
+          "height": 531
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/19"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Sleeveless Unicorn Patch Gown - Pink\" / \"Sleeveless Unicorn Patch Gown - Pink\" / \"Sleeveless Unicorn Patch Gown - Pink\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1050\" / \"Rs. 1050\" / \"Rs. 1050\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Sleeveless Unicorn Patch Gown - Pink\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 438 x 531."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-19.html",
+        "evidence/product-19-semantic.json"
+      ]
+    },
+    {
+      "id": "20",
+      "detailUrl": "https://automationexercise.com/product_details/20",
+      "api": [
+        {
+          "id": "20",
+          "name": "Cotton Mull Embroidered Dress",
+          "price": "Rs. 1190"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "20",
+          "name": "Cotton Mull Embroidered Dress",
+          "price": "Rs. 1190",
+          "detailUrl": "https://automationexercise.com/product_details/20"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:44.019Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/20",
+        "productRegionPresent": true,
+        "name": "Cotton Mull Embroidered Dress",
+        "price": "Rs. 1190",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Cotton Mull Embroidered Dress"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/20",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 740,
+          "height": 940
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/20"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Cotton Mull Embroidered Dress\" / \"Cotton Mull Embroidered Dress\" / \"Cotton Mull Embroidered Dress\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1190\" / \"Rs. 1190\" / \"Rs. 1190\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Cotton Mull Embroidered Dress\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 740 x 940."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-20.html",
+        "evidence/product-20-semantic.json"
+      ]
+    },
+    {
+      "id": "21",
+      "detailUrl": "https://automationexercise.com/product_details/21",
+      "api": [
+        {
+          "id": "21",
+          "name": "Blue Cotton Indie Mickey Dress",
+          "price": "Rs. 1530"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "21",
+          "name": "Blue Cotton Indie Mickey Dress",
+          "price": "Rs. 1530",
+          "detailUrl": "https://automationexercise.com/product_details/21"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:45.057Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/21",
+        "productRegionPresent": true,
+        "name": "Blue Cotton Indie Mickey Dress",
+        "price": "Rs. 1530",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Blue Cotton Indie Mickey Dress"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/21",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 1000,
+          "height": 1500
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/21"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Blue Cotton Indie Mickey Dress\" / \"Blue Cotton Indie Mickey Dress\" / \"Blue Cotton Indie Mickey Dress\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1530\" / \"Rs. 1530\" / \"Rs. 1530\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Blue Cotton Indie Mickey Dress\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 1000 x 1500."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-21.html",
+        "evidence/product-21-semantic.json"
+      ]
+    },
+    {
+      "id": "22",
+      "detailUrl": "https://automationexercise.com/product_details/22",
+      "api": [
+        {
+          "id": "22",
+          "name": "Long Maxi Tulle Fancy Dress Up Outfits -Pink",
+          "price": "Rs. 1600"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "22",
+          "name": "Long Maxi Tulle Fancy Dress Up Outfits -Pink",
+          "price": "Rs. 1600",
+          "detailUrl": "https://automationexercise.com/product_details/22"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:46.076Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/22",
+        "productRegionPresent": true,
+        "name": "Long Maxi Tulle Fancy Dress Up Outfits -Pink",
+        "price": "Rs. 1600",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Long Maxi Tulle Fancy Dress Up Outfits -Pink"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/22",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/22"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Long Maxi Tulle Fancy Dress Up Outfits -Pink\" / \"Long Maxi Tulle Fancy Dress Up Outfits -Pink\" / \"Long Maxi Tulle Fancy Dress Up Outfits -Pink\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1600\" / \"Rs. 1600\" / \"Rs. 1600\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Long Maxi Tulle Fancy Dress Up Outfits -Pink\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 1024 x 1024."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-22.html",
+        "evidence/product-22-semantic.json"
+      ]
+    },
+    {
+      "id": "23",
+      "detailUrl": "https://automationexercise.com/product_details/23",
+      "api": [
+        {
+          "id": "23",
+          "name": "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi",
+          "price": "Rs. 1100"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "23",
+          "name": "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi",
+          "price": "Rs. 1100",
+          "detailUrl": "https://automationexercise.com/product_details/23"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:47.193Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/23",
+        "productRegionPresent": true,
+        "name": "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi",
+        "price": "Rs. 1100",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Sleeveless Unicorn Print Fit & Flare Net Dress - Multi"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/23",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 438,
+          "height": 531
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/23"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Sleeveless Unicorn Print Fit & Flare Net Dress - Multi\" / \"Sleeveless Unicorn Print Fit & Flare Net Dress - Multi\" / \"Sleeveless Unicorn Print Fit & Flare Net Dress - Multi\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1100\" / \"Rs. 1100\" / \"Rs. 1100\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Sleeveless Unicorn Print Fit & Flare Net Dress - Multi\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 438 x 531."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-23.html",
+        "evidence/product-23-semantic.json"
+      ]
+    },
+    {
+      "id": "24",
+      "detailUrl": "https://automationexercise.com/product_details/24",
+      "api": [
+        {
+          "id": "24",
+          "name": "Colour Blocked Shirt – Sky Blue",
+          "price": "Rs. 849"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "24",
+          "name": "Colour Blocked Shirt – Sky Blue",
+          "price": "Rs. 849",
+          "detailUrl": "https://automationexercise.com/product_details/24"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:48.391Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/24",
+        "productRegionPresent": true,
+        "name": "Colour Blocked Shirt – Sky Blue",
+        "price": "Rs. 849",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Colour Blocked Shirt – Sky Blue"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/24",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 1370,
+          "height": 1370
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/24"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Colour Blocked Shirt – Sky Blue\" / \"Colour Blocked Shirt – Sky Blue\" / \"Colour Blocked Shirt – Sky Blue\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 849\" / \"Rs. 849\" / \"Rs. 849\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Colour Blocked Shirt – Sky Blue\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 1370 x 1370."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-24.html",
+        "evidence/product-24-semantic.json"
+      ]
+    },
+    {
+      "id": "28",
+      "detailUrl": "https://automationexercise.com/product_details/28",
+      "api": [
+        {
+          "id": "28",
+          "name": "Pure Cotton V-Neck T-Shirt",
+          "price": "Rs. 1299"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "28",
+          "name": "Pure Cotton V-Neck T-Shirt",
+          "price": "Rs. 1299",
+          "detailUrl": "https://automationexercise.com/product_details/28"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:49.458Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/28",
+        "productRegionPresent": true,
+        "name": "Pure Cotton V-Neck T-Shirt",
+        "price": "Rs. 1299",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Pure Cotton V-Neck T-Shirt"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/28",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 828,
+          "height": 1077
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/28"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Pure Cotton V-Neck T-Shirt\" / \"Pure Cotton V-Neck T-Shirt\" / \"Pure Cotton V-Neck T-Shirt\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1299\" / \"Rs. 1299\" / \"Rs. 1299\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Pure Cotton V-Neck T-Shirt\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 828 x 1077."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-28.html",
+        "evidence/product-28-semantic.json"
+      ]
+    },
+    {
+      "id": "29",
+      "detailUrl": "https://automationexercise.com/product_details/29",
+      "api": [
+        {
+          "id": "29",
+          "name": "Green Side Placket Detail T-Shirt",
+          "price": "Rs. 1000"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "29",
+          "name": "Green Side Placket Detail T-Shirt",
+          "price": "Rs. 1000",
+          "detailUrl": "https://automationexercise.com/product_details/29"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:50.424Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/29",
+        "productRegionPresent": true,
+        "name": "Green Side Placket Detail T-Shirt",
+        "price": "Rs. 1000",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Green Side Placket Detail T-Shirt"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/29",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 1200,
+          "height": 1600
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/29"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Green Side Placket Detail T-Shirt\" / \"Green Side Placket Detail T-Shirt\" / \"Green Side Placket Detail T-Shirt\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1000\" / \"Rs. 1000\" / \"Rs. 1000\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Green Side Placket Detail T-Shirt\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 1200 x 1600."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-29.html",
+        "evidence/product-29-semantic.json"
+      ]
+    },
+    {
+      "id": "30",
+      "detailUrl": "https://automationexercise.com/product_details/30",
+      "api": [
+        {
+          "id": "30",
+          "name": "Premium Polo T-Shirts",
+          "price": "Rs. 1500"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "30",
+          "name": "Premium Polo T-Shirts",
+          "price": "Rs. 1500",
+          "detailUrl": "https://automationexercise.com/product_details/30"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:51.246Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/30",
+        "productRegionPresent": true,
+        "name": "Premium Polo T-Shirts",
+        "price": "Rs. 1500",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Premium Polo T-Shirts"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/30",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 690,
+          "height": 690
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/30"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Premium Polo T-Shirts\" / \"Premium Polo T-Shirts\" / \"Premium Polo T-Shirts\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1500\" / \"Rs. 1500\" / \"Rs. 1500\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Premium Polo T-Shirts\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 690 x 690."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-30.html",
+        "evidence/product-30-semantic.json"
+      ]
+    },
+    {
+      "id": "31",
+      "detailUrl": "https://automationexercise.com/product_details/31",
+      "api": [
+        {
+          "id": "31",
+          "name": "Pure Cotton Neon Green Tshirt",
+          "price": "Rs. 850"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "31",
+          "name": "Pure Cotton Neon Green Tshirt",
+          "price": "Rs. 850",
+          "detailUrl": "https://automationexercise.com/product_details/31"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:52.125Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/31",
+        "productRegionPresent": true,
+        "name": "Pure Cotton Neon Green Tshirt",
+        "price": "Rs. 850",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Pure Cotton Neon Green Tshirt"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/31",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 1080,
+          "height": 1440
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/31"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Pure Cotton Neon Green Tshirt\" / \"Pure Cotton Neon Green Tshirt\" / \"Pure Cotton Neon Green Tshirt\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 850\" / \"Rs. 850\" / \"Rs. 850\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Pure Cotton Neon Green Tshirt\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 1080 x 1440."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-31.html",
+        "evidence/product-31-semantic.json"
+      ]
+    },
+    {
+      "id": "33",
+      "detailUrl": "https://automationexercise.com/product_details/33",
+      "api": [
+        {
+          "id": "33",
+          "name": "Soft Stretch Jeans",
+          "price": "Rs. 799"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "33",
+          "name": "Soft Stretch Jeans",
+          "price": "Rs. 799",
+          "detailUrl": "https://automationexercise.com/product_details/33"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:53.074Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/33",
+        "productRegionPresent": true,
+        "name": "Soft Stretch Jeans",
+        "price": "Rs. 799",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Soft Stretch Jeans"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/33",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 800,
+          "height": 999
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/33"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Soft Stretch Jeans\" / \"Soft Stretch Jeans\" / \"Soft Stretch Jeans\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 799\" / \"Rs. 799\" / \"Rs. 799\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Soft Stretch Jeans\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 800 x 999."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-33.html",
+        "evidence/product-33-semantic.json"
+      ]
+    },
+    {
+      "id": "35",
+      "detailUrl": "https://automationexercise.com/product_details/35",
+      "api": [
+        {
+          "id": "35",
+          "name": "Regular Fit Straight Jeans",
+          "price": "Rs. 1200"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "35",
+          "name": "Regular Fit Straight Jeans",
+          "price": "Rs. 1200",
+          "detailUrl": "https://automationexercise.com/product_details/35"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:54.174Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/35",
+        "productRegionPresent": true,
+        "name": "Regular Fit Straight Jeans",
+        "price": "Rs. 1200",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Regular Fit Straight Jeans"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/35",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 1600,
+          "height": 1600
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/35"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Regular Fit Straight Jeans\" / \"Regular Fit Straight Jeans\" / \"Regular Fit Straight Jeans\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1200\" / \"Rs. 1200\" / \"Rs. 1200\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Regular Fit Straight Jeans\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 1600 x 1600."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-35.html",
+        "evidence/product-35-semantic.json"
+      ]
+    },
+    {
+      "id": "37",
+      "detailUrl": "https://automationexercise.com/product_details/37",
+      "api": [
+        {
+          "id": "37",
+          "name": "Grunt Blue Slim Fit Jeans",
+          "price": "Rs. 1400"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "37",
+          "name": "Grunt Blue Slim Fit Jeans",
+          "price": "Rs. 1400",
+          "detailUrl": "https://automationexercise.com/product_details/37"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:55.474Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/37",
+        "productRegionPresent": true,
+        "name": "Grunt Blue Slim Fit Jeans",
+        "price": "Rs. 1400",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Grunt Blue Slim Fit Jeans"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/37",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 1080,
+          "height": 1440
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/37"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Grunt Blue Slim Fit Jeans\" / \"Grunt Blue Slim Fit Jeans\" / \"Grunt Blue Slim Fit Jeans\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1400\" / \"Rs. 1400\" / \"Rs. 1400\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Grunt Blue Slim Fit Jeans\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 1080 x 1440."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-37.html",
+        "evidence/product-37-semantic.json"
+      ]
+    },
+    {
+      "id": "38",
+      "detailUrl": "https://automationexercise.com/product_details/38",
+      "api": [
+        {
+          "id": "38",
+          "name": "Rose Pink Embroidered Maxi Dress",
+          "price": "Rs. 2300"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "38",
+          "name": "Rose Pink Embroidered Maxi Dress",
+          "price": "Rs. 2300",
+          "detailUrl": "https://automationexercise.com/product_details/38"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:56.191Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/38",
+        "productRegionPresent": true,
+        "name": "Rose Pink Embroidered Maxi Dress",
+        "price": "Rs. 2300",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Rose Pink Embroidered Maxi Dress"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/38",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 477,
+          "height": 681
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/38"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rose Pink Embroidered Maxi Dress\" / \"Rose Pink Embroidered Maxi Dress\" / \"Rose Pink Embroidered Maxi Dress\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 2300\" / \"Rs. 2300\" / \"Rs. 2300\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Rose Pink Embroidered Maxi Dress\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 477 x 681."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-38.html",
+        "evidence/product-38-semantic.json"
+      ]
+    },
+    {
+      "id": "39",
+      "detailUrl": "https://automationexercise.com/product_details/39",
+      "api": [
+        {
+          "id": "39",
+          "name": "Cotton Silk Hand Block Print Saree",
+          "price": "Rs. 3000"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "39",
+          "name": "Cotton Silk Hand Block Print Saree",
+          "price": "Rs. 3000",
+          "detailUrl": "https://automationexercise.com/product_details/39"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:57.137Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/39",
+        "productRegionPresent": true,
+        "name": "Cotton Silk Hand Block Print Saree",
+        "price": "Rs. 3000",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Cotton Silk Hand Block Print Saree"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/39",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 740,
+          "height": 940
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/39"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Cotton Silk Hand Block Print Saree\" / \"Cotton Silk Hand Block Print Saree\" / \"Cotton Silk Hand Block Print Saree\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 3000\" / \"Rs. 3000\" / \"Rs. 3000\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Cotton Silk Hand Block Print Saree\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 740 x 940."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-39.html",
+        "evidence/product-39-semantic.json"
+      ]
+    },
+    {
+      "id": "40",
+      "detailUrl": "https://automationexercise.com/product_details/40",
+      "api": [
+        {
+          "id": "40",
+          "name": "Rust Red Linen Saree",
+          "price": "Rs. 3500"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "40",
+          "name": "Rust Red Linen Saree",
+          "price": "Rs. 3500",
+          "detailUrl": "https://automationexercise.com/product_details/40"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:58.190Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/40",
+        "productRegionPresent": true,
+        "name": "Rust Red Linen Saree",
+        "price": "Rs. 3500",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Rust Red Linen Saree"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/40",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 747,
+          "height": 1024
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/40"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rust Red Linen Saree\" / \"Rust Red Linen Saree\" / \"Rust Red Linen Saree\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 3500\" / \"Rs. 3500\" / \"Rs. 3500\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Rust Red Linen Saree\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 747 x 1024."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-40.html",
+        "evidence/product-40-semantic.json"
+      ]
+    },
+    {
+      "id": "41",
+      "detailUrl": "https://automationexercise.com/product_details/41",
+      "api": [
+        {
+          "id": "41",
+          "name": "Beautiful Peacock Blue Cotton Linen Saree",
+          "price": "Rs. 5000"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "41",
+          "name": "Beautiful Peacock Blue Cotton Linen Saree",
+          "price": "Rs. 5000",
+          "detailUrl": "https://automationexercise.com/product_details/41"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:05:59.091Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/41",
+        "productRegionPresent": true,
+        "name": "Beautiful Peacock Blue Cotton Linen Saree",
+        "price": "Rs. 5000",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Beautiful Peacock Blue Cotton Linen Saree"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/41",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 1000,
+          "height": 1500
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/41"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Beautiful Peacock Blue Cotton Linen Saree\" / \"Beautiful Peacock Blue Cotton Linen Saree\" / \"Beautiful Peacock Blue Cotton Linen Saree\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 5000\" / \"Rs. 5000\" / \"Rs. 5000\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Beautiful Peacock Blue Cotton Linen Saree\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 1000 x 1500."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-41.html",
+        "evidence/product-41-semantic.json"
+      ]
+    },
+    {
+      "id": "42",
+      "detailUrl": "https://automationexercise.com/product_details/42",
+      "api": [
+        {
+          "id": "42",
+          "name": "Lace Top For Women",
+          "price": "Rs. 1400"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "42",
+          "name": "Lace Top For Women",
+          "price": "Rs. 1400",
+          "detailUrl": "https://automationexercise.com/product_details/42"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:06:00.224Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/42",
+        "productRegionPresent": true,
+        "name": "Lace Top For Women",
+        "price": "Rs. 1400",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "Lace Top For Women"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/42",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 900,
+          "height": 1200
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/42"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Lace Top For Women\" / \"Lace Top For Women\" / \"Lace Top For Women\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1400\" / \"Rs. 1400\" / \"Rs. 1400\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"Lace Top For Women\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 900 x 1200."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-42.html",
+        "evidence/product-42-semantic.json"
+      ]
+    },
+    {
+      "id": "43",
+      "detailUrl": "https://automationexercise.com/product_details/43",
+      "api": [
+        {
+          "id": "43",
+          "name": "GRAPHIC DESIGN MEN T SHIRT - BLUE",
+          "price": "Rs. 1389"
+        }
+      ],
+      "catalogue": [
+        {
+          "id": "43",
+          "name": "GRAPHIC DESIGN MEN T SHIRT - BLUE",
+          "price": "Rs. 1389",
+          "detailUrl": "https://automationexercise.com/product_details/43"
+        }
+      ],
+      "conflicts": [],
+      "checkedAt": "2026-10-09T15:06:01.057Z",
+      "visited": true,
+      "detail": {
+        "httpStatus": 200,
+        "finalUrl": "https://automationexercise.com/product_details/43",
+        "productRegionPresent": true,
+        "name": "GRAPHIC DESIGN MEN T SHIRT - BLUE",
+        "price": "Rs. 1389",
+        "title": "Automation Exercise - Product Details",
+        "heading": {
+          "tag": "h2",
+          "text": "GRAPHIC DESIGN MEN T SHIRT - BLUE"
+        },
+        "image": {
+          "present": true,
+          "url": "https://automationexercise.com/get_product_picture/43",
+          "altPresent": true,
+          "altText": "ecommerce website products",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "decoded": true,
+          "width": 900,
+          "height": 1115
+        }
+      },
+      "checks": {
+        "sourceAgreement": {
+          "status": "pass",
+          "detail": "Present in both inventories with unambiguous values."
+        },
+        "detailAvailability": {
+          "status": "pass",
+          "detail": "Document HTTP 200; final URL https://automationexercise.com/product_details/43"
+        },
+        "productContent": {
+          "status": "pass",
+          "detail": "Expected product content region rendered."
+        },
+        "nameAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"GRAPHIC DESIGN MEN T SHIRT - BLUE\" / \"GRAPHIC DESIGN MEN T SHIRT - BLUE\" / \"GRAPHIC DESIGN MEN T SHIRT - BLUE\""
+        },
+        "priceAgreement": {
+          "status": "pass",
+          "detail": "API / catalogue / detail: \"Rs. 1389\" / \"Rs. 1389\" / \"Rs. 1389\""
+        },
+        "titlePresent": {
+          "status": "pass",
+          "detail": "\"Automation Exercise - Product Details\""
+        },
+        "primaryHeadingPresent": {
+          "status": "pass",
+          "detail": "h2: \"GRAPHIC DESIGN MEN T SHIRT - BLUE\""
+        },
+        "imageAvailability": {
+          "status": "pass",
+          "detail": "Main image HTTP 200 (image/jpeg)."
+        },
+        "imageDecoded": {
+          "status": "pass",
+          "detail": "Decoded with intrinsic dimensions 900 x 1115."
+        },
+        "alternativeTextPresent": {
+          "status": "pass",
+          "detail": "alt attribute exists."
+        },
+        "alternativeTextNonEmpty": {
+          "status": "pass",
+          "detail": "\"ecommerce website products\""
+        }
+      },
+      "factualFindings": [],
+      "contentReviewFlags": [
+        "Title is present but does not identify this product; review whether it helps distinguish detail pages.",
+        "Alternative text is present but generic; content review should determine what visual product information users need."
+      ],
+      "evidence": [
+        "evidence/product-43.html",
+        "evidence/product-43-semantic.json"
+      ]
+    }
+  ]
+}
